@@ -36,8 +36,8 @@
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\SMSWTD_rpy\DataCollection.sbsx</_hfilename>
-								<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS::FUNCTIONAL::DataCollection</_hsubsystem>
+								<_hfilename type="a">.\SMSWTD_rpy\DATA_COLLECTION.sbsx</_hfilename>
+								<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS::FUNCTIONAL::DATA_COLLECTION</_hsubsystem>
 								<_hname type="a">FR_DC_PKG</_hname>
 								<_hid type="a">GUID 55c0a426-57d0-4fcd-a7e1-e1b12cf7d94f</_hid>
 							</IHandle>

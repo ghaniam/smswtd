@@ -11,27 +11,29 @@
 	<ISubsystem type="e">
 			<_id type="a">GUID 8dcc5538-1159-4ff9-886f-0f469788bdda</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">StormSource</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::10:53:1</_modifiedTimeWeak>
+			<_name type="a">STORM_DATA_SOURCE</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::11:5:50</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hfilename type="a">.\DataCollection.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS::FUNCTIONAL::DataCollection</_hsubsystem>
+					<_hfilename type="a">.\DATA_COLLECTION.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS::FUNCTIONAL::DATA_COLLECTION</_hsubsystem>
 					<_hname type="a">FR_DC_PKG</_hname>
 					<_hid type="a">GUID 55c0a426-57d0-4fcd-a7e1-e1b12cf7d94f</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.16.2024::10:53:3</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">12.16.2024::10:53:1</weakCGTime>
-			<strongCGTime type="a">12.16.2024::10:19:11</strongCGTime>
+			<_modifiedTime type="a">12.16.2024::11:5:50</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">12.16.2024::11:5:50</weakCGTime>
+			<strongCGTime type="a">12.16.2024::11:5:50</strongCGTime>
 			<_defaultComposite type="s">GUID 4ca901b1-c8ad-4152-aa33-de8e79ee19d9</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID adbbb3a8-cc20-4586-a49a-10c2c21264e6</value>
 				<value>GUID 2467e75e-0b41-4948-880f-89402a9950d1</value>
+				<value>GUID 5557e7fc-2f13-48ff-a649-d5d3461bc49e</value>
+				<value>GUID 4577a2a8-4ba9-40f6-829a-ca01a59c3f4a</value>
 				<value>GUID 4ca901b1-c8ad-4152-aa33-de8e79ee19d9</value>
 			</AggregatesList>
 		</ISubsystem>
@@ -97,6 +99,16 @@
 </_body>
 			<reqID type="a">12</reqID>
 		</IRequirement>
+		<ISubsystem type="e">
+			<fileName type="a">Functional_1</fileName>
+			<_id type="a">GUID 5557e7fc-2f13-48ff-a649-d5d3461bc49e</_id>
+			<_name type="a">Functional</_name>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">NonFunctional_1</fileName>
+			<_id type="a">GUID 4577a2a8-4ba9-40f6-829a-ca01a59c3f4a</_id>
+			<_name type="a">NonFunctional</_name>
+		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID 4ca901b1-c8ad-4152-aa33-de8e79ee19d9</_id>
 			<_myState type="a">40960</_myState>
