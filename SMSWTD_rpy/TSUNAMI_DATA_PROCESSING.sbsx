@@ -9,41 +9,31 @@
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
-			<_id type="a">GUID a6e9dc45-91f1-4168-8804-5b10c71dcc97</_id>
+			<_id type="a">GUID bd68c6bd-81e6-4b1c-bc43-b542716f7a82</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">DATA_PROCESSING</_name>
+			<_name type="a">TSUNAMI_DATA_PROCESSING</_name>
 			<Annotations type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</Annotations>
-			<_modifiedTimeWeak type="a">12.16.2024::15:15:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::15:25:38</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2024::15:5:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::15:5:35</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">12.16.2024::15:15:50</weakCGTime>
-			<strongCGTime type="a">12.16.2024::11:6:15</strongCGTime>
-			<_defaultComposite type="s">GUID 66691590-577c-4ecb-a8d5-3bcf0c97d848</_defaultComposite>
+			<weakCGTime type="a">12.16.2024::15:5:35</weakCGTime>
+			<strongCGTime type="a">12.16.2024::14:38:40</strongCGTime>
+			<_defaultComposite type="s">GUID 8b0a2d7e-e022-4377-9845-738c4bdfcd1c</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">12.16.2024::15:15:50</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID 467aa7a1-d8f1-41ad-8442-7fe256fff227</value>
-				<value>GUID 1f4abd4b-16dd-4685-840f-2abaedfd260d</value>
-				<value>GUID 66691590-577c-4ecb-a8d5-3bcf0c97d848</value>
+				<value>GUID 8b0a2d7e-e022-4377-9845-738c4bdfcd1c</value>
 			</AggregatesList>
 		</ISubsystem>
-		<ISubsystem type="e">
-			<fileName type="a">DP_NONFUNCTIONAL</fileName>
-			<_id type="a">GUID 467aa7a1-d8f1-41ad-8442-7fe256fff227</_id>
-		</ISubsystem>
-		<ISubsystem type="e">
-			<fileName type="a">DP_FUNCTIONAL</fileName>
-			<_id type="a">GUID 1f4abd4b-16dd-4685-840f-2abaedfd260d</_id>
-		</ISubsystem>
 		<IClass type="e">
-			<_id type="a">GUID 66691590-577c-4ecb-a8d5-3bcf0c97d848</_id>
+			<_id type="a">GUID 8b0a2d7e-e022-4377-9845-738c4bdfcd1c</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">

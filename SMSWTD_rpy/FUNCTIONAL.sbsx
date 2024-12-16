@@ -12,19 +12,20 @@
 			<_id type="a">GUID 4b7d01ed-1d7d-498d-831b-7d2bcc7963d1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::11:6:15</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::11:6:15</_modifiedTime>
-			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">12.16.2024::11:6:15</weakCGTime>
+			<_modifiedTimeWeak type="a">12.16.2024::15:33:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::15:33:57</_modifiedTime>
+			<_lastID type="a">12</_lastID>
+			<weakCGTime type="a">12.16.2024::15:33:57</weakCGTime>
 			<strongCGTime type="a">12.13.2024::15:43:42</strongCGTime>
 			<_defaultComposite type="s">GUID 5b5f8398-2fb4-48c9-88ee-055203bc442c</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">12.16.2024::9:33:30</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">12.16.2024::15:33:57</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID f619b2d0-5b09-4d26-84ba-d80b2b054dda</value>
 				<value>GUID f00c941c-abc9-4b03-b1c3-d617dfa78053</value>
 				<value>GUID a6e9dc45-91f1-4168-8804-5b10c71dcc97</value>
 				<value>GUID a73835de-954c-4c1b-ae2c-8b54a97d17fe</value>
+				<value>GUID 1240c537-40a3-4ff5-a17e-9fb54ef46fae</value>
 				<value>GUID 5b5f8398-2fb4-48c9-88ee-055203bc442c</value>
 			</AggregatesList>
 		</ISubsystem>
@@ -51,6 +52,10 @@
 		<ISubsystem type="e">
 			<fileName type="a">SystemCommunication</fileName>
 			<_id type="a">GUID a73835de-954c-4c1b-ae2c-8b54a97d17fe</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">USER_INTERFACE</fileName>
+			<_id type="a">GUID 1240c537-40a3-4ff5-a17e-9fb54ef46fae</_id>
 		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID 5b5f8398-2fb4-48c9-88ee-055203bc442c</_id>
