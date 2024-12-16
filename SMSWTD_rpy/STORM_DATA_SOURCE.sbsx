@@ -12,7 +12,11 @@
 			<_id type="a">GUID 8dcc5538-1159-4ff9-886f-0f469788bdda</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">STORM_DATA_SOURCE</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::11:5:50</_modifiedTimeWeak>
+			<Annotations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Annotations>
+			<_modifiedTimeWeak type="a">12.16.2024::11:15:15</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,92 +26,26 @@
 					<_hid type="a">GUID 55c0a426-57d0-4fcd-a7e1-e1b12cf7d94f</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.16.2024::11:5:50</_modifiedTime>
+			<_modifiedTime type="a">12.16.2024::11:15:15</_modifiedTime>
 			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">12.16.2024::11:5:50</weakCGTime>
+			<weakCGTime type="a">12.16.2024::11:15:15</weakCGTime>
 			<strongCGTime type="a">12.16.2024::11:5:50</strongCGTime>
 			<_defaultComposite type="s">GUID 4ca901b1-c8ad-4152-aa33-de8e79ee19d9</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID adbbb3a8-cc20-4586-a49a-10c2c21264e6</value>
-				<value>GUID 2467e75e-0b41-4948-880f-89402a9950d1</value>
 				<value>GUID 5557e7fc-2f13-48ff-a649-d5d3461bc49e</value>
 				<value>GUID 4577a2a8-4ba9-40f6-829a-ca01a59c3f4a</value>
 				<value>GUID 4ca901b1-c8ad-4152-aa33-de8e79ee19d9</value>
 			</AggregatesList>
 		</ISubsystem>
-		<IRequirement type="e">
-			<_id type="a">GUID adbbb3a8-cc20-4586-a49a-10c2c21264e6</_id>
-			<_myState type="a">8192</_myState>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<IPropertySubject type="e">
-							<_Name type="a">ObjectModelGe</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<IPropertyMetaclass type="e">
-										<_Name type="a">ClassDiagram</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<IProperty type="e">
-													<_Name type="a">TreeContainmentStyle</_Name>
-													<_Value type="a">True</_Value>
-													<_Type type="a">Bool</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<_name type="a">GetSateliteData</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::10:53:1</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The SMSWTD shall retrieve storm data (wind speed, direction, precipitation type, and precipitation amount) from satelite imagery.%0D
-</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.16.2024::10:53:1</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
-}%0D
-</_body>
-			<reqID type="a">11</reqID>
-		</IRequirement>
-		<IRequirement type="e">
-			<_id type="a">GUID 2467e75e-0b41-4948-880f-89402a9950d1</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">GetAircraftData</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::10:52:46</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The SMSWTD shall retrieve storm data (wind speed, direction, precipitation type, and precipitation amount) from aircraft-based sensors.</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.16.2024::10:52:46</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
-}%0D
-</_body>
-			<reqID type="a">12</reqID>
-		</IRequirement>
 		<ISubsystem type="e">
-			<fileName type="a">Functional_1</fileName>
+			<fileName type="a">SDS_FUNCTIONAL</fileName>
 			<_id type="a">GUID 5557e7fc-2f13-48ff-a649-d5d3461bc49e</_id>
-			<_name type="a">Functional</_name>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">NonFunctional_1</fileName>
+			<fileName type="a">SDS_NONFUNCTIONAL</fileName>
 			<_id type="a">GUID 4577a2a8-4ba9-40f6-829a-ca01a59c3f4a</_id>
-			<_name type="a">NonFunctional</_name>
 		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID 4ca901b1-c8ad-4152-aa33-de8e79ee19d9</_id>
