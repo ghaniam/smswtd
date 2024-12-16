@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 863efb23-a9b8-4a6e-a6d1-1e30204c4d54</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">NONFUNCTIONAL</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:56:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::10:19:39</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">12.16.2024::8:56:41</weakCGTime>
+			<strongCGTime type="a">12.13.2024::15:44:0</strongCGTime>
+			<_defaultComposite type="s">GUID a6c4a3ed-946e-4a47-b3ea-a5d2b0f58d15</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID bfccabbc-1e12-4192-ac89-0f3a09d30419</value>
+				<value>GUID b372cde7-22b6-47aa-b004-d47ba2f2eff4</value>
+				<value>GUID c7917324-3442-41f7-ab32-46e6784e7426</value>
+				<value>GUID 1e3844d8-d55f-4f8b-ba4c-6cf720fff4a6</value>
+				<value>GUID b5a33a0b-32d4-4ec1-be94-58062ccae7c2</value>
+				<value>GUID a6c4a3ed-946e-4a47-b3ea-a5d2b0f58d15</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID bfccabbc-1e12-4192-ac89-0f3a09d30419</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Timeliness</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:55:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:55:3</_modifiedTime>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID b372cde7-22b6-47aa-b004-d47ba2f2eff4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Accuracy</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:55:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:55:12</_modifiedTime>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID c7917324-3442-41f7-ab32-46e6784e7426</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Reliability</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:55:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:55:20</_modifiedTime>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 1e3844d8-d55f-4f8b-ba4c-6cf720fff4a6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Scalability</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:55:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:55:53</_modifiedTime>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID b5a33a0b-32d4-4ec1-be94-58062ccae7c2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Modifiability</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::8:56:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::8:56:41</_modifiedTime>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID a6c4a3ed-946e-4a47-b3ea-a5d2b0f58d15</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

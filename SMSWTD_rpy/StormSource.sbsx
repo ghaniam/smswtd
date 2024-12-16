@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 8dcc5538-1159-4ff9-886f-0f469788bdda</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">StormSource</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::10:24:5</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\DataCollection.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS::FUNCTIONAL::DataCollection</_hsubsystem>
+					<_hname type="a">FR_DC_PKG</_hname>
+					<_hid type="a">GUID 55c0a426-57d0-4fcd-a7e1-e1b12cf7d94f</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.16.2024::10:41:47</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">12.16.2024::10:24:5</weakCGTime>
+			<strongCGTime type="a">12.16.2024::10:19:11</strongCGTime>
+			<_defaultComposite type="s">GUID 4ca901b1-c8ad-4152-aa33-de8e79ee19d9</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID adbbb3a8-cc20-4586-a49a-10c2c21264e6</value>
+				<value>GUID 2467e75e-0b41-4948-880f-89402a9950d1</value>
+				<value>GUID 4ca901b1-c8ad-4152-aa33-de8e79ee19d9</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID adbbb3a8-cc20-4586-a49a-10c2c21264e6</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">ClassDiagram</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">TreeContainmentStyle</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">GetSateliteData</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::10:12:25</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall retrieve storm data from satellite imagery.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.16.2024::10:12:25</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">11</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 2467e75e-0b41-4948-880f-89402a9950d1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GetAircraftData</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::10:15:28</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall retrieve storm data from aircraft-based sensors.%0D
+</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.16.2024::10:15:28</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">12</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 4ca901b1-c8ad-4152-aa33-de8e79ee19d9</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
