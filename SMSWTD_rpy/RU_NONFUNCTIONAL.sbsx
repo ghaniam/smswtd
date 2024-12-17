@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 0a6b2923-e0ed-46a8-88c3-7ff04a3bfb95</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RU_NONFUNCTIONAL</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:31:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.17.2024::13:31:11</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">12.17.2024::13:31:11</weakCGTime>
+			<strongCGTime type="a">12.16.2024::15:2:13</strongCGTime>
+			<_defaultComposite type="s">GUID ec4d78ec-d666-4166-8731-1ab5d06d4df4</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 3ba7e0b5-9fd7-42a8-b10d-640fae3cc1c0</value>
+				<value>GUID df936561-4da1-47b3-aa3d-d92b741be906</value>
+				<value>GUID a8efd6c8-de6e-4ca7-8c66-0192c566a8a0</value>
+				<value>GUID f047c516-9a6f-4c7e-b755-bbc5ec9189d6</value>
+				<value>GUID d0af90f3-7992-4850-9a60-7db99189d6d8</value>
+				<value>GUID 4c61b1f8-8326-4fa9-b71a-e780c20ae8b9</value>
+				<value>GUID ec4d78ec-d666-4166-8731-1ab5d06d4df4</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 3ba7e0b5-9fd7-42a8-b10d-640fae3cc1c0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Performance</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:24:39</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The system shall be able to deliver the updates in real-time with a maximum latency of 10 seconds.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:24:39</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">201</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID df936561-4da1-47b3-aa3d-d92b741be906</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Scalability</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:25:59</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall handle concurrent data streams from multiple sensors and give the updates in real-time.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:25:59</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">202</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID a8efd6c8-de6e-4ca7-8c66-0192c566a8a0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Accuracy</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:27:13</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSTD shall be able to provide real-time predictions with a minimum accuracy rate of 85%25.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:27:13</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">203</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID f047c516-9a6f-4c7e-b755-bbc5ec9189d6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FaultTolerance</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:28:48</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall be capable to withstand harware and network failure in the event of disasters.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:28:48</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">204</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d0af90f3-7992-4850-9a60-7db99189d6d8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Security</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:30:10</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall provide updates in such a way that it prevents unauthorized access.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:30:10</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">205</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 4c61b1f8-8326-4fa9-b71a-e780c20ae8b9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Maintability</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:31:11</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall be easy to modify or upgrade without interrupting live services.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:31:11</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">206</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID ec4d78ec-d666-4166-8731-1ab5d06d4df4</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>

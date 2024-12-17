@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 626e1216-de90-4f90-aa26-235c4629abef</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RU_FUNCTIONAL</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::7:15:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.17.2024::7:25:46</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">12.17.2024::7:15:2</weakCGTime>
+			<strongCGTime type="a">12.16.2024::15:1:41</strongCGTime>
+			<_defaultComposite type="s">GUID 99d19458-415d-4591-9b0a-c8459acc540f</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 4f91b292-af5d-4978-a18b-300ba37575ae</value>
+				<value>GUID ece24bcd-7bf5-4838-994b-bd32efbfc800</value>
+				<value>GUID 99d19458-415d-4591-9b0a-c8459acc540f</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 4f91b292-af5d-4978-a18b-300ba37575ae</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GenerateRealtimeAlerts</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::7:13:8</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall continuously analyze atmospheric data and generates real-time weather updates. </_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::7:13:8</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">41</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID ece24bcd-7bf5-4838-994b-bd32efbfc800</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">TrackEventsRealtime</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::7:15:2</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall continuously monitor and track the evolution of weather systems or seismic activities, updating stakeholders as conditions change.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::7:15:2</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">42</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 99d19458-415d-4591-9b0a-c8459acc540f</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>

@@ -9,33 +9,33 @@
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
-			<_id type="a">GUID a73835de-954c-4c1b-ae2c-8b54a97d17fe</_id>
+			<_id type="a">GUID df236bc5-787d-4c01-af6d-fd7337a9f91c</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">SystemCommunication</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::14:16:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::14:16:41</_modifiedTime>
+			<_name type="a">MULICHANNEL_DISSEMINATION</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::14:41:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::15:13:12</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">12.16.2024::14:16:41</weakCGTime>
-			<strongCGTime type="a">12.16.2024::9:36:11</strongCGTime>
-			<_defaultComposite type="s">GUID 85559a40-0c49-488b-b0a7-0a53cf5ef8cc</_defaultComposite>
+			<weakCGTime type="a">12.16.2024::14:41:37</weakCGTime>
+			<strongCGTime type="a">12.16.2024::14:28:34</strongCGTime>
+			<_defaultComposite type="s">GUID c8844141-8364-4212-8370-6bdbeec74c07</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID fbac9c2c-e569-4b1d-80e6-177c8a3197ee</value>
-				<value>GUID df236bc5-787d-4c01-af6d-fd7337a9f91c</value>
-				<value>GUID 85559a40-0c49-488b-b0a7-0a53cf5ef8cc</value>
+				<value>GUID b8e99216-bce3-4a7c-a226-a20e83b96080</value>
+				<value>GUID e00e5dd0-da13-48cf-88d9-65298d8ba238</value>
+				<value>GUID c8844141-8364-4212-8370-6bdbeec74c07</value>
 			</AggregatesList>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">RealTimeUpdates</fileName>
-			<_id type="a">GUID fbac9c2c-e569-4b1d-80e6-177c8a3197ee</_id>
+			<fileName type="a">MD_FUNCTIONAL</fileName>
+			<_id type="a">GUID b8e99216-bce3-4a7c-a226-a20e83b96080</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">MultichannelDissemination</fileName>
-			<_id type="a">GUID df236bc5-787d-4c01-af6d-fd7337a9f91c</_id>
+			<fileName type="a">MD_NONFUNCTIONAL</fileName>
+			<_id type="a">GUID e00e5dd0-da13-48cf-88d9-65298d8ba238</_id>
 		</ISubsystem>
 		<IClass type="e">
-			<_id type="a">GUID 85559a40-0c49-488b-b0a7-0a53cf5ef8cc</_id>
+			<_id type="a">GUID c8844141-8364-4212-8370-6bdbeec74c07</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>

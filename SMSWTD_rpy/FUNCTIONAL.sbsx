@@ -57,7 +57,7 @@
 			<_id type="a">GUID a6e9dc45-91f1-4168-8804-5b10c71dcc97</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">SystemCommunication</fileName>
+			<fileName type="a">SYSTEM_COMMUNICATION</fileName>
 			<_id type="a">GUID a73835de-954c-4c1b-ae2c-8b54a97d17fe</_id>
 		</ISubsystem>
 		<ISubsystem type="e">

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID d0c0d980-fec5-418c-9fae-4d361694de80</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">MC_NONFUNCTIONAL</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:14:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.17.2024::13:25:39</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">12.17.2024::13:14:38</weakCGTime>
+			<strongCGTime type="a">12.17.2024::7:18:59</strongCGTime>
+			<_defaultComposite type="s">GUID 56d0ff1f-01e6-4d46-9536-bec8750e8435</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 65a5eeb5-8375-4155-af3c-e6bc736eb378</value>
+				<value>GUID 045decde-e702-4b27-ad04-115a9afd3da4</value>
+				<value>GUID e6963717-662d-4ef3-aafe-133ad027d435</value>
+				<value>GUID 56d0ff1f-01e6-4d46-9536-bec8750e8435</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 65a5eeb5-8375-4155-af3c-e6bc736eb378</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Security</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::12:52:22</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall store the user data and language preferences securely adhering to data protection regulations.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::12:52:22</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">101</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 045decde-e702-4b27-ad04-115a9afd3da4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Performance</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::12:56:56</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall provide translated alerts without any ambiguity.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::12:56:56</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">102</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID e6963717-662d-4ef3-aafe-133ad027d435</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Scalability</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:14:38</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall be able to add new languages.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:14:38</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">103</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 56d0ff1f-01e6-4d46-9536-bec8750e8435</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>

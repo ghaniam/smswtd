@@ -12,16 +12,10 @@
 			<_id type="a">GUID 5557e7fc-2f13-48ff-a649-d5d3461bc49e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SDS_FUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::13:21:4</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID fe0560e0-18b2-45d7-9054-917399e7d642</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">12.17.2024::13:38:38</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.17.2024::15:17:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.17.2024::15:17:13</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">12.17.2024::13:21:4</weakCGTime>
+			<weakCGTime type="a">12.17.2024::15:17:13</weakCGTime>
 			<strongCGTime type="a">12.16.2024::11:14:46</strongCGTime>
 			<_defaultComposite type="s">GUID 3d8eaaa7-878c-4f28-96d4-50d4182bb1fd</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -267,13 +261,13 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.IDTextCompartment</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.SpecificationTextCompartment</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -642,6 +636,7 @@
 			<AggregatesList type="e">
 				<value>GUID e02a0cf1-d127-417b-87a2-2e4a53e5b501</value>
 				<value>GUID 6502965a-22ac-42c0-9b46-2f4e8db61bf2</value>
+				<value>GUID caa95c3f-b4d0-477c-a6ee-eeb73b97bc84</value>
 			</AggregatesList>
 		</CGIAnnotation>
 		<CGICompartment type="e">
@@ -654,6 +649,13 @@
 		<CGICompartment type="e">
 			<_id type="a">GUID 6502965a-22ac-42c0-9b46-2f4e8db61bf2</_id>
 			<m_name type="a">Specification</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID caa95c3f-b4d0-477c-a6ee-eeb73b97bc84</_id>
+			<m_name type="a">Description</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
@@ -770,6 +772,7 @@
 			<AggregatesList type="e">
 				<value>GUID 7621e6f0-4eb1-4d9a-8fd8-654eedfef90b</value>
 				<value>GUID 9370a23c-deb9-4a39-8c61-025440a43f85</value>
+				<value>GUID 410a85d2-0c49-4f3a-8b6b-04c37906ea84</value>
 			</AggregatesList>
 		</CGIAnnotation>
 		<CGICompartment type="e">
@@ -782,6 +785,13 @@
 		<CGICompartment type="e">
 			<_id type="a">GUID 9370a23c-deb9-4a39-8c61-025440a43f85</_id>
 			<m_name type="a">Specification</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 410a85d2-0c49-4f3a-8b6b-04c37906ea84</_id>
+			<m_name type="a">Description</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
