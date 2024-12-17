@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID ff6058bd-7430-41da-a595-91755811aee9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DC_NONFUNCTIONAL</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:27:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.17.2024::13:38:38</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">12.17.2024::13:27:3</weakCGTime>
+			<strongCGTime type="a">12.17.2024::13:13:48</strongCGTime>
+			<_defaultComposite type="s">GUID 08235b58-6f8f-42e2-9427-589334af1be7</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 9115abe5-5cb8-43f8-9dad-3997c03e691d</value>
+				<value>GUID 6c076da3-8953-4576-bb1f-d52de723da17</value>
+				<value>GUID 08235b58-6f8f-42e2-9427-589334af1be7</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 9115abe5-5cb8-43f8-9dad-3997c03e691d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Accuracy</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:27:3</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall ensure that data achieves a minimum accuracy level of \'b1X%25 or within a defined range for each parameter, as per industry standards or sensor specifications.\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:27:3</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">152</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 6c076da3-8953-4576-bb1f-d52de723da17</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Latency</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:26:35</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The system shall ensure that data from sources is collected within a maximum delay of 10 seconds to ensure real-time or near-real-time updates.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:26:35</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+			<reqID type="a">151</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 08235b58-6f8f-42e2-9427-589334af1be7</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
