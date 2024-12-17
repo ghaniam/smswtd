@@ -11,15 +11,15 @@
 	<ISubsystem type="e">
 			<_id type="a">GUID a73835de-954c-4c1b-ae2c-8b54a97d17fe</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">SystemCommunication</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::14:16:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::14:16:41</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">12.16.2024::14:16:41</weakCGTime>
-			<strongCGTime type="a">12.16.2024::9:36:11</strongCGTime>
+			<_name type="a">SYSTEM_COMMUNICATION</_name>
+			<_modifiedTimeWeak type="a">12.16.2024::15:29:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::15:32:58</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">12.16.2024::15:29:45</weakCGTime>
+			<strongCGTime type="a">12.16.2024::14:26:15</strongCGTime>
 			<_defaultComposite type="s">GUID 85559a40-0c49-488b-b0a7-0a53cf5ef8cc</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">12.16.2024::14:31:32</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID fbac9c2c-e569-4b1d-80e6-177c8a3197ee</value>
 				<value>GUID df236bc5-787d-4c01-af6d-fd7337a9f91c</value>
@@ -27,11 +27,11 @@
 			</AggregatesList>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">RealTimeUpdates</fileName>
+			<fileName type="a">REALTIME_UPDATES</fileName>
 			<_id type="a">GUID fbac9c2c-e569-4b1d-80e6-177c8a3197ee</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">MultichannelDissemination</fileName>
+			<fileName type="a">MULTICHANNEL_DISSEMINATION</fileName>
 			<_id type="a">GUID df236bc5-787d-4c01-af6d-fd7337a9f91c</_id>
 		</ISubsystem>
 		<IClass type="e">

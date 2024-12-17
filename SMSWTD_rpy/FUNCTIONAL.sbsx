@@ -12,10 +12,10 @@
 			<_id type="a">GUID 4b7d01ed-1d7d-498d-831b-7d2bcc7963d1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::11:6:15</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::11:6:15</_modifiedTime>
-			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">12.16.2024::11:6:15</weakCGTime>
+			<_modifiedTimeWeak type="a">12.16.2024::15:0:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2024::15:13:12</_modifiedTime>
+			<_lastID type="a">10</_lastID>
+			<weakCGTime type="a">12.16.2024::15:0:21</weakCGTime>
 			<strongCGTime type="a">12.13.2024::15:43:42</strongCGTime>
 			<_defaultComposite type="s">GUID 5b5f8398-2fb4-48c9-88ee-055203bc442c</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -49,7 +49,7 @@
 			<_id type="a">GUID a6e9dc45-91f1-4168-8804-5b10c71dcc97</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">SystemCommunication</fileName>
+			<fileName type="a">SYSTEM_COMMUNICATION</fileName>
 			<_id type="a">GUID a73835de-954c-4c1b-ae2c-8b54a97d17fe</_id>
 		</ISubsystem>
 		<IClass type="e">

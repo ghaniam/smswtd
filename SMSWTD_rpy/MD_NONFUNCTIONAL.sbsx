@@ -9,26 +9,31 @@
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
-			<_id type="a">GUID a6e9dc45-91f1-4168-8804-5b10c71dcc97</_id>
+			<_id type="a">GUID e00e5dd0-da13-48cf-88d9-65298d8ba238</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">DATA_PROCESSING</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::15:0:21</_modifiedTimeWeak>
+			<_name type="a">MD_NONFUNCTIONAL</_name>
+			<Annotations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Annotations>
+			<_modifiedTimeWeak type="a">12.16.2024::14:54:31</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.16.2024::15:13:12</_modifiedTime>
-			<weakCGTime type="a">12.16.2024::15:0:21</weakCGTime>
-			<strongCGTime type="a">12.16.2024::11:6:15</strongCGTime>
-			<_defaultComposite type="s">GUID 66691590-577c-4ecb-a8d5-3bcf0c97d848</_defaultComposite>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">12.16.2024::14:54:31</weakCGTime>
+			<strongCGTime type="a">12.16.2024::14:41:52</strongCGTime>
+			<_defaultComposite type="s">GUID 99f3857a-8296-4d1a-9d8d-ef3bc05f3030</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID 66691590-577c-4ecb-a8d5-3bcf0c97d848</value>
+				<value>GUID 99f3857a-8296-4d1a-9d8d-ef3bc05f3030</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IClass type="e">
-			<_id type="a">GUID 66691590-577c-4ecb-a8d5-3bcf0c97d848</_id>
+			<_id type="a">GUID 99f3857a-8296-4d1a-9d8d-ef3bc05f3030</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
