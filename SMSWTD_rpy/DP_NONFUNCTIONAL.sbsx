@@ -12,10 +12,10 @@
 			<_id type="a">GUID 467aa7a1-d8f1-41ad-8442-7fe256fff227</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DP_NONFUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::8:49:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::9:4:50</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">12.17.2024::8:49:1</weakCGTime>
+			<_modifiedTimeWeak type="a">12.17.2024::13:37:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.17.2024::13:38:38</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">12.17.2024::13:37:36</weakCGTime>
 			<strongCGTime type="a">12.16.2024::15:15:39</strongCGTime>
 			<_defaultComposite type="s">GUID c4622601-745d-4a75-87df-4f9839e63320</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -23,26 +23,55 @@
 			<AggregatesList type="e">
 				<value>GUID 5157148f-14cf-4ff5-8cfc-e10788fa0099</value>
 				<value>GUID b8dca4cf-c28d-4566-9626-8e29e0ca2e79</value>
+				<value>GUID f6bb8a92-f387-4bd5-a6b9-80bcdce8152c</value>
 				<value>GUID c4622601-745d-4a75-87df-4f9839e63320</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IRequirement type="e">
 			<_id type="a">GUID 5157148f-14cf-4ff5-8cfc-e10788fa0099</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Timeliness</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::8:46:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::8:46:19</_modifiedTime>
+			<_name type="a">Latency</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:35:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall complete the processing of incoming data source and generate predictive models within X seconds.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:35:0</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID b8dca4cf-c28d-4566-9626-8e29e0ca2e79</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Modifiability</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::8:49:1</_modifiedTimeWeak>
+			<_name type="a">Extensibility</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:33:1</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
-				<_text type="a">The SMSWTD shall be able to modify by extending the parameters of disaster.</_text>
+				<_text type="a">The SMSWTD shall be designed to support the addition of new natural disaster types beyond its initial capability of handling tsunamis and weather-related events, with minimal changes to the system architecture and components.%0D
+</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">12.17.2024::8:49:1</_modifiedTime>
+			<_modifiedTime type="a">12.17.2024::13:33:1</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID f6bb8a92-f387-4bd5-a6b9-80bcdce8152c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Scalability</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::13:37:36</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall be capable of handling and processing large volumes of data efficiently, including high-frequency, high-size input from multiple data sources without performance degradation.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::13:37:36</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20\par%0D
+}%0D
+</_body>
 		</IRequirement>
 		<IClass type="e">
 			<_id type="a">GUID c4622601-745d-4a75-87df-4f9839e63320</_id>
