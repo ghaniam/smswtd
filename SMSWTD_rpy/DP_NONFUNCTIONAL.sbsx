@@ -12,23 +12,44 @@
 			<_id type="a">GUID 467aa7a1-d8f1-41ad-8442-7fe256fff227</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DP_NONFUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::15:15:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::15:25:38</_modifiedTime>
-			<weakCGTime type="a">12.16.2024::15:15:39</weakCGTime>
+			<_modifiedTimeWeak type="a">12.17.2024::8:49:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.17.2024::9:4:50</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">12.17.2024::8:49:1</weakCGTime>
 			<strongCGTime type="a">12.16.2024::15:15:39</strongCGTime>
 			<_defaultComposite type="s">GUID c4622601-745d-4a75-87df-4f9839e63320</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
+				<value>GUID 5157148f-14cf-4ff5-8cfc-e10788fa0099</value>
+				<value>GUID b8dca4cf-c28d-4566-9626-8e29e0ca2e79</value>
 				<value>GUID c4622601-745d-4a75-87df-4f9839e63320</value>
 			</AggregatesList>
 		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 5157148f-14cf-4ff5-8cfc-e10788fa0099</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Timeliness</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::8:46:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.17.2024::8:46:19</_modifiedTime>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID b8dca4cf-c28d-4566-9626-8e29e0ca2e79</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Modifiability</_name>
+			<_modifiedTimeWeak type="a">12.17.2024::8:49:1</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall be able to modify by extending the parameters of disaster.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.17.2024::8:49:1</_modifiedTime>
+		</IRequirement>
 		<IClass type="e">
 			<_id type="a">GUID c4622601-745d-4a75-87df-4f9839e63320</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
