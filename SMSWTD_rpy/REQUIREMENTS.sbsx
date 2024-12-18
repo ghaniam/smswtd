@@ -12,10 +12,10 @@
 			<_id type="a">GUID 25858010-2527-4120-87c7-54bae9c2158e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">REQUIREMENTS</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::9:40:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::10:19:39</_modifiedTime>
-			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">12.16.2024::9:40:11</weakCGTime>
+			<_modifiedTimeWeak type="a">12.18.2024::14:31:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.18.2024::14:36:2</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">12.18.2024::14:31:7</weakCGTime>
 			<strongCGTime type="a">12.12.2024::14:23:19</strongCGTime>
 			<_defaultComposite type="s">GUID 257b72f0-6f80-4820-b3bd-40e3ac0b04ce</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -24,6 +24,7 @@
 				<value>GUID 4b7d01ed-1d7d-498d-831b-7d2bcc7963d1</value>
 				<value>GUID 863efb23-a9b8-4a6e-a6d1-1e30204c4d54</value>
 				<value>GUID 257b72f0-6f80-4820-b3bd-40e3ac0b04ce</value>
+				<value>GUID 23e7c369-7e05-473e-be17-8eab2e4242de</value>
 			</AggregatesList>
 		</ISubsystem>
 		<ISubsystem type="e">
@@ -48,6 +49,75 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 		</IClass>
+		<ITableInstance type="e">
+			<_id type="a">GUID 23e7c369-7e05-473e-be17-8eab2e4242de</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">TableView</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">UseOwnerScope</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">SMSWTD_REQ_TABLE</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">RequirementsTable</_hname>
+							<_hid type="a">GUID ac8ca999-c415-4942-b5eb-99bb8da2415c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.18.2024::14:31:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.18.2024::14:31:7</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITableLayout</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+					<_hname type="a">ReqTableLayout</_hname>
+					<_hid type="a">GUID 8f1f7467-b093-4abe-9871-3462587c6bc8</_hid>
+				</IHandle>
+			</LayoutHandle>
+			<ScopeHandles type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProject</_hm2Class>
+							<_hname type="a">SMSWTD</_hname>
+							<_hid type="a">GUID e79f6b4a-d8a3-451e-8bb6-0a248e096fbf</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</ScopeHandles>
+		</ITableInstance>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
