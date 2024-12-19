@@ -12,10 +12,19 @@
 			<_id type="a">GUID fbac9c2c-e569-4b1d-80e6-177c8a3197ee</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">REALTIME_UPDATES</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::15:1:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::15:13:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.19.2024::11:20:57</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\SYSTEM_COMMUNICATION.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS::FUNCTIONAL::SYSTEM_COMMUNICATION</_hsubsystem>
+					<_hname type="a">FR_SC_PKG</_hname>
+					<_hid type="a">GUID 7f7cab3a-0d46-4489-9533-2473dd33e195</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.19.2024::11:20:57</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">12.16.2024::15:1:55</weakCGTime>
+			<weakCGTime type="a">12.19.2024::11:20:57</weakCGTime>
 			<strongCGTime type="a">12.16.2024::14:29:12</strongCGTime>
 			<_defaultComposite type="s">GUID 0343436d-ef22-4223-86bb-37dbcaba5437</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
