@@ -12,7 +12,6 @@
 			<_id type="a">GUID a73835de-954c-4c1b-ae2c-8b54a97d17fe</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SYSTEM_COMMUNICATION</_name>
-<<<<<<< HEAD
 			<_modifiedTimeWeak type="a">12.18.2024::14:12:38</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
@@ -26,12 +25,6 @@
 			<_modifiedTime type="a">12.19.2024::11:20:7</_modifiedTime>
 			<_lastID type="a">7</_lastID>
 			<weakCGTime type="a">12.18.2024::14:12:38</weakCGTime>
-=======
-			<_modifiedTimeWeak type="a">12.18.2024::17:21:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2024::17:35:6</_modifiedTime>
-			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">12.18.2024::17:21:44</weakCGTime>
->>>>>>> 50b4cbcef975cc67c00f18f4003e86921b9d63a3
 			<strongCGTime type="a">12.16.2024::14:26:15</strongCGTime>
 			<_defaultComposite type="s">GUID 85559a40-0c49-488b-b0a7-0a53cf5ef8cc</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>

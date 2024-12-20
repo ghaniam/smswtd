@@ -12,18 +12,6 @@
 			<_id type="a">GUID 626e1216-de90-4f90-aa26-235c4629abef</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">RU_FUNCTIONAL</_name>
-<<<<<<< HEAD
-			<_modifiedTimeWeak type="a">12.18.2024::14:36:12</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 7b037168-8ea5-4d8e-8803-957aa5946a8b</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">12.18.2024::14:36:12</_modifiedTime>
-			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">12.18.2024::14:36:12</weakCGTime>
-=======
 			<_modifiedTimeWeak type="a">12.18.2024::17:36:31</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
@@ -37,19 +25,15 @@
 			<_modifiedTime type="a">12.18.2024::17:36:31</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<weakCGTime type="a">12.18.2024::17:36:31</weakCGTime>
->>>>>>> 50b4cbcef975cc67c00f18f4003e86921b9d63a3
 			<strongCGTime type="a">12.16.2024::15:1:41</strongCGTime>
 			<_defaultComposite type="s">GUID 99d19458-415d-4591-9b0a-c8459acc540f</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 4f91b292-af5d-4978-a18b-300ba37575ae</value>
-<<<<<<< HEAD
 				<value>GUID ece24bcd-7bf5-4838-994b-bd32efbfc800</value>
 				<value>GUID 7b037168-8ea5-4d8e-8803-957aa5946a8b</value>
-=======
 				<value>GUID 4a28e054-de05-403e-802b-48a961cfff76</value>
->>>>>>> 50b4cbcef975cc67c00f18f4003e86921b9d63a3
 				<value>GUID 99d19458-415d-4591-9b0a-c8459acc540f</value>
 			</AggregatesList>
 		</ISubsystem>
