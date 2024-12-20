@@ -12,10 +12,10 @@
 			<_id type="a">GUID b4f4b06a-e8ef-445d-ae21-f2f13ba750c1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SYSTEM_CONTEXT</_name>
-			<_modifiedTimeWeak type="a">12.19.2024::10:33:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.19.2024::19:58:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.20.2024::20:36:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.20.2024::20:36:23</_modifiedTime>
 			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">12.19.2024::10:33:18</weakCGTime>
+			<weakCGTime type="a">12.20.2024::20:36:23</weakCGTime>
 			<strongCGTime type="a">12.12.2024::14:23:29</strongCGTime>
 			<_defaultComposite type="s">GUID 0f9f2785-20cd-4361-b260-1afa86de742b</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -68,7 +68,7 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.Template Params</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -4355,15 +4355,15 @@
 			<_id type="a">GUID 4e152dfe-5623-486e-ab4a-6a17930d518c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Civilian</_name>
-			<_modifiedTimeWeak type="a">12.13.2024::15:16:40</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.20.2024::20:36:23</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 2a0ec468-89f1-4af7-9297-3f1fc0d522d3</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.13.2024::15:16:40</_modifiedTime>
-			<weakCGTime type="a">12.13.2024::15:16:40</weakCGTime>
+			<_modifiedTime type="a">12.20.2024::20:36:23</_modifiedTime>
+			<weakCGTime type="a">12.20.2024::20:36:23</weakCGTime>
 			<strongCGTime type="a">12.12.2024::14:29:14</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4372,6 +4372,7 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID 3836fb43-db0e-4516-8e06-82efa87bdac6</value>
+				<value>GUID 9f3ca998-76ec-407d-b256-4fbb44fe59b1</value>
 			</AggregatesList>
 		</IActor>
 		<IAssociationEnd type="e">
@@ -4396,19 +4397,48 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 9f3ca998-76ec-407d-b256-4fbb44fe59b1</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsProtectSystemAccess</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.20.2024::20:36:23</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hname type="a">ProtectSystemAccess</_hname>
+					<_hid type="a">GUID be1dfe99-5a94-40dc-824e-5472f95cecaa</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hclass type="a">ProtectSystemAccess</_hclass>
+					<_hname type="a">itsCivilian</_hname>
+					<_hid type="a">GUID 34bc73dc-5e37-405e-9686-1c8627cbadc1</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IActor type="e">
 			<_id type="a">GUID de5fb01f-bf51-4228-9450-aa91a3893379</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DisasterResponder</_name>
-			<_modifiedTimeWeak type="a">12.13.2024::15:16:34</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.20.2024::20:36:27</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 2a0ec468-89f1-4af7-9297-3f1fc0d522d3</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.13.2024::15:16:34</_modifiedTime>
-			<weakCGTime type="a">12.13.2024::15:16:34</weakCGTime>
+			<_modifiedTime type="a">12.20.2024::20:36:27</_modifiedTime>
+			<weakCGTime type="a">12.20.2024::20:36:27</weakCGTime>
 			<strongCGTime type="a">12.13.2024::13:57:55</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4417,6 +4447,7 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID d0324f55-d9ea-4a12-b407-b058fc0da7b4</value>
+				<value>GUID 0093a831-57f4-4b86-8192-436a027280b1</value>
 			</AggregatesList>
 		</IActor>
 		<IAssociationEnd type="e">
@@ -4441,19 +4472,48 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 0093a831-57f4-4b86-8192-436a027280b1</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsProtectSystemAccess</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.20.2024::20:36:27</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hname type="a">ProtectSystemAccess</_hname>
+					<_hid type="a">GUID be1dfe99-5a94-40dc-824e-5472f95cecaa</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hclass type="a">ProtectSystemAccess</_hclass>
+					<_hname type="a">itsDisasterResponder</_hname>
+					<_hid type="a">GUID d21def3c-a51e-4d99-9b17-1aaabf2954d4</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IActor type="e">
 			<_id type="a">GUID 45b3ce64-5a72-4135-896a-ef0f0c805973</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Government</_name>
-			<_modifiedTimeWeak type="a">12.13.2024::15:16:24</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.20.2024::20:36:34</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 2a0ec468-89f1-4af7-9297-3f1fc0d522d3</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.13.2024::15:16:24</_modifiedTime>
-			<weakCGTime type="a">12.13.2024::15:16:24</weakCGTime>
+			<_modifiedTime type="a">12.20.2024::20:36:34</_modifiedTime>
+			<weakCGTime type="a">12.20.2024::20:36:34</weakCGTime>
 			<strongCGTime type="a">12.13.2024::14:54:36</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4462,6 +4522,7 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID 63db3421-84c9-4dec-8a59-a79d68d03ef5</value>
+				<value>GUID cc2ece4d-3ba0-47c1-bcd3-70039b875dd7</value>
 			</AggregatesList>
 		</IActor>
 		<IAssociationEnd type="e">
@@ -4481,6 +4542,35 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hid type="a">GUID 2c54e0c1-8764-4fb4-a8b7-b9c71d706435</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID cc2ece4d-3ba0-47c1-bcd3-70039b875dd7</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsProtectSystemAccess</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.20.2024::20:36:34</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hname type="a">ProtectSystemAccess</_hname>
+					<_hid type="a">GUID be1dfe99-5a94-40dc-824e-5472f95cecaa</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hclass type="a">ProtectSystemAccess</_hclass>
+					<_hname type="a">itsGovernment</_hname>
+					<_hid type="a">GUID 491f4aee-e75e-4753-839f-9c40f5dae3c0</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
