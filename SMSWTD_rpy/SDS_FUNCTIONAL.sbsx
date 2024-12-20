@@ -12,10 +12,10 @@
 			<_id type="a">GUID 5557e7fc-2f13-48ff-a649-d5d3461bc49e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SDS_FUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::15:17:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::15:17:13</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.19.2024::10:33:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.19.2024::19:58:5</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">12.17.2024::15:17:13</weakCGTime>
+			<weakCGTime type="a">12.19.2024::10:33:18</weakCGTime>
 			<strongCGTime type="a">12.16.2024::11:14:46</strongCGTime>
 			<_defaultComposite type="s">GUID 3d8eaaa7-878c-4f28-96d4-50d4182bb1fd</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -99,6 +99,80 @@
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Actor</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,0,53,142</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font@Child.Template Params</_Name>
+													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Italic@Child.Template Params</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size@Child.Template Params</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.Template Params</_Name>
+													<_Value type="a">400</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 									<IPropertyMetaclass type="e">
 										<_Name type="a">ContainArrow</_Name>
 										<Properties type="c">
@@ -358,8 +432,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.17.2024::13:9:25</_modifiedTime>
-			<_lastModifiedTime type="a">12.17.2024::13:9:25</_lastModifiedTime>
+			<_modifiedTime type="a">12.19.2024::10:33:18</_modifiedTime>
+			<_lastModifiedTime type="a">12.19.2024::10:33:18</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
