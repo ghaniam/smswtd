@@ -12,16 +12,16 @@
 			<_id type="a">GUID e00e5dd0-da13-48cf-88d9-65298d8ba238</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MD_NONFUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.18.2024::14:27:7</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.27.2024::18:32:45</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID e9a3188a-9b05-4170-b175-95c9b1c932cf</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.18.2024::14:36:2</_modifiedTime>
+			<_modifiedTime type="a">12.27.2024::18:32:45</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">12.18.2024::14:27:7</weakCGTime>
+			<weakCGTime type="a">12.27.2024::18:32:45</weakCGTime>
 			<strongCGTime type="a">12.16.2024::14:41:52</strongCGTime>
 			<_defaultComposite type="s">GUID 99f3857a-8296-4d1a-9d8d-ef3bc05f3030</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -41,14 +41,10 @@
 			<_id type="a">GUID 197f1d89-a4a4-43d6-bb1c-d07b45436e49</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Availability</_name>
-			<_modifiedTimeWeak type="a">12.18.2024::14:17:29</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The SMSWTD shall operate 24/7 and handle surges in alert traffic during disaster events.</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.18.2024::14:17:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.27.2024::18:31:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.27.2024::18:31:17</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall operate 24/7 and handle surges in alert traffic during disaster events.\par%0D
 }%0D
 </_body>
 			<reqID type="a">301</reqID>
@@ -57,14 +53,10 @@
 			<_id type="a">GUID eda2cad5-bb92-4917-a88c-8b1c8cfb3a43</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Security</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::13:38:32</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The SMSWTD shall be encrypted during transmission to ensure data integrity and prevent unauthorized access.</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.17.2024::13:38:32</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.27.2024::18:31:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.27.2024::18:31:31</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall be encrypted during transmission to ensure data integrity and prevent unauthorized access.\par%0D
 }%0D
 </_body>
 			<reqID type="a">302</reqID>
@@ -73,14 +65,11 @@
 			<_id type="a">GUID d344ec51-3926-4c48-b931-1f4392e09c8f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Usability</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::13:41:19</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The system interface shall be easy to use for the operators to configure the communication channels.</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.17.2024::13:41:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.27.2024::18:31:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.27.2024::18:31:48</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
+\viewkind4\uc1\pard\fs20 The system interface shall be easy to use for the operators to configure the communication channels.\par%0D
+\par%0D
 }%0D
 </_body>
 			<reqID type="a">303</reqID>
@@ -89,14 +78,10 @@
 			<_id type="a">GUID 6119326a-5b84-4bd2-a8ff-14f2d7591eaa</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Timeliness</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::13:42:36</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The SMSWTD shall be able to send alerts via multiple channels within 10 seconds of issuance.</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.17.2024::13:42:36</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.27.2024::18:32:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.27.2024::18:32:1</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall be able to send alerts via multiple channels within 10 seconds of issuance.\par%0D
 }%0D
 </_body>
 			<reqID type="a">304</reqID>
@@ -105,14 +90,10 @@
 			<_id type="a">GUID 43dea2c1-a6c2-42f2-b080-91e8eb4918ea</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Accessibility</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::13:44:31</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The SMSWTD shall be able to provide warnings compatible with assistive technologies like screen readers and braille devices.</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.17.2024::13:44:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.27.2024::18:32:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.27.2024::18:32:33</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall be able to provide warnings compatible with assistive technologies like screen readers and braille devices.\par%0D
 }%0D
 </_body>
 			<reqID type="a">305</reqID>
@@ -121,14 +102,10 @@
 			<_id type="a">GUID 71c847d1-3978-4dd6-b09f-b47650b3a03f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Performance</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::13:45:37</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The SMSWTD shall be able to disseminate alerts on all possible channels.</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.17.2024::13:45:37</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.27.2024::18:32:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.27.2024::18:32:45</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall be able to disseminate alerts on all possible channels.\par%0D
 }%0D
 </_body>
 			<reqID type="a">306</reqID>
@@ -167,7 +144,7 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.Template Params</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -498,8 +475,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2024::14:36:12</_modifiedTime>
-			<_lastModifiedTime type="a">12.18.2024::14:36:12</_lastModifiedTime>
+			<_modifiedTime type="a">12.27.2024::18:32:45</_modifiedTime>
+			<_lastModifiedTime type="a">12.27.2024::18:32:45</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>

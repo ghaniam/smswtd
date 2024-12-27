@@ -12,16 +12,16 @@
 			<_id type="a">GUID 71cf6318-e123-432e-9858-e895cdba2921</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MC_FUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.18.2024::14:26:49</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.27.2024::18:33:57</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID d7864d70-7acd-47df-94b5-6c3529208b51</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.18.2024::14:36:2</_modifiedTime>
+			<_modifiedTime type="a">12.27.2024::18:33:57</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">12.18.2024::14:26:49</weakCGTime>
+			<weakCGTime type="a">12.27.2024::18:33:57</weakCGTime>
 			<strongCGTime type="a">12.17.2024::7:18:44</strongCGTime>
 			<_defaultComposite type="s">GUID d5918eb7-aaf9-4d57-877e-e40b51c6c67a</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -37,14 +37,10 @@
 			<_id type="a">GUID 0939a60b-7280-424c-ac8f-061af330f6d5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SupportMultipleLanguages</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::7:20:8</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The system shall provide alerts and notifications in at least 20 languages, including regional and international options.</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.17.2024::7:20:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.27.2024::18:33:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.27.2024::18:33:44</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
+\viewkind4\uc1\pard\fs20 The system shall provide alerts and notifications in at least 20 languages, including regional and international options.\par%0D
 }%0D
 </_body>
 			<reqID type="a">51</reqID>
@@ -53,14 +49,10 @@
 			<_id type="a">GUID a0589905-f9ee-4b76-bec7-4096afe8d75d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">TransmitSimplifiedMessages</_name>
-			<_modifiedTimeWeak type="a">12.17.2024::7:31:47</_modifiedTimeWeak>
-			<_description type="p"><IDescription type="e">
-				<_text type="a">The system shall generate easily understandable messages, avoiding complex or technical language.</_text>
-			</IDescription>
-			</_description>
-			<_modifiedTime type="a">12.17.2024::7:31:47</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.27.2024::18:33:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.27.2024::18:33:57</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
+\viewkind4\uc1\pard\fs20 The system shall generate easily understandable messages, avoiding complex or technical language.\par%0D
 }%0D
 </_body>
 			<reqID type="a">52</reqID>
@@ -99,7 +91,7 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.Template Params</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -430,8 +422,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2024::14:36:12</_modifiedTime>
-			<_lastModifiedTime type="a">12.18.2024::14:36:12</_lastModifiedTime>
+			<_modifiedTime type="a">12.27.2024::18:33:57</_modifiedTime>
+			<_lastModifiedTime type="a">12.27.2024::18:33:57</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>

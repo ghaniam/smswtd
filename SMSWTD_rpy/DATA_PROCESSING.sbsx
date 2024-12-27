@@ -12,7 +12,7 @@
 			<_id type="a">GUID a6e9dc45-91f1-4168-8804-5b10c71dcc97</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DATA_PROCESSING</_name>
-			<_modifiedTimeWeak type="a">12.18.2024::14:36:12</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.27.2024::18:29:9</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,9 +22,9 @@
 					<_hid type="a">GUID 9df4a085-9bb4-4314-98d5-fa09d451c6a6</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.18.2024::14:36:12</_modifiedTime>
+			<_modifiedTime type="a">12.27.2024::18:29:9</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">12.18.2024::14:36:12</weakCGTime>
+			<weakCGTime type="a">12.27.2024::18:29:9</weakCGTime>
 			<strongCGTime type="a">12.16.2024::11:6:15</strongCGTime>
 			<_defaultComposite type="s">GUID 66691590-577c-4ecb-a8d5-3bcf0c97d848</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -78,7 +78,7 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.Template Params</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -387,8 +387,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2024::14:36:12</_modifiedTime>
-			<_lastModifiedTime type="a">12.18.2024::14:36:12</_lastModifiedTime>
+			<_modifiedTime type="a">12.27.2024::18:30:14</_modifiedTime>
+			<_lastModifiedTime type="a">12.27.2024::18:30:14</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
