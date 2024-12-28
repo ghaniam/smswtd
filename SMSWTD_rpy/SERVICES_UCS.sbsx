@@ -12,10 +12,10 @@
 			<_id type="a">GUID dbc960f5-8357-4125-8a42-94130ccfbc85</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SERVICES_UCS</_name>
-			<_modifiedTimeWeak type="a">12.19.2024::10:13:45</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.28.2024::21:32:59</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.19.2024::10:13:45</_modifiedTime>
 			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">12.19.2024::10:13:45</weakCGTime>
+			<weakCGTime type="a">12.28.2024::21:32:59</weakCGTime>
 			<strongCGTime type="a">12.19.2024::8:17:34</strongCGTime>
 			<_defaultComposite type="s">GUID bd0eb565-80a3-42b3-aedc-2e7bf0f94c78</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -361,7 +361,7 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.Template Params</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -3710,7 +3710,7 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.Template Params</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -3962,7 +3962,7 @@
 												
 												<IProperty type="e">
 													<_Name type="a">Font.Font@Child.Template Params</_Name>
-													<_Value type="a">Tahoma%008%00NoBold%00NoItalic</_Value>
+													<_Value type="a">Tahoma</_Value>
 													<_Type type="a">String</_Type>
 												</IProperty>
 												
@@ -4317,10 +4317,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -4362,7 +4358,7 @@
 			<_id type="a">GUID 1d2b46d8-13a4-4052-974f-f1aa8acffef6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GetSensorData</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.19.2024::9:14:2</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -4381,10 +4377,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -4486,7 +4478,7 @@
 			<_id type="a">GUID 8778748b-9e9b-4c0b-a3b3-e148ccd07ace</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ProcessData</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.19.2024::9:17:24</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -4505,10 +4497,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -4552,7 +4540,7 @@
 			<_id type="a">GUID a5b49e6d-969d-4430-bd3b-53d4584a9b2e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">TriggerAlert</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.19.2024::9:55:3</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -4572,10 +4560,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -4619,7 +4603,7 @@
 			<_id type="a">GUID e37a4ac4-0e6d-4b17-83f9-eb40804ccaa8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ProvideActions</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.19.2024::10:5:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -4638,15 +4622,7 @@
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -4690,7 +4666,7 @@
 			<_id type="a">GUID d150a8ad-0d2c-4483-8b7a-30b73db1c21f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SendMultichannelAlerts</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.19.2024::9:54:3</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -4701,25 +4677,22 @@
 				<_text type="a">The system sends alerts to multiple recipients through predefined channels like SMS/Email for individuals, news outlets for mass communication and Government networks for emergency coordination.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">12.19.2024::9:54:3</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">12.19.2024::9:54:3</weakCGTime>
+			<_modifiedTime type="a">12.28.2024::21:33:11</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">12.28.2024::21:33:11</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
 				<value>GUID 086e2e0b-b1b2-44a6-b39a-67fc7778dfe7</value>
+				<value>GUID f8327bf5-e0e7-4f7a-a1a2-9fe794db0ecf</value>
 				<value>GUID 36aea04e-38d9-4535-897b-f0515f059056</value>
 			</AggregatesList>
 		</IUseCase>
@@ -4733,6 +4706,40 @@
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hid type="a">GUID 6d13c1cc-9949-4c3e-bf62-851e2472cbf6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID d150a8ad-0d2c-4483-8b7a-30b73db1c21f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID f8327bf5-e0e7-4f7a-a1a2-9fe794db0ecf</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">SendAlerts</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">refine</_hname>
+							<_hid type="a">GUID ec39e671-fa5d-41bb-8435-874cfb3d0c50</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.28.2024::21:33:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.28.2024::21:33:11</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\MD_FUNCTIONAL.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS::FUNCTIONAL::SYSTEM_COMMUNICATION::MULTICHANNEL_DISSEMINATION::MD_FUNCTIONAL</_hsubsystem>
+					<_hname type="a">SendAlerts</_hname>
+					<_hid type="a">GUID 8f931224-1584-45f2-b1b6-dc138aaadbef</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -4775,7 +4782,7 @@
 			<_id type="a">GUID 96de56a2-a133-415c-9436-cd52b9d31f09</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GenerateResponsePlans</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.19.2024::10:16:7</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -4794,10 +4801,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -4810,7 +4813,7 @@
 		<IGeneralization type="e">
 			<_id type="a">GUID 002f3d0a-38b8-4e0f-bf1b-88cadccd68e6</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -4872,10 +4875,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -4887,7 +4886,7 @@
 		<IGeneralization type="e">
 			<_id type="a">GUID 47ab69f0-a49e-42b5-9806-7650c6d0d77a</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>

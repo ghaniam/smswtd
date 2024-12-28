@@ -12,23 +12,46 @@
 			<_id type="a">GUID 5adb6d55-f8dc-43a7-9b2b-81fc4ca3807f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PROBLEM_DEFINITION</_name>
-			<_modifiedTimeWeak type="a">12.12.2024::14:22:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.12.2024::16:3:1</_modifiedTime>
-			<weakCGTime type="a">12.12.2024::14:22:41</weakCGTime>
-			<strongCGTime type="a">12.12.2024::14:22:41</strongCGTime>
+			<_modifiedTimeWeak type="a">12.28.2024::12:28:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.28.2024::19:53:53</_modifiedTime>
+			<weakCGTime type="a">12.28.2024::12:28:2</weakCGTime>
+			<strongCGTime type="a">12.28.2024::12:28:2</strongCGTime>
 			<_defaultComposite type="s">GUID e03b660d-544b-4a80-b98b-2a6db20927e7</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
+				<value>GUID b72478f9-d66f-4bb4-9a96-c447ef10125a</value>
 				<value>GUID e03b660d-544b-4a80-b98b-2a6db20927e7</value>
 			</AggregatesList>
 		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID b72478f9-d66f-4bb4-9a96-c447ef10125a</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PROBLEM_STUDY</_name>
+			<_modifiedTimeWeak type="a">12.28.2024::12:28:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.28.2024::12:28:2</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\PROBLEM_STUDY.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS</_hsubsystem>
+					<_hname type="a">PROBLEM_STUDY</_hname>
+					<_hid type="a">GUID 172f76bb-e296-45b8-bc52-05c86285bae4</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 5adb6d55-f8dc-43a7-9b2b-81fc4ca3807f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IClass type="e">
 			<_id type="a">GUID e03b660d-544b-4a80-b98b-2a6db20927e7</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">

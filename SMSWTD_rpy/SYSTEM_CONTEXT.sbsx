@@ -12,10 +12,10 @@
 			<_id type="a">GUID b4f4b06a-e8ef-445d-ae21-f2f13ba750c1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SYSTEM_CONTEXT</_name>
-			<_modifiedTimeWeak type="a">12.19.2024::9:57:34</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.28.2024::21:23:7</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.19.2024::10:11:39</_modifiedTime>
 			<_lastID type="a">21</_lastID>
-			<weakCGTime type="a">12.19.2024::9:57:34</weakCGTime>
+			<weakCGTime type="a">12.28.2024::21:23:7</weakCGTime>
 			<strongCGTime type="a">12.19.2024::8:27:8</strongCGTime>
 			<_defaultComposite type="s">GUID 0f9f2785-20cd-4361-b260-1afa86de742b</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -3020,7 +3020,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">MULTICHANNEL_DISSEMINATION</_hname>
 					<_hid type="a">GUID dcbe0100-36d2-4ed6-9dfb-6455f0830be6</_hid>
 				</IHandle>
@@ -3048,7 +3048,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">GetSensorData</_hname>
 					<_hid type="a">GUID 1d2b46d8-13a4-4052-974f-f1aa8acffef6</_hid>
 				</IClassifierHandle>
@@ -3057,7 +3057,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hclass type="a">GetSensorData</_hclass>
 					<_hname type="a">itsUnderwaterSensor</_hname>
 					<_hid type="a">GUID 337fa0e4-9085-4c5c-b5a9-3185b4ba68bb</_hid>
@@ -3088,7 +3088,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">MULTICHANNEL_DISSEMINATION</_hname>
 					<_hid type="a">GUID dcbe0100-36d2-4ed6-9dfb-6455f0830be6</_hid>
 				</IHandle>
@@ -3216,7 +3216,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">MULTICHANNEL_DISSEMINATION</_hname>
 					<_hid type="a">GUID dcbe0100-36d2-4ed6-9dfb-6455f0830be6</_hid>
 				</IHandle>
@@ -3244,7 +3244,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">GetSensorData</_hname>
 					<_hid type="a">GUID 1d2b46d8-13a4-4052-974f-f1aa8acffef6</_hid>
 				</IClassifierHandle>
@@ -3253,7 +3253,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hclass type="a">GetSensorData</_hclass>
 					<_hname type="a">itsSatelite</_hname>
 					<_hid type="a">GUID 427890f1-564c-4868-9d4e-93d2753bf05a</_hid>
@@ -3284,7 +3284,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">MULTICHANNEL_DISSEMINATION</_hname>
 					<_hid type="a">GUID dcbe0100-36d2-4ed6-9dfb-6455f0830be6</_hid>
 				</IHandle>
@@ -3312,7 +3312,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">GetSensorData</_hname>
 					<_hid type="a">GUID 1d2b46d8-13a4-4052-974f-f1aa8acffef6</_hid>
 				</IClassifierHandle>
@@ -3321,7 +3321,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hclass type="a">GetSensorData</_hclass>
 					<_hname type="a">itsAircraft</_hname>
 					<_hid type="a">GUID 327b1f04-2390-40df-bf97-16ca6a32d41a</_hid>
@@ -3347,15 +3347,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.19.2024::9:34:16</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.28.2024::21:23:29</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 2a0ec468-89f1-4af7-9297-3f1fc0d522d3</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.19.2024::9:34:16</_modifiedTime>
-			<weakCGTime type="a">12.19.2024::9:34:16</weakCGTime>
+			<_modifiedTime type="a">12.28.2024::21:23:29</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">12.28.2024::21:23:29</weakCGTime>
 			<strongCGTime type="a">12.19.2024::8:27:8</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3363,9 +3364,44 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 27aca671-be30-454f-8c35-250fde4ce20c</value>
 				<value>GUID c21ad631-afdc-49cb-a49f-5813bcba1c3f</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID 27aca671-be30-454f-8c35-250fde4ce20c</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">SendAlerts</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">12.28.2024::21:23:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.28.2024::21:23:29</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\MD_FUNCTIONAL.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS::FUNCTIONAL::SYSTEM_COMMUNICATION::MULTICHANNEL_DISSEMINATION::MD_FUNCTIONAL</_hsubsystem>
+					<_hname type="a">SendAlerts</_hname>
+					<_hid type="a">GUID 8f931224-1584-45f2-b1b6-dc138aaadbef</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID db81351c-4b23-4e5d-8b8c-7dd4e6960840</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID c21ad631-afdc-49cb-a49f-5813bcba1c3f</_id>
 			<_myState type="a">10240</_myState>
@@ -3377,7 +3413,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">SendMultichannelAlerts</_hname>
 					<_hid type="a">GUID d150a8ad-0d2c-4483-8b7a-30b73db1c21f</_hid>
 				</IClassifierHandle>
@@ -3386,7 +3422,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hclass type="a">SendMultichannelAlerts</_hclass>
 					<_hname type="a">itsCommunicationChannel</_hname>
 					<_hid type="a">GUID 36aea04e-38d9-4535-897b-f0515f059056</_hid>
@@ -3536,7 +3572,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">GenerateResponsePlans</_hname>
 					<_hid type="a">GUID 96de56a2-a133-415c-9436-cd52b9d31f09</_hid>
 				</IClassifierHandle>
@@ -3545,7 +3581,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hclass type="a">GenerateResponsePlans</_hclass>
 					<_hname type="a">itsDisasterResponder</_hname>
 					<_hid type="a">GUID 9b35c7ef-11e2-4e0a-91e5-5441aa36118c</_hid>
@@ -3608,7 +3644,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">MULTICHANNEL_DISSEMINATION</_hname>
 					<_hid type="a">GUID dcbe0100-36d2-4ed6-9dfb-6455f0830be6</_hid>
 				</IHandle>
@@ -3636,7 +3672,7 @@
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hname type="a">ConfigureAlertChannels</_hname>
 					<_hid type="a">GUID 426bc13f-e32d-4b4b-8ace-2bc6830a58eb</_hid>
 				</IClassifierHandle>
@@ -3645,7 +3681,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\SERVICES_UCS.sbsx</_hfilename>
-					<_hsubsystem type="a">SMSWTD_SYSTEM::SERVICES_UCS</_hsubsystem>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS</_hsubsystem>
 					<_hclass type="a">ConfigureAlertChannels</_hclass>
 					<_hname type="a">itsMaintainer</_hname>
 					<_hid type="a">GUID e15cd6e4-71f5-4b2d-94fa-6eb3080b8889</_hid>
