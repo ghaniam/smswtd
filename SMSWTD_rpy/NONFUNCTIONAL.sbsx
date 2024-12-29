@@ -12,7 +12,7 @@
 			<_id type="a">GUID 863efb23-a9b8-4a6e-a6d1-1e30204c4d54</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NONFUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.28.2024::12:8:30</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.29.2024::15:4:56</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,10 +22,10 @@
 					<_hid type="a">GUID 280379ac-b696-49fa-b085-a47ceac1a268</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.28.2024::19:53:53</_modifiedTime>
+			<_modifiedTime type="a">12.29.2024::15:4:56</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">12.28.2024::12:8:30</weakCGTime>
-			<strongCGTime type="a">12.13.2024::15:44:0</strongCGTime>
+			<weakCGTime type="a">12.29.2024::15:4:56</weakCGTime>
+			<strongCGTime type="a">12.29.2024::11:25:50</strongCGTime>
 			<_defaultComposite type="s">GUID a6c4a3ed-946e-4a47-b3ea-a5d2b0f58d15</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
@@ -42,36 +42,61 @@
 			<_id type="a">GUID bfccabbc-1e12-4192-ac89-0f3a09d30419</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Timeliness</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::8:55:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::8:55:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.29.2024::15:4:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.29.2024::15:4:56</_modifiedTime>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\fs20 The system shall collect, process, and disseminate alerts within a maximum latency of 2 minutes from the initial detection of a disaster event.\par%0D
+}%0D
+</_body>
+			<reqID type="a">NFR5</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID b372cde7-22b6-47aa-b004-d47ba2f2eff4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Accuracy</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::8:55:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::8:55:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.29.2024::15:2:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.29.2024::15:2:17</_modifiedTime>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\fs20 The system shall provide a minimum of 95%25 precision in detecting and disseminating alerts for natural disasters, ensuring minimal false positives and negatives.\par%0D
+}%0D
+</_body>
+			<reqID type="a">NFR1</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID c7917324-3442-41f7-ab32-46e6784e7426</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Reliability</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::8:55:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::8:55:20</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.29.2024::15:3:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.29.2024::15:3:39</_modifiedTime>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\fs20 The system shall achieve 99.9%25 uptime, ensuring consistent operation during disaster events, and shall recover from failures within 5 minutes.\par%0D
+}%0D
+</_body>
+			<reqID type="a">NFR3</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 1e3844d8-d55f-4f8b-ba4c-6cf720fff4a6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Scalability</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::8:55:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::8:55:53</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.29.2024::15:4:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.29.2024::15:4:11</_modifiedTime>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\fs20 The system shall handle simultaneous alerts for up to 10 million users across diverse regions without degradation in performance.\par%0D
+}%0D
+</_body>
+			<reqID type="a">NFR4</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID b5a33a0b-32d4-4ec1-be94-58062ccae7c2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Modifiability</_name>
-			<_modifiedTimeWeak type="a">12.16.2024::8:56:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2024::8:56:41</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.29.2024::15:3:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.29.2024::15:3:5</_modifiedTime>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\fs20 The system architecture shall support updates to alert dissemination protocols and communication channels with minimal impact on existing functionalities, enabling adaptability to evolving requirements.\par%0D
+}%0D
+</_body>
+			<reqID type="a">NFR2</reqID>
 		</IRequirement>
 		<IClass type="e">
 			<_id type="a">GUID a6c4a3ed-946e-4a47-b3ea-a5d2b0f58d15</_id>

@@ -12,10 +12,10 @@
 			<_id type="a">GUID b4f4b06a-e8ef-445d-ae21-f2f13ba750c1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SYSTEM_CONTEXT</_name>
-			<_modifiedTimeWeak type="a">12.28.2024::21:23:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.19.2024::10:11:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.28.2024::22:29:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.28.2024::22:30:18</_modifiedTime>
 			<_lastID type="a">21</_lastID>
-			<weakCGTime type="a">12.28.2024::21:23:7</weakCGTime>
+			<weakCGTime type="a">12.28.2024::22:29:50</weakCGTime>
 			<strongCGTime type="a">12.19.2024::8:27:8</strongCGTime>
 			<_defaultComposite type="s">GUID 0f9f2785-20cd-4361-b260-1afa86de742b</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -3070,6 +3070,10 @@
 			<_id type="a">GUID f2366bf1-b1af-450c-8f89-2dce93e1bf17</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SMSWTD</_name>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -3083,7 +3087,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.19.2024::10:16:7</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.28.2024::22:29:50</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUCDiagram</_hm2Class>
@@ -3093,9 +3097,9 @@
 					<_hid type="a">GUID dcbe0100-36d2-4ed6-9dfb-6455f0830be6</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.19.2024::10:16:7</_modifiedTime>
+			<_modifiedTime type="a">12.28.2024::22:29:50</_modifiedTime>
 			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">12.19.2024::10:16:7</weakCGTime>
+			<weakCGTime type="a">12.28.2024::22:29:50</weakCGTime>
 			<strongCGTime type="a">12.19.2024::8:27:8</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3103,31 +3107,11 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
-				<value>GUID 8aec5d87-9109-467a-8e16-57b4568533ef</value>
 				<value>GUID 2c54e0c1-8764-4fb4-a8b7-b9c71d706435</value>
 				<value>GUID df76bba7-aa62-4f6f-8f49-adba7e90f01a</value>
 				<value>GUID 878e6210-7a8d-4c1e-bbe8-b84d8131543e</value>
 			</AggregatesList>
 		</IClass>
-		<IDependency type="e">
-			<_id type="a">GUID 8aec5d87-9109-467a-8e16-57b4568533ef</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">SMSWTD</_name>
-			<_modifiedTimeWeak type="a">12.19.2024::10:7:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.19.2024::9:50:26</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID f2366bf1-b1af-450c-8f89-2dce93e1bf17</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID f2366bf1-b1af-450c-8f89-2dce93e1bf17</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 2c54e0c1-8764-4fb4-a8b7-b9c71d706435</_id>
 			<_myState type="a">10240</_myState>
