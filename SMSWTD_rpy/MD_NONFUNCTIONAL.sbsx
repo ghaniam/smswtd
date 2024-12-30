@@ -12,16 +12,16 @@
 			<_id type="a">GUID e00e5dd0-da13-48cf-88d9-65298d8ba238</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MD_NONFUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.29.2024::15:5:41</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.30.2024::21:7:19</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID e9a3188a-9b05-4170-b175-95c9b1c932cf</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.29.2024::15:5:41</_modifiedTime>
+			<_modifiedTime type="a">12.30.2024::21:7:19</_modifiedTime>
 			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">12.29.2024::15:5:41</weakCGTime>
+			<weakCGTime type="a">12.30.2024::21:7:19</weakCGTime>
 			<strongCGTime type="a">12.16.2024::14:41:52</strongCGTime>
 			<_defaultComposite type="s">GUID 99f3857a-8296-4d1a-9d8d-ef3bc05f3030</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -463,6 +463,62 @@
 										</Properties>
 									</IPropertyMetaclass>
 									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">State</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,0,96,60</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Height</_Name>
+													<_Value type="a">15</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">9</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineStyle</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 								</IRPYRawContainer>
 							</Metaclasses>
 						</IPropertySubject>
@@ -508,8 +564,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.29.2024::15:5:41</_modifiedTime>
-			<_lastModifiedTime type="a">12.29.2024::15:5:41</_lastModifiedTime>
+			<_modifiedTime type="a">12.30.2024::21:7:20</_modifiedTime>
+			<_lastModifiedTime type="a">12.30.2024::21:7:20</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
