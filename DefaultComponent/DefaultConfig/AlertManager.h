@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AlertManager
-//!	Generated Date	: Mon, 30, Dec 2024  
+//!	Generated Date	: Wed, 1, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\AlertManager.h
 *********************************************************************/
 
@@ -13,6 +13,18 @@
 
 //## auto_generated
 #include <oxf.h>
+//## auto_generated
+#include <aom.h>
+//## auto_generated
+#include "DESIGN.h"
+//## auto_generated
+#include <omthread.h>
+//## auto_generated
+#include <omreactive.h>
+//## auto_generated
+#include <state.h>
+//## auto_generated
+#include <event.h>
 //## auto_generated
 #include "omcollec.h"
 //## classInstance itsPushNotificationModule
@@ -33,25 +45,47 @@ class UserInterface;
 //## package SMSWTD_SYSTEM::DESIGN
 
 //## class AlertManager
-class AlertManager {
-    ////    Constructors and destructors    ////
+class AlertManager : public OMReactive {
+    ////    Friends    ////
     
 public :
 
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedAlertManager;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
     //## auto_generated
-    AlertManager(void);
+    explicit AlertManager(IOxfActive* const theActiveContext = NULL);
     
     //## auto_generated
     virtual ~AlertManager(void);
     
     ////    Operations    ////
     
+    //## operation clearErrorState()
+    virtual void clearErrorState(void);
+    
     // This operation disseminates the generated alerts to the specified channels. It returns true if the dissemination is successful and false if there are any failures.
     //## operation disseminateAlerts()
     virtual void disseminateAlerts(void);
     
+    // This operation generates alerts based on input parameters like system status or detected conditions.
     //## operation generateAlerts()
     virtual void generateAlerts(void);
+    
+    //## operation logCompletion()
+    virtual void logCompletion(void);
+    
+    //## operation logError()
+    virtual void logError(void);
+    
+    //## operation resetForNextAlert()
+    virtual void resetForNextAlert(void);
+    
+    //## operation selectChannels()
+    virtual void selectChannels(void);
     
     ////    Additional operations    ////
     
@@ -60,6 +94,12 @@ public :
     
     //## auto_generated
     void setAlertPriority(const RhpString p_alertPriority);
+    
+    //## auto_generated
+    const bool getValidAlert(void) const;
+    
+    //## auto_generated
+    void setValidAlert(const bool p_validAlert);
     
     //## auto_generated
     OMIterator<GovernmentChannels*> getItsGovernmentChannels(void) const;
@@ -99,9 +139,15 @@ public :
     
     //## auto_generated
     void clearItsUserInterface(void);
+    
+    //## auto_generated
+    virtual bool startBehavior(void);
 
 protected :
 
+    //## auto_generated
+    void initStatechart(void);
+    
     //## auto_generated
     void cleanUpRelations(void);
     
@@ -110,6 +156,8 @@ protected :
 private :
 
     RhpString alertPriority;		//## attribute alertPriority
+    
+    bool validAlert;		//## attribute validAlert
     
     ////    Relations and components    ////
     
@@ -155,7 +203,118 @@ public :
     
     //## auto_generated
     void _clearItsUserInterface(void);
+    
+    // rootState:
+    //## statechart_method
+    inline RhpBoolean rootState_IN(void) const;
+    
+    // Idle:
+    //## statechart_method
+    inline RhpBoolean Idle_IN(void) const;
+    
+    // Error:
+    //## statechart_method
+    inline RhpBoolean Error_IN(void) const;
+    
+    // Completed:
+    //## statechart_method
+    inline RhpBoolean Completed_IN(void) const;
+    
+    // AlertGenerated:
+    //## statechart_method
+    inline RhpBoolean AlertGenerated_IN(void) const;
+    
+    // AlertDissemination:
+    //## statechart_method
+    inline RhpBoolean AlertDissemination_IN(void) const;
+
+protected :
+
+    //## statechart_method
+    virtual void rootState_entDef(void);
+    
+    //## statechart_method
+    virtual IOxfReactive::TakeEventStatus rootState_processEvent(void);
+    
+    ////    Framework    ////
+    
+//#[ ignore
+    enum AlertManager_Enum {
+        OMNonState = 0,
+        Idle = 1,
+        Error = 2,
+        Completed = 3,
+        AlertGenerated = 4,
+        AlertDissemination = 5
+    };
+//#]
+
+private :
+
+//#[ ignore
+    AlertManager_Enum rootState_subState;
+    
+    AlertManager_Enum rootState_active;
+//#]
 };
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedAlertManager : virtual public AOMInstance {
+    DECLARE_REACTIVE_META(AlertManager, OMAnimatedAlertManager)
+    
+    ////    Framework operations    ////
+    
+public :
+
+    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
+    
+    //## statechart_method
+    void rootState_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void Idle_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void Error_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void Completed_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void AlertGenerated_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void AlertDissemination_serializeStates(AOMSState* aomsState) const;
+};
+//#]
+#endif // _OMINSTRUMENT
+
+inline RhpBoolean AlertManager::rootState_IN(void) const {
+    return true;
+}
+
+inline RhpBoolean AlertManager::Idle_IN(void) const {
+    return rootState_subState == Idle;
+}
+
+inline RhpBoolean AlertManager::Error_IN(void) const {
+    return rootState_subState == Error;
+}
+
+inline RhpBoolean AlertManager::Completed_IN(void) const {
+    return rootState_subState == Completed;
+}
+
+inline RhpBoolean AlertManager::AlertGenerated_IN(void) const {
+    return rootState_subState == AlertGenerated;
+}
+
+inline RhpBoolean AlertManager::AlertDissemination_IN(void) const {
+    return rootState_subState == AlertDissemination;
+}
 
 #endif
 /*********************************************************************

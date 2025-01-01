@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Sensor
-//!	Generated Date	: Mon, 30, Dec 2024  
+//!	Generated Date	: Wed, 1, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\Sensor.h
 *********************************************************************/
 
@@ -13,6 +13,10 @@
 
 //## auto_generated
 #include <oxf.h>
+//## auto_generated
+#include <aom.h>
+//## auto_generated
+#include "DESIGN.h"
 //## link itsSensorManager
 class SensorManager;
 
@@ -20,10 +24,16 @@ class SensorManager;
 
 //## class Sensor
 class Sensor {
-    ////    Constructors and destructors    ////
+    ////    Friends    ////
     
 public :
 
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedSensor;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
     //## auto_generated
     Sensor(void);
     
@@ -62,6 +72,20 @@ public :
     //## auto_generated
     void _clearItsSensorManager(void);
 };
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedSensor : virtual public AOMInstance {
+    DECLARE_META(Sensor, OMAnimatedSensor)
+    
+    ////    Framework operations    ////
+    
+public :
+
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
+};
+//#]
+#endif // _OMINSTRUMENT
 
 #endif
 /*********************************************************************

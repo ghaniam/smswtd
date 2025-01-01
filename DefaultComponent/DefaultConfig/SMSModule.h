@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SMSModule
-//!	Generated Date	: Mon, 30, Dec 2024  
+//!	Generated Date	: Wed, 1, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SMSModule.h
 *********************************************************************/
 
@@ -13,20 +13,38 @@
 
 //## auto_generated
 #include <oxf.h>
+//## auto_generated
+#include <aom.h>
+//## auto_generated
+#include "DESIGN.h"
 //## package SMSWTD_SYSTEM::DESIGN
 
 //## class SMSModule
 class SMSModule {
-    ////    Constructors and destructors    ////
+    ////    Friends    ////
     
 public :
 
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedSMSModule;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
     //## auto_generated
     SMSModule(void);
     
     //## auto_generated
     ~SMSModule(void);
 };
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedSMSModule : virtual public AOMInstance {
+    DECLARE_META(SMSModule, OMAnimatedSMSModule)
+};
+//#]
+#endif // _OMINSTRUMENT
 
 #endif
 /*********************************************************************

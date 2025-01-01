@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SMSWTD
-//!	Generated Date	: Mon, 30, Dec 2024  
+//!	Generated Date	: Wed, 1, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SMSWTD.h
 *********************************************************************/
 
@@ -13,6 +13,10 @@
 
 //## auto_generated
 #include <oxf.h>
+//## auto_generated
+#include <aom.h>
+//## auto_generated
+#include "SYSTEM_CONTEXT.h"
 //## link itsCivilian
 class Civilian;
 
@@ -26,10 +30,16 @@ class Government;
 
 //## class SMSWTD
 class SMSWTD {
-    ////    Constructors and destructors    ////
+    ////    Friends    ////
     
 public :
 
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedSMSWTD;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
     //## auto_generated
     SMSWTD(void);
     
@@ -102,6 +112,20 @@ public :
     //## auto_generated
     void _clearItsGovernment(void);
 };
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedSMSWTD : virtual public AOMInstance {
+    DECLARE_META(SMSWTD, OMAnimatedSMSWTD)
+    
+    ////    Framework operations    ////
+    
+public :
+
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
+};
+//#]
+#endif // _OMINSTRUMENT
 
 #endif
 /*********************************************************************

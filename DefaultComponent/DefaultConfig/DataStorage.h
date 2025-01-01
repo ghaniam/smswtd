@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: DataStorage
-//!	Generated Date	: Mon, 30, Dec 2024  
+//!	Generated Date	: Wed, 1, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\DataStorage.h
 *********************************************************************/
 
@@ -13,20 +13,30 @@
 
 //## auto_generated
 #include <oxf.h>
+//## auto_generated
+#include <aom.h>
+//## auto_generated
+#include "DESIGN.h"
 //## link itsSMSWTDSystemController
 class SMSWTDSystemController;
 
 //## link itsSensorManager
 class SensorManager;
 
-//## package SMSWTD_SYSTEM::ANALYSIS::SYSTEM_CONTEXT
+//## package SMSWTD_SYSTEM::DESIGN
 
 //## class DataStorage
 class DataStorage {
-    ////    Constructors and destructors    ////
+    ////    Friends    ////
     
 public :
 
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedDataStorage;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
     //## auto_generated
     DataStorage(void);
     
@@ -82,6 +92,20 @@ public :
     //## auto_generated
     void _clearItsSensorManager(void);
 };
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedDataStorage : virtual public AOMInstance {
+    DECLARE_META(DataStorage, OMAnimatedDataStorage)
+    
+    ////    Framework operations    ////
+    
+public :
+
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
+};
+//#]
+#endif // _OMINSTRUMENT
 
 #endif
 /*********************************************************************

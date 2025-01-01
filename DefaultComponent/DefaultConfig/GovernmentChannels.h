@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: GovernmentChannels
-//!	Generated Date	: Mon, 30, Dec 2024  
+//!	Generated Date	: Wed, 1, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\GovernmentChannels.h
 *********************************************************************/
 
@@ -13,6 +13,10 @@
 
 //## auto_generated
 #include <oxf.h>
+//## auto_generated
+#include <aom.h>
+//## auto_generated
+#include "DESIGN.h"
 //## link itsAlertManager
 class AlertManager;
 
@@ -20,10 +24,16 @@ class AlertManager;
 
 //## class GovernmentChannels
 class GovernmentChannels {
-    ////    Constructors and destructors    ////
+    ////    Friends    ////
     
 public :
 
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedGovernmentChannels;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
     //## auto_generated
     GovernmentChannels(void);
     
@@ -62,6 +72,20 @@ public :
     //## auto_generated
     void _clearItsAlertManager(void);
 };
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedGovernmentChannels : virtual public AOMInstance {
+    DECLARE_META(GovernmentChannels, OMAnimatedGovernmentChannels)
+    
+    ////    Framework operations    ////
+    
+public :
+
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
+};
+//#]
+#endif // _OMINSTRUMENT
 
 #endif
 /*********************************************************************

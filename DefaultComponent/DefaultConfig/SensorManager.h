@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SensorManager
-//!	Generated Date	: Mon, 30, Dec 2024  
+//!	Generated Date	: Wed, 1, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SensorManager.h
 *********************************************************************/
 
@@ -13,6 +13,10 @@
 
 //## auto_generated
 #include <oxf.h>
+//## auto_generated
+#include <aom.h>
+//## auto_generated
+#include "DESIGN.h"
 //## auto_generated
 #include "omcollec.h"
 //## auto_generated
@@ -57,6 +61,12 @@ public :
         RhpInteger _p_;		//## attribute _p_
     };
 //#]
+
+    ////    Friends    ////
+    
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedSensorManager;
+#endif // _OMINSTRUMENT
 
     ////    Constructors and destructors    ////
     
@@ -172,6 +182,22 @@ public :
     //## auto_generated
     void _clearItsSensor(void);
 };
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedSensorManager : virtual public AOMInstance {
+    DECLARE_META(SensorManager, OMAnimatedSensorManager)
+    
+    ////    Framework operations    ////
+    
+public :
+
+    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
+};
+//#]
+#endif // _OMINSTRUMENT
 
 #endif
 /*********************************************************************

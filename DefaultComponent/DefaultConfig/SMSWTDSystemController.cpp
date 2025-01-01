@@ -4,9 +4,13 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SMSWTDSystemController
-//!	Generated Date	: Mon, 30, Dec 2024  
+//!	Generated Date	: Wed, 1, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SMSWTDSystemController.cpp
 *********************************************************************/
+
+//#[ ignore
+#define NAMESPACE_PREFIX
+//#]
 
 //## auto_generated
 #include "SMSWTDSystemController.h"
@@ -18,6 +22,16 @@
 #include "SensorManager.h"
 //## link itsUserInterface
 #include "UserInterface.h"
+//#[ ignore
+#define SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_SMSWTDSystemController_SERIALIZE OM_NO_OP
+
+#define SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_configureChannels_SERIALIZE OM_NO_OP
+
+#define SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_processData_SERIALIZE OM_NO_OP
+
+#define SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_triggerAlert_SERIALIZE OM_NO_OP
+//#]
+
 //## package SMSWTD_SYSTEM::DESIGN
 
 //## class SMSWTDSystemController
@@ -42,23 +56,28 @@ void SMSWTDSystemController::alertPort_C::connectSMSWTDSystemController(SMSWTDSy
 //#]
 
 SMSWTDSystemController::SMSWTDSystemController(void) : currentAlertLevel("low"), systemStatus(true), itsAlertManager(NULL) {
+    NOTIFY_CONSTRUCTOR(SMSWTDSystemController, SMSWTDSystemController(), 0, SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_SMSWTDSystemController_SERIALIZE);
 }
 
 SMSWTDSystemController::~SMSWTDSystemController(void) {
+    NOTIFY_DESTRUCTOR(~SMSWTDSystemController, true);
     cleanUpRelations();
 }
 
 void SMSWTDSystemController::configureChannels(void) {
+    NOTIFY_OPERATION(configureChannels, configureChannels(), 0, SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_configureChannels_SERIALIZE);
     //#[ operation configureChannels()
     //#]
 }
 
 void SMSWTDSystemController::processData(void) {
+    NOTIFY_OPERATION(processData, processData(), 0, SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_processData_SERIALIZE);
     //#[ operation processData()
     //#]
 }
 
 void SMSWTDSystemController::triggerAlert(void) {
+    NOTIFY_OPERATION(triggerAlert, triggerAlert(), 0, SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_triggerAlert_SERIALIZE);
     //#[ operation triggerAlert()
     //#]
 }
@@ -200,6 +219,7 @@ void SMSWTDSystemController::clearItsUserInterface(void) {
 void SMSWTDSystemController::cleanUpRelations(void) {
     if(itsAlertManager != NULL)
         {
+            NOTIFY_RELATION_CLEARED("itsAlertManager");
             const SMSWTDSystemController* p_SMSWTDSystemController = itsAlertManager->getItsSMSWTDSystemController();
             if(p_SMSWTDSystemController != NULL)
                 {
@@ -247,6 +267,14 @@ void SMSWTDSystemController::cleanUpRelations(void) {
 
 void SMSWTDSystemController::__setItsAlertManager(AlertManager* const p_AlertManager) {
     itsAlertManager = p_AlertManager;
+    if(p_AlertManager != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsAlertManager", p_AlertManager, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsAlertManager");
+        }
 }
 
 void SMSWTDSystemController::_setItsAlertManager(AlertManager* const p_AlertManager) {
@@ -258,44 +286,118 @@ void SMSWTDSystemController::_setItsAlertManager(AlertManager* const p_AlertMana
 }
 
 void SMSWTDSystemController::_clearItsAlertManager(void) {
+    NOTIFY_RELATION_CLEARED("itsAlertManager");
     itsAlertManager = NULL;
 }
 
 void SMSWTDSystemController::_addItsDataStorage(DataStorage* const p_DataStorage) {
+    if(p_DataStorage != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsDataStorage", p_DataStorage, false, false);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsDataStorage");
+        }
     itsDataStorage.add(p_DataStorage);
 }
 
 void SMSWTDSystemController::_removeItsDataStorage(DataStorage* const p_DataStorage) {
+    NOTIFY_RELATION_ITEM_REMOVED("itsDataStorage", p_DataStorage);
     itsDataStorage.remove(p_DataStorage);
 }
 
 void SMSWTDSystemController::_clearItsDataStorage(void) {
+    NOTIFY_RELATION_CLEARED("itsDataStorage");
     itsDataStorage.removeAll();
 }
 
 void SMSWTDSystemController::_addItsSensorManager(SensorManager* const p_SensorManager) {
+    if(p_SensorManager != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsSensorManager", p_SensorManager, false, false);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsSensorManager");
+        }
     itsSensorManager.add(p_SensorManager);
 }
 
 void SMSWTDSystemController::_removeItsSensorManager(SensorManager* const p_SensorManager) {
+    NOTIFY_RELATION_ITEM_REMOVED("itsSensorManager", p_SensorManager);
     itsSensorManager.remove(p_SensorManager);
 }
 
 void SMSWTDSystemController::_clearItsSensorManager(void) {
+    NOTIFY_RELATION_CLEARED("itsSensorManager");
     itsSensorManager.removeAll();
 }
 
 void SMSWTDSystemController::_addItsUserInterface(UserInterface* const p_UserInterface) {
+    if(p_UserInterface != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsUserInterface", p_UserInterface, false, false);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsUserInterface");
+        }
     itsUserInterface.add(p_UserInterface);
 }
 
 void SMSWTDSystemController::_removeItsUserInterface(UserInterface* const p_UserInterface) {
+    NOTIFY_RELATION_ITEM_REMOVED("itsUserInterface", p_UserInterface);
     itsUserInterface.remove(p_UserInterface);
 }
 
 void SMSWTDSystemController::_clearItsUserInterface(void) {
+    NOTIFY_RELATION_CLEARED("itsUserInterface");
     itsUserInterface.removeAll();
 }
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+void OMAnimatedSMSWTDSystemController::serializeAttributes(AOMSAttributes* aomsAttributes) const {
+    aomsAttributes->addAttribute("systemStatus", x2String(myReal->systemStatus));
+    aomsAttributes->addAttribute("currentAlertLevel", x2String(myReal->currentAlertLevel));
+}
+
+void OMAnimatedSMSWTDSystemController::serializeRelations(AOMSRelations* aomsRelations) const {
+    aomsRelations->addRelation("itsSensorManager", false, false);
+    {
+        OMIterator<SensorManager*> iter(myReal->itsSensorManager);
+        while (*iter){
+            aomsRelations->ADD_ITEM(*iter);
+            iter++;
+        }
+    }
+    aomsRelations->addRelation("itsUserInterface", false, false);
+    {
+        OMIterator<UserInterface*> iter(myReal->itsUserInterface);
+        while (*iter){
+            aomsRelations->ADD_ITEM(*iter);
+            iter++;
+        }
+    }
+    aomsRelations->addRelation("itsAlertManager", false, true);
+    if(myReal->itsAlertManager)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsAlertManager);
+        }
+    aomsRelations->addRelation("itsDataStorage", false, false);
+    {
+        OMIterator<DataStorage*> iter(myReal->itsDataStorage);
+        while (*iter){
+            aomsRelations->ADD_ITEM(*iter);
+            iter++;
+        }
+    }
+}
+//#]
+
+IMPLEMENT_META_P(SMSWTDSystemController, SMSWTD_SYSTEM_DESIGN, SMSWTD_SYSTEM::DESIGN, false, OMAnimatedSMSWTDSystemController)
+#endif // _OMINSTRUMENT
 
 /*********************************************************************
 	File Path	: DefaultComponent\DefaultConfig\SMSWTDSystemController.cpp

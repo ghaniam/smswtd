@@ -3,34 +3,60 @@
 	Login		: 20245162
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: UnderwaterSensor
-//!	Generated Date	: Mon, 30, Dec 2024  
-	File Path	: DefaultComponent\DefaultConfig\UnderwaterSensor.h
+	Model Element	: UnderWaterSensor
+//!	Generated Date	: Wed, 1, Jan 2025  
+	File Path	: DefaultComponent\DefaultConfig\UnderWaterSensor.h
 *********************************************************************/
 
-#ifndef UnderwaterSensor_H
-#define UnderwaterSensor_H
+#ifndef UnderWaterSensor_H
+#define UnderWaterSensor_H
 
 //## auto_generated
 #include <oxf.h>
-//## class UnderwaterSensor
+//## auto_generated
+#include <aom.h>
+//## auto_generated
+#include "DESIGN.h"
+//## class UnderWaterSensor
 #include "Sensor.h"
-//## package SMSWTD_SYSTEM::ANALYSIS::SYSTEM_CONTEXT
+//## package SMSWTD_SYSTEM::DESIGN
 
-//## class UnderwaterSensor
-class UnderwaterSensor : public Sensor {
-    ////    Constructors and destructors    ////
+//## class UnderWaterSensor
+class UnderWaterSensor : public Sensor {
+    ////    Friends    ////
     
 public :
 
-    //## auto_generated
-    UnderwaterSensor(void);
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedUnderWaterSensor;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
     
     //## auto_generated
-    ~UnderwaterSensor(void);
+    UnderWaterSensor(void);
+    
+    //## auto_generated
+    ~UnderWaterSensor(void);
 };
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedUnderWaterSensor : public OMAnimatedSensor {
+    DECLARE_META(UnderWaterSensor, OMAnimatedUnderWaterSensor)
+    
+    ////    Framework operations    ////
+    
+public :
+
+    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
+};
+//#]
+#endif // _OMINSTRUMENT
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\UnderwaterSensor.h
+	File Path	: DefaultComponent\DefaultConfig\UnderWaterSensor.h
 *********************************************************************/

@@ -3,50 +3,54 @@
 	Login		: 20245162
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: DisasterResponder
+	Model Element	: SatelliteSensor
 //!	Generated Date	: Wed, 1, Jan 2025  
-	File Path	: DefaultComponent\DefaultConfig\DisasterResponder.h
+	File Path	: DefaultComponent\DefaultConfig\SatelliteSensor.h
 *********************************************************************/
 
-#ifndef DisasterResponder_H
-#define DisasterResponder_H
+#ifndef SatelliteSensor_H
+#define SatelliteSensor_H
 
 //## auto_generated
 #include <oxf.h>
 //## auto_generated
 #include <aom.h>
 //## auto_generated
-#include "SYSTEM_CONTEXT.h"
-//## package SMSWTD_SYSTEM::ANALYSIS::SYSTEM_CONTEXT
+#include "DESIGN.h"
+//## class SatelliteSensor
+#include "Sensor.h"
+//## package SMSWTD_SYSTEM::DESIGN
 
-//## actor DisasterResponder
-class DisasterResponder {
+//## class SatelliteSensor
+class SatelliteSensor : public Sensor {
     ////    Friends    ////
     
 public :
 
 #ifdef _OMINSTRUMENT
-    friend class OMAnimatedDisasterResponder;
+    friend class OMAnimatedSatelliteSensor;
 #endif // _OMINSTRUMENT
 
     ////    Constructors and destructors    ////
     
     //## auto_generated
-    DisasterResponder(void);
+    SatelliteSensor(void);
     
     //## auto_generated
-    ~DisasterResponder(void);
+    ~SatelliteSensor(void);
 };
 
 #ifdef _OMINSTRUMENT
 //#[ ignore
-class OMAnimatedDisasterResponder : virtual public AOMInstance {
-    DECLARE_META(DisasterResponder, OMAnimatedDisasterResponder)
+class OMAnimatedSatelliteSensor : public OMAnimatedSensor {
+    DECLARE_META(SatelliteSensor, OMAnimatedSatelliteSensor)
     
     ////    Framework operations    ////
     
 public :
 
+    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
     virtual void serializeRelations(AOMSRelations* aomsRelations) const;
 };
 //#]
@@ -54,5 +58,5 @@ public :
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\DisasterResponder.h
+	File Path	: DefaultComponent\DefaultConfig\SatelliteSensor.h
 *********************************************************************/

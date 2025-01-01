@@ -65,7 +65,7 @@ OBJ_EXT=.obj
 EXE_EXT=.exe
 LIB_EXT=.lib
 
-INSTRUMENTATION=None
+INSTRUMENTATION=Animation
 
 TIME_MODEL=RealTime
 
@@ -85,13 +85,9 @@ INCLUDE_PATH= \
 ADDITIONAL_OBJS=
 
 OBJS= \
-  UnderwaterSensor.obj \
   SMSWTD.obj \
-  SateliteSensor.obj \
-  AircraftSensor.obj \
   CommunicationChannel.obj \
   Environment.obj \
-  DataStorage.obj \
   Civilian.obj \
   DisasterResponder.obj \
   Government.obj \
@@ -104,7 +100,14 @@ OBJS= \
   GovernmentChannels.obj \
   SMSModule.obj \
   PushNotificationModule.obj \
-  SocialMediaModule.obj
+  SocialMediaModule.obj \
+  UnderWaterSensor.obj \
+  SatelliteSensor.obj \
+  AircraftSensor.obj \
+  DataStorage.obj \
+  SYSTEM_CONTEXT.obj \
+  SERVICES_UCS.obj \
+  DESIGN.obj
 
 
 
@@ -187,123 +190,141 @@ SOCK_LIB=
 
 
 
-UnderwaterSensor.obj : UnderwaterSensor.cpp UnderwaterSensor.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UnderwaterSensor.obj" "UnderwaterSensor.cpp" 
-
-
-
-SMSWTD.obj : SMSWTD.cpp SMSWTD.h    Government.h Civilian.h Environment.h 
+SMSWTD.obj : SMSWTD.cpp SMSWTD.h    SYSTEM_CONTEXT.h Government.h Civilian.h Environment.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SMSWTD.obj" "SMSWTD.cpp" 
 
 
 
-SateliteSensor.obj : SateliteSensor.cpp SateliteSensor.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SateliteSensor.obj" "SateliteSensor.cpp" 
-
-
-
-AircraftSensor.obj : AircraftSensor.cpp AircraftSensor.h    
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AircraftSensor.obj" "AircraftSensor.cpp" 
-
-
-
-CommunicationChannel.obj : CommunicationChannel.cpp CommunicationChannel.h    
+CommunicationChannel.obj : CommunicationChannel.cpp CommunicationChannel.h    SYSTEM_CONTEXT.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"CommunicationChannel.obj" "CommunicationChannel.cpp" 
 
 
 
-Environment.obj : Environment.cpp Environment.h    SMSWTD.h 
+Environment.obj : Environment.cpp Environment.h    SYSTEM_CONTEXT.h SMSWTD.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Environment.obj" "Environment.cpp" 
 
 
 
-DataStorage.obj : DataStorage.cpp DataStorage.h    SMSWTDSystemController.h SensorManager.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DataStorage.obj" "DataStorage.cpp" 
-
-
-
-Civilian.obj : Civilian.cpp Civilian.h    SMSWTD.h 
+Civilian.obj : Civilian.cpp Civilian.h    SYSTEM_CONTEXT.h SMSWTD.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Civilian.obj" "Civilian.cpp" 
 
 
 
-DisasterResponder.obj : DisasterResponder.cpp DisasterResponder.h    
+DisasterResponder.obj : DisasterResponder.cpp DisasterResponder.h    SYSTEM_CONTEXT.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DisasterResponder.obj" "DisasterResponder.cpp" 
 
 
 
-Government.obj : Government.cpp Government.h    SMSWTD.h 
+Government.obj : Government.cpp Government.h    SYSTEM_CONTEXT.h SMSWTD.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Government.obj" "Government.cpp" 
 
 
 
-Maintainer.obj : Maintainer.cpp Maintainer.h    
+Maintainer.obj : Maintainer.cpp Maintainer.h    SYSTEM_CONTEXT.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Maintainer.obj" "Maintainer.cpp" 
 
 
 
-SMSWTDSystemController.obj : SMSWTDSystemController.cpp SMSWTDSystemController.h    SensorManager.h UserInterface.h AlertManager.h DataStorage.h 
+SMSWTDSystemController.obj : SMSWTDSystemController.cpp SMSWTDSystemController.h    DESIGN.h SensorManager.h UserInterface.h AlertManager.h DataStorage.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SMSWTDSystemController.obj" "SMSWTDSystemController.cpp" 
 
 
 
-Sensor.obj : Sensor.cpp Sensor.h    SensorManager.h 
+Sensor.obj : Sensor.cpp Sensor.h    DESIGN.h SensorManager.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Sensor.obj" "Sensor.cpp" 
 
 
 
-SensorManager.obj : SensorManager.cpp SensorManager.h    SMSWTDSystemController.h DataStorage.h Sensor.h 
+SensorManager.obj : SensorManager.cpp SensorManager.h    DESIGN.h SMSWTDSystemController.h Sensor.h DataStorage.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SensorManager.obj" "SensorManager.cpp" 
 
 
 
-AlertManager.obj : AlertManager.cpp AlertManager.h    SMSWTDSystemController.h GovernmentChannels.h SMSModule.h PushNotificationModule.h SocialMediaModule.h UserInterface.h 
+AlertManager.obj : AlertManager.cpp AlertManager.h    DESIGN.h SMSWTDSystemController.h GovernmentChannels.h SMSModule.h PushNotificationModule.h SocialMediaModule.h UserInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AlertManager.obj" "AlertManager.cpp" 
 
 
 
-UserInterface.obj : UserInterface.cpp UserInterface.h    SMSWTDSystemController.h AlertManager.h 
+UserInterface.obj : UserInterface.cpp UserInterface.h    DESIGN.h SMSWTDSystemController.h AlertManager.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UserInterface.obj" "UserInterface.cpp" 
 
 
 
-GovernmentChannels.obj : GovernmentChannels.cpp GovernmentChannels.h    AlertManager.h 
+GovernmentChannels.obj : GovernmentChannels.cpp GovernmentChannels.h    DESIGN.h AlertManager.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"GovernmentChannels.obj" "GovernmentChannels.cpp" 
 
 
 
-SMSModule.obj : SMSModule.cpp SMSModule.h    
+SMSModule.obj : SMSModule.cpp SMSModule.h    DESIGN.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SMSModule.obj" "SMSModule.cpp" 
 
 
 
-PushNotificationModule.obj : PushNotificationModule.cpp PushNotificationModule.h    
+PushNotificationModule.obj : PushNotificationModule.cpp PushNotificationModule.h    DESIGN.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"PushNotificationModule.obj" "PushNotificationModule.cpp" 
 
 
 
-SocialMediaModule.obj : SocialMediaModule.cpp SocialMediaModule.h    
+SocialMediaModule.obj : SocialMediaModule.cpp SocialMediaModule.h    DESIGN.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SocialMediaModule.obj" "SocialMediaModule.cpp" 
+
+
+
+UnderWaterSensor.obj : UnderWaterSensor.cpp UnderWaterSensor.h    DESIGN.h Sensor.h SensorManager.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UnderWaterSensor.obj" "UnderWaterSensor.cpp" 
+
+
+
+SatelliteSensor.obj : SatelliteSensor.cpp SatelliteSensor.h    DESIGN.h Sensor.h SensorManager.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SatelliteSensor.obj" "SatelliteSensor.cpp" 
+
+
+
+AircraftSensor.obj : AircraftSensor.cpp AircraftSensor.h    DESIGN.h Sensor.h SensorManager.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AircraftSensor.obj" "AircraftSensor.cpp" 
+
+
+
+DataStorage.obj : DataStorage.cpp DataStorage.h    DESIGN.h SensorManager.h SMSWTDSystemController.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DataStorage.obj" "DataStorage.cpp" 
+
+
+
+SYSTEM_CONTEXT.obj : SYSTEM_CONTEXT.cpp SYSTEM_CONTEXT.h    SMSWTD.h CommunicationChannel.h Environment.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SYSTEM_CONTEXT.obj" "SYSTEM_CONTEXT.cpp" 
+
+
+
+SERVICES_UCS.obj : SERVICES_UCS.cpp SERVICES_UCS.h    
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SERVICES_UCS.obj" "SERVICES_UCS.cpp" 
+
+
+
+DESIGN.obj : DESIGN.cpp DESIGN.h    SMSWTDSystemController.h Sensor.h SensorManager.h AlertManager.h UserInterface.h GovernmentChannels.h SMSModule.h PushNotificationModule.h SocialMediaModule.h UnderWaterSensor.h SatelliteSensor.h AircraftSensor.h DataStorage.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DESIGN.obj" "DESIGN.cpp" 
 
 
 
@@ -334,13 +355,9 @@ $(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) DefaultComponent.mak
 
 clean:
 	@echo Cleanup
-	if exist UnderwaterSensor.obj erase UnderwaterSensor.obj
 	if exist SMSWTD.obj erase SMSWTD.obj
-	if exist SateliteSensor.obj erase SateliteSensor.obj
-	if exist AircraftSensor.obj erase AircraftSensor.obj
 	if exist CommunicationChannel.obj erase CommunicationChannel.obj
 	if exist Environment.obj erase Environment.obj
-	if exist DataStorage.obj erase DataStorage.obj
 	if exist Civilian.obj erase Civilian.obj
 	if exist DisasterResponder.obj erase DisasterResponder.obj
 	if exist Government.obj erase Government.obj
@@ -354,6 +371,13 @@ clean:
 	if exist SMSModule.obj erase SMSModule.obj
 	if exist PushNotificationModule.obj erase PushNotificationModule.obj
 	if exist SocialMediaModule.obj erase SocialMediaModule.obj
+	if exist UnderWaterSensor.obj erase UnderWaterSensor.obj
+	if exist SatelliteSensor.obj erase SatelliteSensor.obj
+	if exist AircraftSensor.obj erase AircraftSensor.obj
+	if exist DataStorage.obj erase DataStorage.obj
+	if exist SYSTEM_CONTEXT.obj erase SYSTEM_CONTEXT.obj
+	if exist SERVICES_UCS.obj erase SERVICES_UCS.obj
+	if exist DESIGN.obj erase DESIGN.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb
