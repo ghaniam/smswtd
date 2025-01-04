@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AlertManager
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Sat, 4, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\AlertManager.cpp
 *********************************************************************/
 
@@ -35,6 +35,8 @@
 
 #define SMSWTD_SYSTEM_DESIGN_AlertManager_logError_SERIALIZE OM_NO_OP
 
+#define SMSWTD_SYSTEM_DESIGN_AlertManager_notifyStakeholders_SERIALIZE OM_NO_OP
+
 #define SMSWTD_SYSTEM_DESIGN_AlertManager_resetForNextAlert_SERIALIZE OM_NO_OP
 
 #define SMSWTD_SYSTEM_DESIGN_AlertManager_selectChannels_SERIALIZE OM_NO_OP
@@ -57,49 +59,61 @@ AlertManager::~AlertManager(void) {
 void AlertManager::clearErrorState(void) {
     NOTIFY_OPERATION(clearErrorState, clearErrorState(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_clearErrorState_SERIALIZE);
     //#[ operation clearErrorState()
+    std::cout<<"AlertManager - Error state cleared and preparing for new operation\n";
     //#]
 }
 
 void AlertManager::disseminateAlerts(void) {
     NOTIFY_OPERATION(disseminateAlerts, disseminateAlerts(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_disseminateAlerts_SERIALIZE);
     //#[ operation disseminateAlerts()
-    std::cout<<"AlertManager - disseminateAlerts()\n";
-    alertPriority = "high";
-    std::cout<<"AlertManager - the alert is transmitted\n";
+    std::cout<<"AlertManager - Initialization of alert dissemination\n";
     //#]
 }
 
 void AlertManager::generateAlerts(void) {
     NOTIFY_OPERATION(generateAlerts, generateAlerts(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_generateAlerts_SERIALIZE);
     //#[ operation generateAlerts()
-    std::cout<<"AlertManager - generate Alert\n";
+    std::cout<<"AlertManager - Initializing alert generation\n";
     alertPriority = "high";
     
-    std::cout<<"AlertManager - alert is generated\n";
+    
     //#]
 }
 
 void AlertManager::logCompletion(void) {
     NOTIFY_OPERATION(logCompletion, logCompletion(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_logCompletion_SERIALIZE);
     //#[ operation logCompletion()
+    std::cout<<"AlertManager - logged successful completion of an alert dissemination\n";
     //#]
 }
 
 void AlertManager::logError(void) {
     NOTIFY_OPERATION(logError, logError(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_logError_SERIALIZE);
     //#[ operation logError()
+    std::cout<<"AlertManager - logging error message and timestamp\n";
+    //#]
+}
+
+void AlertManager::notifyStakeholders(void) {
+    NOTIFY_OPERATION(notifyStakeholders, notifyStakeholders(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_notifyStakeholders_SERIALIZE);
+    //#[ operation notifyStakeholders()
+    std::cout<<"AlertManager - sent notification to stakeholders\n";
     //#]
 }
 
 void AlertManager::resetForNextAlert(void) {
     NOTIFY_OPERATION(resetForNextAlert, resetForNextAlert(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_resetForNextAlert_SERIALIZE);
     //#[ operation resetForNextAlert()
+    std::cout<<"AlertManager - reset the system for the next alert\n";
     //#]
 }
 
 void AlertManager::selectChannels(void) {
     NOTIFY_OPERATION(selectChannels, selectChannels(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_selectChannels_SERIALIZE);
     //#[ operation selectChannels()
+    std::cout<<"AlertManager - selecting dissemination channels\n";
+    
+    
     //#]
 }
 
@@ -109,6 +123,14 @@ const RhpString AlertManager::getAlertPriority(void) const {
 
 void AlertManager::setAlertPriority(const RhpString p_alertPriority) {
     alertPriority = p_alertPriority;
+}
+
+const RhpString AlertManager::getPreviousState(void) const {
+    return previousState;
+}
+
+void AlertManager::setPreviousState(const RhpString p_previousState) {
+    previousState = p_previousState;
 }
 
 const bool AlertManager::getValidAlert(void) const {
@@ -384,6 +406,9 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
                     {
                         NOTIFY_TRANSITION_STARTED("3");
                         NOTIFY_STATE_EXITED("ROOT.AlertGenerated");
+                        //#[ transition 3 
+                        previousState = "AlertGenerated";
+                        //#]
                         NOTIFY_STATE_ENTERED("ROOT.Error");
                         rootState_subState = Error;
                         rootState_active = Error;
@@ -405,6 +430,9 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
                 {
                     NOTIFY_TRANSITION_STARTED("4");
                     NOTIFY_STATE_EXITED("ROOT.AlertDissemination");
+                    //#[ transition 4 
+                    previousState = "AlertDissemination";
+                    //#]
                     NOTIFY_STATE_ENTERED("ROOT.Error");
                     rootState_subState = Error;
                     rootState_active = Error;
@@ -419,6 +447,9 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
                     {
                         NOTIFY_TRANSITION_STARTED("5");
                         NOTIFY_STATE_EXITED("ROOT.AlertDissemination");
+                        //#[ transition 5 
+                        notifyStakeholders();
+                        //#]
                         NOTIFY_STATE_ENTERED("ROOT.Completed");
                         rootState_subState = Completed;
                         rootState_active = Completed;
@@ -438,16 +469,40 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
         {
             if(IS_EVENT_TYPE_OF(evErrorResolution_DESIGN_SMSWTD_SYSTEM_id) == 1)
                 {
-                    NOTIFY_TRANSITION_STARTED("7");
-                    //#[ state Error.(Exit) 
-                    clearErrorState();
-                    //#]
-                    NOTIFY_STATE_EXITED("ROOT.Error");
-                    NOTIFY_STATE_ENTERED("ROOT.Idle");
-                    rootState_subState = Idle;
-                    rootState_active = Idle;
-                    NOTIFY_TRANSITION_TERMINATED("7");
-                    res = eventConsumed;
+                    //## transition 7 
+                    if(previousState == "AlertGenerated")
+                        {
+                            NOTIFY_TRANSITION_STARTED("7");
+                            //#[ state Error.(Exit) 
+                            clearErrorState();
+                            //#]
+                            NOTIFY_STATE_EXITED("ROOT.Error");
+                            NOTIFY_STATE_ENTERED("ROOT.AlertGenerated");
+                            rootState_subState = AlertGenerated;
+                            rootState_active = AlertGenerated;
+                            NOTIFY_TRANSITION_TERMINATED("7");
+                            res = eventConsumed;
+                        }
+                    else
+                        {
+                            //## transition 8 
+                            if(previousState == "AlertDissemination")
+                                {
+                                    NOTIFY_TRANSITION_STARTED("8");
+                                    //#[ state Error.(Exit) 
+                                    clearErrorState();
+                                    //#]
+                                    NOTIFY_STATE_EXITED("ROOT.Error");
+                                    NOTIFY_STATE_ENTERED("ROOT.AlertDissemination");
+                                    rootState_subState = AlertDissemination;
+                                    rootState_active = AlertDissemination;
+                                    //#[ state AlertDissemination.(Entry) 
+                                    disseminateAlerts();
+                                    //#]
+                                    NOTIFY_TRANSITION_TERMINATED("8");
+                                    res = eventConsumed;
+                                }
+                        }
                 }
             
         }
@@ -482,6 +537,7 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
 void OMAnimatedAlertManager::serializeAttributes(AOMSAttributes* aomsAttributes) const {
     aomsAttributes->addAttribute("alertPriority", x2String(myReal->alertPriority));
     aomsAttributes->addAttribute("validAlert", x2String(myReal->validAlert));
+    aomsAttributes->addAttribute("previousState", x2String(myReal->previousState));
 }
 
 void OMAnimatedAlertManager::serializeRelations(AOMSRelations* aomsRelations) const {

@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AlertManager
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Sat, 4, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\AlertManager.h
 *********************************************************************/
 
@@ -81,6 +81,9 @@ public :
     //## operation logError()
     virtual void logError(void);
     
+    //## operation notifyStakeholders()
+    virtual void notifyStakeholders(void);
+    
     //## operation resetForNextAlert()
     virtual void resetForNextAlert(void);
     
@@ -94,6 +97,12 @@ public :
     
     //## auto_generated
     void setAlertPriority(const RhpString p_alertPriority);
+    
+    //## auto_generated
+    const RhpString getPreviousState(void) const;
+    
+    //## auto_generated
+    void setPreviousState(const RhpString p_previousState);
     
     //## auto_generated
     const bool getValidAlert(void) const;
@@ -156,6 +165,8 @@ protected :
 private :
 
     RhpString alertPriority;		//## attribute alertPriority
+    
+    RhpString previousState;		//## attribute previousState
     
     bool validAlert;		//## attribute validAlert
     

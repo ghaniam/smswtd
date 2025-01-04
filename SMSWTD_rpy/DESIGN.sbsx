@@ -12,10 +12,10 @@
 			<_id type="a">GUID cd0a1cc2-cb39-4af2-8655-c43430065cae</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DESIGN</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::22:7:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::22:8:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:37:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:37:6</_modifiedTime>
 			<_lastID type="a">28</_lastID>
-			<weakCGTime type="a">1.1.2025::22:7:22</weakCGTime>
+			<weakCGTime type="a">1.4.2025::14:37:6</weakCGTime>
 			<strongCGTime type="a">1.1.2025::21:30:5</strongCGTime>
 			<_defaultComposite type="s">GUID 06c741ef-163c-4941-8367-a57580f4d0df</_defaultComposite>
 			<_eventsBaseID type="a">23401</_eventsBaseID>
@@ -462,8 +462,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2025::21:24:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::22:5:21</_modifiedTime>
-			<_lastModifiedTime type="a">1.1.2025::22:5:21</_lastModifiedTime>
+			<_modifiedTime type="a">1.4.2025::14:15:35</_modifiedTime>
+			<_lastModifiedTime type="a">1.4.2025::14:15:35</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -632,7 +632,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">6.38426 0 0 5.31061 20 10 </m_transform>
+			<m_transform type="a">6.38426 0 0 5.47727 20 10 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1463,7 +1463,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4136</m_drawBehavior>
-			<m_transform type="a">0.195467 0 0 0.413548 655.609 100.943 </m_transform>
+			<m_transform type="a">0.233238 0 0 0.412657 622.533 124.237 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1485,7 +1485,7 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=17%25,83%25&gt;
+			<frameset type="a">&lt;frameset rows=23%25,77%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -1521,9 +1521,16 @@
 							<_hid type="a">GUID 01600292-63be-4aa6-84ce-537ac0a98125</_hid>
 						</IHandle>
 					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hid type="a">GUID a1a4070b-36db-4d98-ba70-7f17e66e5cd4</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</Items>
-			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">3</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
@@ -1533,7 +1540,8 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">14</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">15</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
@@ -1577,7 +1585,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.104816 0 0 0.101604 384.79 498.572 </m_transform>
+			<m_transform type="a">0.104816 0 0 0.101604 355.79 498.572 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1772,7 +1780,7 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 156 696  442 696  </m_arrow>
+			<m_arrow type="a">2 156 696  413 696  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -1954,12 +1962,12 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 473 426  473 471  </m_arrow>
+			<m_arrow type="a">2 456 426  456 406  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">1061 919 </m_SourcePort>
-			<m_TargetPort type="a">2 895 </m_TargetPort>
+			<m_TargetPort type="a">2 682 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -2136,11 +2144,11 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">3 1000 644  1000 530  1137 530  </m_arrow>
+			<m_arrow type="a">3 1000 667  1000 530  1137 530  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 1313 </m_SourcePort>
+			<m_SourcePort type="a">1061 1315 </m_SourcePort>
 			<m_TargetPort type="a">612 329 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
@@ -2748,11 +2756,11 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 967 604  </m_arrow>
+			<m_arrow type="a">1 967 516  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 1216 </m_SourcePort>
+			<m_SourcePort type="a">1061 949 </m_SourcePort>
 			<m_TargetPort type="a">689 1451 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
@@ -2928,11 +2936,11 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 1149 604  </m_arrow>
+			<m_arrow type="a">1 1149 516  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 1216 </m_SourcePort>
+			<m_SourcePort type="a">1061 949 </m_SourcePort>
 			<m_TargetPort type="a">678 1451 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
@@ -3108,11 +3116,11 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 1323 602  </m_arrow>
+			<m_arrow type="a">1 1323 517  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 1212 </m_SourcePort>
+			<m_SourcePort type="a">1061 952 </m_SourcePort>
 			<m_TargetPort type="a">586 1451 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
@@ -3288,11 +3296,11 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">3 606 682  606 482  436 482  </m_arrow>
+			<m_arrow type="a">3 511 704  511 482  407 482  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">-3 1405 </m_SourcePort>
+			<m_SourcePort type="a">-2 1404 </m_SourcePort>
 			<m_TargetPort type="a">489 329 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
@@ -5588,17 +5596,21 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.1.2025::22:7:22</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::14:37:42</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 80168567-e80b-4315-8eac-eb609c1b2c35</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.1.2025::22:7:22</_modifiedTime>
-			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">1.1.2025::22:7:22</weakCGTime>
-			<strongCGTime type="a">12.30.2024::20:25:39</strongCGTime>
+			<_modifiedTime type="a">1.4.2025::14:37:42</_modifiedTime>
+			<_lastID type="a">15</_lastID>
+			<weakCGTime type="a">1.4.2025::14:37:42</weakCGTime>
+			<strongCGTime type="a">1.4.2025::13:13:34</strongCGTime>
+			<Ports type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Ports>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStateChart</_hm2Class>
@@ -5620,9 +5632,11 @@
 				<value>GUID fbea463e-8b02-4e8e-a1c5-8c9bc2ed2cc6</value>
 				<value>GUID fcdea375-8143-4c4f-8674-0d5626e505a3</value>
 				<value>GUID bb1b0ae2-0d6a-4725-8cf9-43bd5dc744c7</value>
-				<value>GUID 416bb77e-c6a8-4848-88fe-eec264fa420d</value>
+				<value>GUID 3cdde8b1-4350-4716-85f9-53cd99b48e6f</value>
+				<value>GUID c4785a44-bc8f-4284-9ea3-2ea6416e521d</value>
 				<value>GUID 0a340644-f177-4e7c-ab4a-ad4b539d56a3</value>
 				<value>GUID 01600292-63be-4aa6-84ce-537ac0a98125</value>
+				<value>GUID a1a4070b-36db-4d98-ba70-7f17e66e5cd4</value>
 				<value>GUID 2a277fc5-9436-4183-8921-c0bd9d00688d</value>
 				<value>GUID c32e1ab3-e788-4700-8099-e24096110ed2</value>
 				<value>GUID 82a6d51b-eac0-41b3-b37d-66fff8e20da5</value>
@@ -5666,12 +5680,12 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">generateAlerts</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::14:27:15</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">This operation generates alerts based on input parameters like system status or detected conditions.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">1.1.2025::18:14:0</_modifiedTime>
+			<_modifiedTime type="a">1.4.2025::14:27:15</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5692,10 +5706,10 @@
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - generate Alert\n&quot;;%0D
+				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - Initializing alert generation\n&quot;;%0D
 alertPriority = &quot;high&quot;;%0D
 %0D
-std::cout&lt;&lt;&quot;AlertManager - alert is generated\n&quot;;</_bodyData>
+</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -5733,12 +5747,12 @@ std::cout&lt;&lt;&quot;AlertManager - alert is generated\n&quot;;</_bodyData>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">disseminateAlerts</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::14:30:3</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">This operation disseminates the generated alerts to the specified channels. It returns true if the dissemination is successful and false if there are any failures.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">12.30.2024::20:16:2</_modifiedTime>
+			<_modifiedTime type="a">1.4.2025::14:30:3</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5759,16 +5773,14 @@ std::cout&lt;&lt;&quot;AlertManager - alert is generated\n&quot;;</_bodyData>
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - disseminateAlerts()\n&quot;;%0D
-alertPriority = &quot;high&quot;;%0D
-std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyData>
+				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - Initialization of alert dissemination\n&quot;;</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
 		<IReception type="e">
 			<_id type="a">GUID 584b533a-958a-49b8-a008-bcb894de905d</_id>
 			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -5785,7 +5797,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 		<IReception type="e">
 			<_id type="a">GUID ec1d41ee-9b37-4c9e-8280-ebebe8d2a447</_id>
 			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -5803,8 +5815,8 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID 86d8a46f-b173-4db3-96d6-da2e3d372b97</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">selectChannels</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:35:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:35:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:29:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:29:10</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5824,11 +5836,17 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_protection type="a">iPublic</_protection>
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - selecting dissemination channels\n&quot;;%0D
+%0D
+</_bodyData>
+			</IBody>
+			</_itsBody>
 		</IPrimitiveOperation>
 		<IReception type="e">
 			<_id type="a">GUID 3d1136e3-6b42-48cb-bdd8-45ea4d632dc9</_id>
 			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -5846,8 +5864,8 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID 20e8fcdb-7030-4c4c-bd98-ec6b0e4b75a1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">logError</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:44:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:44:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:32:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:32:12</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5867,11 +5885,15 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_protection type="a">iPublic</_protection>
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - logging error message and timestamp\n&quot;;</_bodyData>
+			</IBody>
+			</_itsBody>
 		</IPrimitiveOperation>
 		<IReception type="e">
 			<_id type="a">GUID d1531f3d-6ea7-494f-9d0f-7febe68b18fe</_id>
 			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -5888,7 +5910,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 		<IReception type="e">
 			<_id type="a">GUID f608321b-e31f-4a26-9f22-fdd564f696f4</_id>
 			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -5906,8 +5928,8 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID fbe5004b-04f1-496d-8dfa-7e60f3f64bbb</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">logCompletion</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:51:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:51:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:34:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:34:59</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5927,13 +5949,17 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_protection type="a">iPublic</_protection>
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - logged successful completion of an alert dissemination\n&quot;;</_bodyData>
+			</IBody>
+			</_itsBody>
 		</IPrimitiveOperation>
 		<IPrimitiveOperation type="e">
 			<_id type="a">GUID fbea463e-8b02-4e8e-a1c5-8c9bc2ed2cc6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">resetForNextAlert</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:55:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:55:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:36:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:36:15</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5953,11 +5979,15 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_protection type="a">iPublic</_protection>
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - reset the system for the next alert\n&quot;;</_bodyData>
+			</IBody>
+			</_itsBody>
 		</IPrimitiveOperation>
 		<IReception type="e">
 			<_id type="a">GUID fcdea375-8143-4c4f-8674-0d5626e505a3</_id>
 			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -5975,8 +6005,8 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID bb1b0ae2-0d6a-4725-8cf9-43bd5dc744c7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">clearErrorState</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::22:5:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::22:5:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:33:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:33:24</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -5996,9 +6026,13 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_protection type="a">iPublic</_protection>
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - Error state cleared and preparing for new operation\n&quot;;</_bodyData>
+			</IBody>
+			</_itsBody>
 		</IPrimitiveOperation>
 		<IReception type="e">
-			<_id type="a">GUID 416bb77e-c6a8-4848-88fe-eec264fa420d</_id>
+			<_id type="a">GUID 3cdde8b1-4350-4716-85f9-53cd99b48e6f</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
@@ -6014,6 +6048,36 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</IHandle>
 			</_event>
 		</IReception>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID c4785a44-bc8f-4284-9ea3-2ea6416e521d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">notifyStakeholders</_name>
+			<_modifiedTimeWeak type="a">1.4.2025::14:37:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:37:42</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">std::cout&lt;&lt;&quot;AlertManager - sent notification to stakeholders\n&quot;;</_bodyData>
+			</IBody>
+			</_itsBody>
+		</IPrimitiveOperation>
 		<IAttribute type="e">
 			<_id type="a">GUID 0a340644-f177-4e7c-ab4a-ad4b539d56a3</_id>
 			<_myState type="a">8192</_myState>
@@ -6031,7 +6095,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.30.2024::10:13:49</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
@@ -6064,7 +6128,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.2025::21:13:44</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
@@ -6089,22 +6153,55 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_modifiedTime type="a">1.1.2025::21:13:44</_modifiedTime>
 			<_value type="a">true</_value>
 		</ILiteralSpecification>
+		<IAttribute type="e">
+			<_id type="a">GUID a1a4070b-36db-4d98-ba70-7f17e66e5cd4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">previousState</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.4.2025::13:24:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:24:58</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
 		<IStateChart type="e">
 			<_id type="a">GUID 2a277fc5-9436-4183-8921-c0bd9d00688d</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_4</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::22:7:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::22:7:22</_modifiedTime>
-			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">1.1.2025::22:7:22</weakCGTime>
-			<strongCGTime type="a">12.30.2024::20:25:39</strongCGTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:21:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:21:44</_modifiedTime>
+			<_lastID type="a">14</_lastID>
+			<weakCGTime type="a">1.4.2025::14:21:44</weakCGTime>
+			<strongCGTime type="a">1.4.2025::13:13:34</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">5</_defNumber>
-			<_version type="a">1.1.2025::23:7:22</_version>
+			<_version type="a">1.4.2025::15:21:44</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID c9521c4c-e05d-431d-9ff5-2b0fe5307e90</_diagram>
 			<AggregatesList type="e">
@@ -6115,7 +6212,8 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				<value>GUID 18b1aed7-1889-470e-a179-6c7d855719ee</value>
 				<value>GUID f9d5803e-1b7c-403a-a0b3-b26bb3b44eaa</value>
 				<value>GUID 0926ea9d-84ef-46d9-b021-ad6b3d484150</value>
-				<value>GUID a7eee1a0-f8b8-470b-9d1e-a5487666d8db</value>
+				<value>GUID bd93fc13-f034-4084-8f65-ddc503827b6b</value>
+				<value>GUID 5583e759-6d54-4fb2-8657-98b8dd31f0f5</value>
 				<value>GUID b50272d4-85a7-4488-8fcd-a0d343b0950e</value>
 				<value>GUID 2da462a5-d849-492b-8f1f-c84887001955</value>
 				<value>GUID 8d28ccd8-5a56-428b-b841-11a3c95dd35e</value>
@@ -6239,8 +6337,8 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID 6f117fb2-5fe7-4713-b1bd-491c9f1c356a</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_6</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:40:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:40:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::13:27:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:27:49</_modifiedTime>
 			<_itsTarget type="s">GUID d1a5272b-b824-4403-a5d3-3beedf66d914</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 8d28ccd8-5a56-428b-b841-11a3c95dd35e</_itsSource>
@@ -6250,12 +6348,12 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 63b346a4-fb9c-4c04-8397-fee27d89ed12</_id>
-			<_modifiedTimeWeak type="a">1.1.2025::21:40:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:40:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::13:27:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:27:49</_modifiedTime>
 			<_itsGuard>NULL</_itsGuard>
-			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
 				<value>GUID a24808c0-cf51-4003-a67f-a833225b7690</value>
+				<value>GUID 04c7783c-b8c9-4d44-9016-6ea6935f39f7</value>
 			</AggregatesList>
 		</ILabel>
 		<IInterfaceItemTrigger type="e">
@@ -6270,12 +6368,18 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</IHandle>
 			</_itsInterfaceItem>
 		</IInterfaceItemTrigger>
+		<IAction type="e">
+			<_id type="a">GUID 04c7783c-b8c9-4d44-9016-6ea6935f39f7</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">previousState = &quot;AlertGenerated&quot;</_body>
+		</IAction>
 		<ITransition type="e">
 			<_id type="a">GUID 18b1aed7-1889-470e-a179-6c7d855719ee</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_7</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:47:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:47:20</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::13:28:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:28:52</_modifiedTime>
 			<_itsTarget type="s">GUID d1a5272b-b824-4403-a5d3-3beedf66d914</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 1ee10d56-4d8e-47f0-81ff-4d65d477ee46</_itsSource>
@@ -6285,12 +6389,12 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID fa791fff-3ccf-42b0-be36-1a9dc7c4546c</_id>
-			<_modifiedTimeWeak type="a">1.1.2025::21:47:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:47:20</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::13:28:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:28:52</_modifiedTime>
 			<_itsGuard>NULL</_itsGuard>
-			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
 				<value>GUID 4c27515f-4e49-4fa3-b1f6-8a842608824e</value>
+				<value>GUID deea59a8-3ba5-44ed-a44e-5692f01f770b</value>
 			</AggregatesList>
 		</ILabel>
 		<IInterfaceItemTrigger type="e">
@@ -6305,12 +6409,18 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</IHandle>
 			</_itsInterfaceItem>
 		</IInterfaceItemTrigger>
+		<IAction type="e">
+			<_id type="a">GUID deea59a8-3ba5-44ed-a44e-5692f01f770b</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">previousState = &quot;AlertDissemination&quot;</_body>
+		</IAction>
 		<ITransition type="e">
 			<_id type="a">GUID f9d5803e-1b7c-403a-a0b3-b26bb3b44eaa</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_8</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:49:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:49:32</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:21:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:21:44</_modifiedTime>
 			<_itsTarget type="s">GUID 5c5a83a5-fb36-47cc-9cff-5daf7103cbc5</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 1ee10d56-4d8e-47f0-81ff-4d65d477ee46</_itsSource>
@@ -6320,12 +6430,12 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 5a85f70e-109a-4bd9-b413-97c969dff7ed</_id>
-			<_modifiedTimeWeak type="a">1.1.2025::21:49:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:49:32</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:21:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:21:44</_modifiedTime>
 			<_itsGuard>NULL</_itsGuard>
-			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
 				<value>GUID 462efe90-d0b6-46ff-8e12-b52cdd2005d0</value>
+				<value>GUID e03e9071-c565-433c-9b6b-19aa6fa9d918</value>
 			</AggregatesList>
 		</ILabel>
 		<IInterfaceItemTrigger type="e">
@@ -6340,6 +6450,12 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</IHandle>
 			</_itsInterfaceItem>
 		</IInterfaceItemTrigger>
+		<IAction type="e">
+			<_id type="a">GUID e03e9071-c565-433c-9b6b-19aa6fa9d918</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">notifyStakeholders()</_body>
+		</IAction>
 		<ITransition type="e">
 			<_id type="a">GUID 0926ea9d-84ef-46d9-b021-ad6b3d484150</_id>
 			<_myState type="a">2048</_myState>
@@ -6376,30 +6492,30 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			</_itsInterfaceItem>
 		</IInterfaceItemTrigger>
 		<ITransition type="e">
-			<_id type="a">GUID a7eee1a0-f8b8-470b-9d1e-a5487666d8db</_id>
+			<_id type="a">GUID bd93fc13-f034-4084-8f65-ddc503827b6b</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">transition_10</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::22:7:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::22:7:22</_modifiedTime>
-			<_itsTarget type="s">GUID 2da462a5-d849-492b-8f1f-c84887001955</_itsTarget>
+			<_name type="a">transition_12</_name>
+			<_modifiedTimeWeak type="a">1.4.2025::14:2:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:2:38</_modifiedTime>
+			<_itsTarget type="s">GUID 8d28ccd8-5a56-428b-b841-11a3c95dd35e</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID d1a5272b-b824-4403-a5d3-3beedf66d914</_itsSource>
 			<AggregatesList type="e">
-				<value>GUID 684f1adc-af99-42c3-80ad-3c5fb7f8a733</value>
+				<value>GUID d852b146-9200-4284-8bef-dd4e4f7817ea</value>
 			</AggregatesList>
 		</ITransition>
 		<ILabel type="e">
-			<_id type="a">GUID 684f1adc-af99-42c3-80ad-3c5fb7f8a733</_id>
-			<_modifiedTimeWeak type="a">1.1.2025::22:7:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::22:7:22</_modifiedTime>
-			<_itsGuard>NULL</_itsGuard>
+			<_id type="a">GUID d852b146-9200-4284-8bef-dd4e4f7817ea</_id>
+			<_modifiedTimeWeak type="a">1.4.2025::14:2:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:2:38</_modifiedTime>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
-				<value>GUID 0728b4a8-fa08-4348-aaf2-0354b075a536</value>
+				<value>GUID 37117c08-75d7-4dd0-9349-1829dcd26673</value>
+				<value>GUID c69d17c4-8c27-4942-95f2-e348c330a3fb</value>
 			</AggregatesList>
 		</ILabel>
 		<IInterfaceItemTrigger type="e">
-			<_id type="a">GUID 0728b4a8-fa08-4348-aaf2-0354b075a536</_id>
+			<_id type="a">GUID 37117c08-75d7-4dd0-9349-1829dcd26673</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<_body type="a">evErrorResolution</_body>
@@ -6410,6 +6526,53 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</IHandle>
 			</_itsInterfaceItem>
 		</IInterfaceItemTrigger>
+		<IGuard type="e">
+			<_id type="a">GUID c69d17c4-8c27-4942-95f2-e348c330a3fb</_id>
+			<_modifiedTimeWeak type="a">1.4.2025::13:55:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:55:47</_modifiedTime>
+			<_body type="a">previousState == &quot;AlertGenerated&quot;</_body>
+		</IGuard>
+		<ITransition type="e">
+			<_id type="a">GUID 5583e759-6d54-4fb2-8657-98b8dd31f0f5</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">transition_13</_name>
+			<_modifiedTimeWeak type="a">1.4.2025::14:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:3:16</_modifiedTime>
+			<_itsTarget type="s">GUID 1ee10d56-4d8e-47f0-81ff-4d65d477ee46</_itsTarget>
+			<_staticReaction type="a">0</_staticReaction>
+			<_itsSource type="s">GUID d1a5272b-b824-4403-a5d3-3beedf66d914</_itsSource>
+			<AggregatesList type="e">
+				<value>GUID 03cf3f91-d30d-4689-b128-56c7929412fb</value>
+			</AggregatesList>
+		</ITransition>
+		<ILabel type="e">
+			<_id type="a">GUID 03cf3f91-d30d-4689-b128-56c7929412fb</_id>
+			<_modifiedTimeWeak type="a">1.4.2025::14:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::14:3:16</_modifiedTime>
+			<_itsAction>NULL</_itsAction>
+			<AggregatesList type="e">
+				<value>GUID 5ca92731-fe17-4cb1-87e9-7d6b79498193</value>
+				<value>GUID 849fd501-6b46-4068-bef4-4d8830f12771</value>
+			</AggregatesList>
+		</ILabel>
+		<IInterfaceItemTrigger type="e">
+			<_id type="a">GUID 5ca92731-fe17-4cb1-87e9-7d6b79498193</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">evErrorResolution</_body>
+			<_itsInterfaceItem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 48622480-3f24-440d-833e-7566d533e619</_hid>
+				</IHandle>
+			</_itsInterfaceItem>
+		</IInterfaceItemTrigger>
+		<IGuard type="e">
+			<_id type="a">GUID 849fd501-6b46-4068-bef4-4d8830f12771</_id>
+			<_modifiedTimeWeak type="a">1.4.2025::13:55:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:55:54</_modifiedTime>
+			<_body type="a">previousState == &quot;AlertDissemination&quot;</_body>
+		</IGuard>
 		<IState type="e">
 			<_id type="a">GUID b50272d4-85a7-4488-8fcd-a0d343b0950e</_id>
 			<_modifiedTimeWeak type="a">12.30.2024::21:8:44</_modifiedTimeWeak>
@@ -6420,24 +6583,24 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 		<IState type="e">
 			<_id type="a">GUID 2da462a5-d849-492b-8f1f-c84887001955</_id>
 			<_name type="a">Idle</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::22:7:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::22:7:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::13:31:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:31:19</_modifiedTime>
 			<_parent type="s">GUID b50272d4-85a7-4488-8fcd-a0d343b0950e</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 8d28ccd8-5a56-428b-b841-11a3c95dd35e</_id>
 			<_name type="a">AlertGenerated</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:40:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:40:24</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::13:32:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:32:22</_modifiedTime>
 			<_parent type="s">GUID b50272d4-85a7-4488-8fcd-a0d343b0950e</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 1ee10d56-4d8e-47f0-81ff-4d65d477ee46</_id>
 			<_name type="a">AlertDissemination</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:49:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:49:18</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::13:35:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:35:26</_modifiedTime>
 			<_parent type="s">GUID b50272d4-85a7-4488-8fcd-a0d343b0950e</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
@@ -6452,15 +6615,15 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 		<IState type="e">
 			<_id type="a">GUID d1a5272b-b824-4403-a5d3-3beedf66d914</_id>
 			<_name type="a">Error</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::22:7:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::22:7:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::13:45:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:45:36</_modifiedTime>
 			<_parent type="s">GUID b50272d4-85a7-4488-8fcd-a0d343b0950e</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 			<_entryAction type="p"><IAction type="e">
 				<_id type="a">GUID aabdb87a-ec68-45b8-a8d1-023a610efdb3</_id>
 				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.4.2025::13:45:36</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.4.2025::13:45:36</_modifiedTime>
 				<_body type="a">logError()</_body>
 			</IAction>
 			</_entryAction>
@@ -6640,9 +6803,9 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::22:5:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::22:7:9</_modifiedTime>
-			<_lastModifiedTime type="a">1.1.2025::22:7:22</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.4.2025::14:21:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.4.2025::13:36:55</_modifiedTime>
+			<_lastModifiedTime type="a">1.4.2025::14:21:44</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -6679,7 +6842,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<elementList type="a">15</elementList>
+			<elementList type="a">16</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -6710,7 +6873,8 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				<value>GUID 9564e47d-8efe-43d6-bfe0-06e60b455b76</value>
 				<value>GUID 50bd546f-ea0b-4567-9192-280aa989d656</value>
 				<value>GUID 2401bf45-42de-4386-b5f5-ed69744db515</value>
-				<value>GUID efb4a7dd-2a69-4748-951e-462d63d91dbd</value>
+				<value>GUID 0323621b-e991-4f00-a362-3d09ce9f1d20</value>
+				<value>GUID 10d4928c-443a-4886-8208-533fc8fa733b</value>
 			</AggregatesList>
 		</CGIStateChart>
 		<CGIState type="e">
@@ -6795,7 +6959,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">5.29167 0 0 3.63636 20 20 </m_transform>
+			<m_transform type="a">5.46296 0 0 3.63636 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -6880,7 +7044,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.0875912 0 0 0.0566038 159 131 </m_transform>
+			<m_transform type="a">0.0875912 0 0 0.0566038 121 131 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -6959,7 +7123,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 198 63  </m_arrow>
+			<m_arrow type="a">1 160 63  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -7000,7 +7164,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.107664 0 0 0.0566038 643 131 </m_transform>
+			<m_transform type="a">0.107664 0 0 0.0566038 674 131 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -7109,7 +7273,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.166971 0 0 0.0886793 970 242 </m_transform>
+			<m_transform type="a">0.166971 0 0 0.0886793 1007 242 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -7158,6 +7322,34 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">State</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Underline</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
@@ -7232,7 +7424,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.135036 0 0 0.112264 483 290 </m_transform>
+			<m_transform type="a">0.247263 0 0 0.112264 299 290 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -7356,7 +7548,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.135036 0 0 0.0952831 121 380 </m_transform>
+			<m_transform type="a">0.135036 0 0 0.0952831 69 379 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -7451,7 +7643,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 218 58  699 58  </m_arrow>
+			<m_arrow type="a">2 180 58  730 58  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -7508,16 +7700,16 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -84 -8  202 -8  202 8  -84 8  </m_position>
+					<m_position type="a">4 -8 -11  278 -11  278 5  -8 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 938 151 </m_transform>
-					<m_nHorizontalSpacing type="a">-55</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-5</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 825 151 </m_transform>
+					<m_nHorizontalSpacing type="a">-127</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-8</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 979 163  </m_arrow>
+			<m_arrow type="a">1 1016 163  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -7565,7 +7757,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">evAlertGenerationFailure</m_str>
+					<m_str type="a">evAlertGenerationFailure/previousState = &quot;AlertGenerated&quot;</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -7574,21 +7766,21 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -76 -8  88 -8  88 8  -76 8  </m_position>
+					<m_position type="a">4 -8 -11  365 -11  365 5  -8 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 622 226 </m_transform>
-					<m_nHorizontalSpacing type="a">-86</m_nHorizontalSpacing>
+					<m_transform type="a">1 0 0 1 355 229 </m_transform>
+					<m_nHorizontalSpacing type="a">-195</m_nHorizontalSpacing>
 					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 712 240  556 240  </m_arrow>
+			<m_arrow type="a">2 743 240  341 240  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">641 1060 </m_SourcePort>
-			<m_TargetPort type="a">541 0 </m_TargetPort>
+			<m_TargetPort type="a">170 0 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -7631,7 +7823,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">evAlertDisseminationFailure</m_str>
+					<m_str type="a">evAlertDisseminationFailure/previousState = &quot;AlertDissemination&quot;</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -7640,17 +7832,20 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -8 -11  400 -11  400 5  -8 5  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 606 342 </m_transform>
+					<m_nHorizontalSpacing type="a">-209</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 800 318  800 353  </m_arrow>
+			<m_arrow type="a">1 1025 353  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">0 857 </m_SourcePort>
+			<m_SourcePort type="a">108 1060 </m_SourcePort>
 			<m_TargetPort type="a">1096 561 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -7694,7 +7889,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">evAlertDisseminationComplete</m_str>
+					<m_str type="a">evAlertDisseminationComplete/notifyStakeholders()</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -7709,7 +7904,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 1050 438  </m_arrow>
+			<m_arrow type="a">1 1087 437  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -7772,6 +7967,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
+			<m_arrow type="a">2 144 284  158 284  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -7785,12 +7981,41 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<m_bShowName type="a">1</m_bShowName>
 		</CGITrans>
 		<CGITrans type="e">
-			<_id type="a">GUID efb4a7dd-2a69-4748-951e-462d63d91dbd</_id>
+			<_id type="a">GUID 0323621b-e991-4f00-a362-3d09ce9f1d20</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Transition</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Font.Underline</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">28</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">ITransition</_hm2Class>
-					<_hid type="a">GUID a7eee1a0-f8b8-470b-9d1e-a5487666d8db</_hid>
+					<_hid type="a">GUID bd93fc13-f034-4084-8f65-ddc503827b6b</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -7814,12 +8039,12 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID ef9fab8e-802a-47af-b405-64d92ed4f118</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 279dec0a-985c-4d1d-8da8-a1616807e6cc</m_pTarget>
+			<m_pTarget type="s">GUID b74db508-4667-4b50-a191-3c7717af8292</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">evErrorResolution</m_str>
+					<m_str type="a">evErrorResolution[previousState == &quot;AlertGenerated&quot;]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -7834,12 +8059,78 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 369 353  369 163  </m_arrow>
+			<m_arrow type="a">2 249 369  249 166  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">0 561 </m_SourcePort>
-			<m_TargetPort type="a">1096 565 </m_TargetPort>
+			<m_SourcePort type="a">0 704 </m_SourcePort>
+			<m_TargetPort type="a">0 618 </m_TargetPort>
+			<m_pInheritsFrom type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pInheritsFrom>
+			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
+			<m_bShowName type="a">1</m_bShowName>
+		</CGITrans>
+		<CGITrans type="e">
+			<_id type="a">GUID 10d4928c-443a-4886-8208-533fc8fa733b</_id>
+			<m_type type="a">28</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITransition</_hm2Class>
+					<_hid type="a">GUID 5583e759-6d54-4fb2-8657-98b8dd31f0f5</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID ef9fab8e-802a-47af-b405-64d92ed4f118</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID fff819b5-27fb-4de9-967f-7a483cfb3c2f</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">evErrorResolution[previousState == &quot;AlertDissemination&quot;]</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">4 -8 -11  359 -11  359 5  -8 5  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 591 263 </m_transform>
+					<m_nHorizontalSpacing type="a">-105</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-6</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">1 382 273  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">336 0 </m_SourcePort>
+			<m_TargetPort type="a">0 350 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -7851,7 +8142,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID c32e1ab3-e788-4700-8099-e24096110ed2</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsSMSWTDSystemController</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.29.2024::18:43:44</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -7873,7 +8164,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID 82a6d51b-eac0-41b3-b37d-66fff8e20da5</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsGovernmentChannels</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.30.2024::10:36:4</_modifiedTime>
 			<_multiplicity type="a">*</_multiplicity>
 			<_otherClass type="r">
@@ -7895,7 +8186,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID 479f21b8-6672-4a6d-8640-70665ca88519</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsSMSModule</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.30.2024::10:49:52</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -7913,7 +8204,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID 85a4d98d-6619-472a-8099-5316781705aa</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsPushNotificationModule</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.30.2024::10:50:17</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -7931,7 +8222,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID 5e1628d8-bfbb-442a-9cca-2f7f5660e75c</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsSocialMediaModule</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.30.2024::10:50:48</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -7949,7 +8240,7 @@ std::cout&lt;&lt;&quot;AlertManager - the alert is transmitted\n&quot;;</_bodyDa
 			<_id type="a">GUID 07ec0923-e7e1-45dc-ba93-5076452e2bf9</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsUserInterface</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::21:30:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.4.2025::13:13:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.30.2024::11:0:0</_modifiedTime>
 			<_multiplicity type="a">1..*</_multiplicity>
 			<_otherClass type="r">
