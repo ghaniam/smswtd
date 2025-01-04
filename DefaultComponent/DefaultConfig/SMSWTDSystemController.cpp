@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SMSWTDSystemController
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Sat, 4, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SMSWTDSystemController.cpp
 *********************************************************************/
 
@@ -112,6 +112,7 @@ const bool SMSWTDSystemController::getSystemStatus(void) const {
 
 void SMSWTDSystemController::setSystemStatus(const bool p_systemStatus) {
     systemStatus = p_systemStatus;
+    NOTIFY_SET_OPERATION;
 }
 
 const AlertManager* SMSWTDSystemController::getItsAlertManager(void) const {

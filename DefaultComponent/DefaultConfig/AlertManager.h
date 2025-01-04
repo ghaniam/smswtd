@@ -11,6 +11,8 @@
 #ifndef AlertManager_H
 #define AlertManager_H
 
+//## dependency ctime
+#include <ctime>
 //## auto_generated
 #include <oxf.h>
 //## auto_generated
@@ -215,6 +217,44 @@ public :
     //## auto_generated
     void _clearItsUserInterface(void);
     
+    ////    Framework    ////
+    
+    //## auto_generated
+    const int getAlertLevel(void) const;
+    
+    //## auto_generated
+    void setAlertLevel(const int p_alertLevel);
+    
+    //## auto_generated
+    const OMString getAlertMessage(void) const;
+    
+    //## auto_generated
+    void setAlertMessage(const OMString p_alertMessage);
+    
+    //## auto_generated
+    const OMString getAlertType(void) const;
+    
+    //## auto_generated
+    void setAlertType(const OMString p_alertType);
+    
+    //## auto_generated
+    const OMString getMessage(void) const;
+    
+    //## auto_generated
+    void setMessage(const OMString p_message);
+
+private :
+
+    int alertLevel;		//## attribute alertLevel
+    
+    OMString alertMessage;		//## attribute alertMessage
+    
+    OMString alertType;		//## attribute alertType
+    
+    OMString message;		//## attribute message
+
+public :
+
     // rootState:
     //## statechart_method
     inline RhpBoolean rootState_IN(void) const;
@@ -246,8 +286,6 @@ protected :
     
     //## statechart_method
     virtual IOxfReactive::TakeEventStatus rootState_processEvent(void);
-    
-    ////    Framework    ////
     
 //#[ ignore
     enum AlertManager_Enum {
