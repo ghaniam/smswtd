@@ -32,6 +32,7 @@
 				<value>GUID 4b7d01ed-1d7d-498d-831b-7d2bcc7963d1</value>
 				<value>GUID 863efb23-a9b8-4a6e-a6d1-1e30204c4d54</value>
 				<value>GUID 280379ac-b696-49fa-b085-a47ceac1a268</value>
+				<value>GUID 01cc46c1-ee6a-446f-9cc0-c94791b47a8e</value>
 				<value>GUID 257b72f0-6f80-4820-b3bd-40e3ac0b04ce</value>
 				<value>GUID 23e7c369-7e05-473e-be17-8eab2e4242de</value>
 			</AggregatesList>
@@ -1872,6 +1873,46 @@
 			<m_SourcePort type="a">608 0 </m_SourcePort>
 			<m_TargetPort type="a">608 1151 </m_TargetPort>
 		</CGIContainArrow>
+		<IStereotype type="e">
+			<_id type="a">GUID 01cc46c1-ee6a-446f-9cc0-c94791b47a8e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">MissedRequirement</_name>
+			<_modifiedTimeWeak type="a">12.20.2024::19:47:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.20.2024::19:47:47</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</_m2Classes>
+			<AggregatesList type="e">
+				<value>GUID 00b353a0-cf31-4172-b122-e78796d0c9ed</value>
+			</AggregatesList>
+		</IStereotype>
+		<ITag type="e">
+			<_id type="a">GUID 00b353a0-cf31-4172-b122-e78796d0c9ed</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Missed</_name>
+			<_modifiedTimeWeak type="a">12.20.2024::19:47:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.20.2024::19:47:47</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpBoolean</_hname>
+					<_hid type="a">GUID f19b56f2-78ab-44fa-860e-6ead487ecb07</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID c001a7bd-0d52-44d0-a221-ddd4319983dd</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID c001a7bd-0d52-44d0-a221-ddd4319983dd</_id>
+			<_modifiedTimeWeak type="a">12.20.2024::19:47:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.20.2024::19:47:47</_modifiedTime>
+			<_value type="a">True</_value>
+		</ILiteralSpecification>
 		<IClass type="e">
 			<_id type="a">GUID 257b72f0-6f80-4820-b3bd-40e3ac0b04ce</_id>
 			<_myState type="a">40960</_myState>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 93091c96-3b1b-4055-9a8e-37b4cac943ae</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DC_FUNCTIONAL</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::15:23:27</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\DATA_COLLECTION.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS::FUNCTIONAL::DATA_COLLECTION</_hsubsystem>
+					<_hname type="a">FR_DC_PKG</_hname>
+					<_hid type="a">GUID 55c0a426-57d0-4fcd-a7e1-e1b12cf7d94f</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">1.7.2025::15:23:27</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">1.7.2025::15:23:27</weakCGTime>
+			<strongCGTime type="a">12.20.2024::19:11:13</strongCGTime>
+			<_defaultComposite type="s">GUID 2e5d1694-1ecb-4cde-8c29-98d1483df6f4</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 0eb6a23e-25e6-49cc-8e6a-680b49c7a901</value>
+				<value>GUID 2e5d1694-1ecb-4cde-8c29-98d1483df6f4</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 0eb6a23e-25e6-49cc-8e6a-680b49c7a901</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FR_DC_SMSWTD</_name>
+			<_displayName type="a">FR_DC_SMSWTD</_displayName>
+			<_modifiedTimeWeak type="a">1.7.2025::15:18:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::15:18:24</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall be capable to collect environmental data.\par%0D
+}%0D
+</_body>
+			<reqID type="a">100</reqID>
+			<AggregatesList type="e">
+				<value>GUID dbd75bec-77b5-4b24-b21f-2e14589ef391</value>
+				<value>GUID 76c2bea3-d517-4971-b2e3-964307e6a007</value>
+				<value>GUID 2e58f594-6bb4-45c1-bcf4-56cc884244a8</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID dbd75bec-77b5-4b24-b21f-2e14589ef391</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GetStormData</_name>
+			<_displayName type="a">GetStormData</_displayName>
+			<_modifiedTimeWeak type="a">1.7.2025::13:57:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::13:57:7</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall retrieve storm data from different sensors.\par%0D
+}%0D
+</_body>
+			<reqID type="a">110</reqID>
+			<AggregatesList type="e">
+				<value>GUID 2467e75e-0b41-4948-880f-89402a9950d1</value>
+				<value>GUID adbbb3a8-cc20-4586-a49a-10c2c21264e6</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 2467e75e-0b41-4948-880f-89402a9950d1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GetAircraftData</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::13:56:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::13:56:59</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall retrieve storm data (wind speed, direction, precipitation type, and precipitation amount) from aircraft-based sensors.\par%0D
+}%0D
+</_body>
+			<reqID type="a">111</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID adbbb3a8-cc20-4586-a49a-10c2c21264e6</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">ClassDiagram</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">TreeContainmentStyle</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">GetSateliteData</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::13:57:7</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">%0D
+</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">1.7.2025::13:57:7</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall retrieve storm data (wind speed, direction, precipitation type, and precipitation amount) from satelite imagery.\par%0D
+}%0D
+</_body>
+			<reqID type="a">112</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 76c2bea3-d517-4971-b2e3-964307e6a007</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GetTsunamiData</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::13:57:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::13:57:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall retrieve tsunami data from different sensors.\par%0D
+}%0D
+</_body>
+			<reqID type="a">121</reqID>
+			<AggregatesList type="e">
+				<value>GUID 1e8982b3-585b-427c-915d-7a5c3e6b0737</value>
+				<value>GUID 27c93ed2-a048-42c5-9018-0818ab405c33</value>
+				<value>GUID 9cb9ec4b-4373-4028-a9aa-f1e3c8a0873a</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 1e8982b3-585b-427c-915d-7a5c3e6b0737</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GetOceanFlowDirectionData</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::13:57:20</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">%0D
+</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">1.7.2025::13:57:20</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall retrieve water flow direction data of the ocean from the flow direction detectors.\par%0D
+}%0D
+</_body>
+			<reqID type="a">122</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 27c93ed2-a048-42c5-9018-0818ab405c33</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GetOceanSeismicData</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::13:57:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::13:57:26</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall retrieve tectonic shifts and vibrations data of the ocean from the underwater seismic sensors.\par%0D
+}%0D
+</_body>
+			<reqID type="a">123</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 9cb9ec4b-4373-4028-a9aa-f1e3c8a0873a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GetOceanWaterPressureData</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::13:57:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::13:57:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall retrieve water pressure data of the ocean from the specialized pressure sensors.\par%0D
+}%0D
+</_body>
+			<reqID type="a">124</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 2e58f594-6bb4-45c1-bcf4-56cc884244a8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">StoreEnvironmentalUpdates</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::15:10:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::15:10:33</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall store environmental updates in a data storage so it can be used by the system for other functionality.\par%0D
+}%0D
+</_body>
+			<reqID type="a">130</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 2e5d1694-1ecb-4cde-8c29-98d1483df6f4</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
