@@ -1,3 +1,10 @@
 [Op Calls]
 [Events]
+AlertManager[0]->GEN(evAlertGenerationComplete())`AlertManager
+AlertManager[0]->GEN(evDisasterDetection())`AlertManager
+AlertManager[0]->GEN(evReset())`AlertManager
+AlertManager[0]->GEN(evAlertDisseminationComplete())`AlertManager
+AlertManager[0]->GEN(evErrorResolution())`AlertManager
+AlertManager[0]->GEN(evAlertDisseminationFailure())`AlertManager
+AlertManager[0]->GEN(evAlertGenerationFailure())`AlertManager
 [Breakpoints]
