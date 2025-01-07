@@ -12,10 +12,10 @@
 			<_id type="a">GUID dbc960f5-8357-4125-8a42-94130ccfbc85</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SERVICES_UCS</_name>
-			<_modifiedTimeWeak type="a">1.1.2025::19:39:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::19:39:41</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.7.2025::16:22:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::19:35:31</_modifiedTime>
 			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">1.1.2025::19:39:41</weakCGTime>
+			<weakCGTime type="a">1.7.2025::16:22:44</weakCGTime>
 			<strongCGTime type="a">12.19.2024::8:17:34</strongCGTime>
 			<_defaultComposite type="s">GUID bd0eb565-80a3-42b3-aedc-2e7bf0f94c78</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -23,6 +23,8 @@
 			<AggregatesList type="e">
 				<value>GUID dcbe0100-36d2-4ed6-9dfb-6455f0830be6</value>
 				<value>GUID 1306aa0e-12fb-47d1-957b-67cbfcee8e88</value>
+				<value>GUID 5919121b-dda7-48cd-9641-52e0936798ea</value>
+				<value>GUID 5e3e37a8-f10f-4376-a75a-ea81857b74b9</value>
 				<value>GUID bd0eb565-80a3-42b3-aedc-2e7bf0f94c78</value>
 				<value>GUID 426bc13f-e32d-4b4b-8ace-2bc6830a58eb</value>
 				<value>GUID 1d2b46d8-13a4-4052-974f-f1aa8acffef6</value>
@@ -6363,13 +6365,104 @@
 			</m_targetQualifier>
 			<m_specificType type="a">symmetric_type</m_specificType>
 		</CGIAssociationEnd>
+		<IFile type="e">
+			<_id type="a">GUID 5919121b-dda7-48cd-9641-52e0936798ea</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">SERVICES_UCS</_name>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">1.7.2025::16:22:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::16:22:44</_modifiedTime>
+			<m_type type="a">specFile</m_type>
+			<AggregatesList type="e">
+				<value>GUID 19fa3bbf-3f06-4623-9605-a388d3f3f54c</value>
+				<value>GUID e865165f-03fc-447d-a10e-def2185d4cd0</value>
+			</AggregatesList>
+		</IFile>
+		<IFileFragment type="e">
+			<_id type="a">GUID 19fa3bbf-3f06-4623-9605-a388d3f3f54c</_id>
+			<_name type="a">oxf:spec</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::16:22:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::16:22:43</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency oxf:spec</m_text>
+			<m_startRow type="a">15</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">15</m_endRow>
+			<m_endCol_Short type="a">17</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFileFragment type="e">
+			<_id type="a">GUID e865165f-03fc-447d-a10e-def2185d4cd0</_id>
+			<_name type="a">aom:spec</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::16:22:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::16:22:43</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency aom:spec</m_text>
+			<m_startRow type="a">17</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">17</m_endRow>
+			<m_endCol_Short type="a">17</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
+		<IFile type="e">
+			<_id type="a">GUID 5e3e37a8-f10f-4376-a75a-ea81857b74b9</_id>
+			<_myState type="a">139264</_myState>
+			<_name type="a">SERVICES_UCS</_name>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">1.7.2025::16:22:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::16:22:44</_modifiedTime>
+			<m_type type="a">implFile</m_type>
+			<AggregatesList type="e">
+				<value>GUID 3a91a090-19dc-489e-8f6f-a1e6615d46a1</value>
+			</AggregatesList>
+		</IFile>
+		<IFileFragment type="e">
+			<_id type="a">GUID 3a91a090-19dc-489e-8f6f-a1e6615d46a1</_id>
+			<_name type="a">SERVICES_UCS:spec</_name>
+			<_modifiedTimeWeak type="a">1.7.2025::16:22:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::16:22:43</_modifiedTime>
+			<m_type type="a">textFragment</m_type>
+			<m_text type="a">//## auto:dependency SERVICES_UCS:spec</m_text>
+			<m_startRow type="a">16</m_startRow>
+			<m_startCol_Short type="a">1</m_startCol_Short>
+			<m_endRow type="a">16</m_endRow>
+			<m_endCol_Short type="a">26</m_endCol_Short>
+			<m_subject type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</m_subject>
+			<Fragments type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Fragments>
+		</IFileFragment>
 		<IClass type="e">
 			<_id type="a">GUID bd0eb565-80a3-42b3-aedc-2e7bf0f94c78</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">12.19.2024::8:17:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">12.19.2024::8:17:34</weakCGTime>
+			<_modifiedTimeWeak type="a">1.7.2025::16:22:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::16:22:44</_modifiedTime>
+			<weakCGTime type="a">1.7.2025::16:22:44</weakCGTime>
 			<strongCGTime type="a">12.19.2024::8:17:34</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -6464,10 +6557,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Diagrams>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -7074,10 +7163,6 @@
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
@@ -7131,10 +7216,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>

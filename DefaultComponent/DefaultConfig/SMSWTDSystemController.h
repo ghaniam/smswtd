@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SMSWTDSystemController
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Tue, 7, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SMSWTDSystemController.h
 *********************************************************************/
 
@@ -206,12 +206,6 @@ private :
     
     ////    Relations and components    ////
     
-//#[ ignore
-    controlPort_C controlPort;
-    
-    alertPort_C alertPort;
-//#]
-
     AlertManager* itsAlertManager;		//## link itsAlertManager
     
     OMCollection<DataStorage*> itsDataStorage;		//## link itsDataStorage
@@ -259,6 +253,14 @@ public :
     
     //## auto_generated
     void _clearItsUserInterface(void);
+
+private :
+
+//#[ ignore
+    controlPort_C controlPort;
+    
+    alertPort_C alertPort;
+//#]
 };
 
 #ifdef _OMINSTRUMENT

@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SensorManager
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Tue, 7, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SensorManager.h
 *********************************************************************/
 
@@ -141,10 +141,6 @@ private :
     
     ////    Relations and components    ////
     
-//#[ ignore
-    sensorInputPort_C sensorInputPort;
-//#]
-
     OMCollection<DataStorage*> itsDataStorage;		//## link itsDataStorage
     
     SMSWTDSystemController* itsSMSWTDSystemController;		//## link itsSMSWTDSystemController
@@ -181,6 +177,12 @@ public :
     
     //## auto_generated
     void _clearItsSensor(void);
+
+private :
+
+//#[ ignore
+    sensorInputPort_C sensorInputPort;
+//#]
 };
 
 #ifdef _OMINSTRUMENT

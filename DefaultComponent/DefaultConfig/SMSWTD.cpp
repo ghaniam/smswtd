@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SMSWTD
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Tue, 7, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SMSWTD.cpp
 *********************************************************************/
 
@@ -14,10 +14,10 @@
 
 //## auto_generated
 #include "SMSWTD.h"
-//## link itsCivilian
-#include "Civilian.h"
 //## link itsEnvironment
 #include "Environment.h"
+//## link itsCivilian
+#include "Civilian.h"
 //## link itsGovernment
 #include "Government.h"
 //#[ ignore
@@ -27,7 +27,7 @@
 //## package SMSWTD_SYSTEM::ANALYSIS::SYSTEM_CONTEXT
 
 //## class SMSWTD
-SMSWTD::SMSWTD(void) : itsCivilian(NULL), itsEnvironment(NULL), itsGovernment(NULL) {
+SMSWTD::SMSWTD(void) : itsEnvironment(NULL), itsCivilian(NULL), itsGovernment(NULL) {
     NOTIFY_CONSTRUCTOR(SMSWTD, SMSWTD(), 0, SMSWTD_SYSTEM_ANALYSIS_SYSTEM_CONTEXT_SMSWTD_SMSWTD_SERIALIZE);
 }
 

@@ -242,14 +242,6 @@ public :
     
     //## auto_generated
     void setMessage(const OMString p_message);
-    
-    //## auto_generated
-    virtual bool cancelTimeout(const IOxfTimeout* arg);
-
-protected :
-
-    //## auto_generated
-    void cancelTimeouts(void);
 
 private :
 
@@ -260,6 +252,42 @@ private :
     OMString alertType;		//## attribute alertType
     
     OMString message;		//## attribute message
+
+public :
+
+    //## auto_generated
+    const bool getGovChannels(void) const;
+    
+    //## auto_generated
+    void setGovChannels(const bool p_govChannels);
+    
+    //## auto_generated
+    const bool getPushNotification(void) const;
+    
+    //## auto_generated
+    void setPushNotification(const bool p_pushNotification);
+    
+    //## auto_generated
+    const bool getSms(void) const;
+    
+    //## auto_generated
+    void setSms(const bool p_sms);
+    
+    //## auto_generated
+    const bool getSocialMedia(void) const;
+    
+    //## auto_generated
+    void setSocialMedia(const bool p_socialMedia);
+
+private :
+
+    bool govChannels;		//## attribute govChannels
+    
+    bool pushNotification;		//## attribute pushNotification
+    
+    bool sms;		//## attribute sms
+    
+    bool socialMedia;		//## attribute socialMedia
 
 public :
 
@@ -286,10 +314,6 @@ public :
     // AlertDissemination:
     //## statechart_method
     inline RhpBoolean AlertDissemination_IN(void) const;
-    
-    // accepttimeevent_8:
-    //## statechart_method
-    inline RhpBoolean accepttimeevent_8_IN(void) const;
 
 protected :
 
@@ -306,8 +330,7 @@ protected :
         Error = 2,
         Completed = 3,
         AlertGenerated = 4,
-        AlertDissemination = 5,
-        accepttimeevent_8 = 6
+        AlertDissemination = 5
     };
 //#]
 
@@ -317,8 +340,6 @@ private :
     AlertManager_Enum rootState_subState;
     
     AlertManager_Enum rootState_active;
-    
-    IOxfTimeout* rootState_timeout;
 //#]
 };
 
@@ -352,9 +373,6 @@ public :
     
     //## statechart_method
     void AlertDissemination_serializeStates(AOMSState* aomsState) const;
-    
-    //## statechart_method
-    void accepttimeevent_8_serializeStates(AOMSState* aomsState) const;
 };
 //#]
 #endif // _OMINSTRUMENT
@@ -381,10 +399,6 @@ inline RhpBoolean AlertManager::AlertGenerated_IN(void) const {
 
 inline RhpBoolean AlertManager::AlertDissemination_IN(void) const {
     return rootState_subState == AlertDissemination;
-}
-
-inline RhpBoolean AlertManager::accepttimeevent_8_IN(void) const {
-    return rootState_subState == accepttimeevent_8;
 }
 
 #endif
