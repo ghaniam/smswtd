@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AlertManager
-//!	Generated Date	: Sat, 4, Jan 2025  
+//!	Generated Date	: Tue, 7, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\AlertManager.cpp
 *********************************************************************/
 
@@ -45,7 +45,7 @@
 //## package SMSWTD_SYSTEM::DESIGN
 
 //## class AlertManager
-AlertManager::AlertManager(IOxfActive* const theActiveContext) : OMReactive(), validAlert(true), itsSMSWTDSystemController(NULL) {
+AlertManager::AlertManager(IOxfActive* const theActiveContext) : OMReactive(), validAlert(false), itsSMSWTDSystemController(NULL) {
     NOTIFY_REACTIVE_CONSTRUCTOR(AlertManager, AlertManager(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_AlertManager_SERIALIZE);
     setActiveContext(theActiveContext, false);
     initStatechart();
@@ -54,6 +54,7 @@ AlertManager::AlertManager(IOxfActive* const theActiveContext) : OMReactive(), v
 AlertManager::~AlertManager(void) {
     NOTIFY_DESTRUCTOR(~AlertManager, true);
     cleanUpRelations();
+    cancelTimeouts();
 }
 
 void AlertManager::clearErrorState(void) {
@@ -278,6 +279,7 @@ bool AlertManager::startBehavior(void) {
 void AlertManager::initStatechart(void) {
     rootState_subState = OMNonState;
     rootState_active = OMNonState;
+    rootState_timeout = NULL;
 }
 
 void AlertManager::cleanUpRelations(void) {
@@ -422,6 +424,20 @@ void AlertManager::setMessage(const OMString p_message) {
     NOTIFY_SET_OPERATION;
 }
 
+bool AlertManager::cancelTimeout(const IOxfTimeout* arg) {
+    bool res = false;
+    if(rootState_timeout == arg)
+        {
+            rootState_timeout = NULL;
+            res = true;
+        }
+    return res;
+}
+
+void AlertManager::cancelTimeouts(void) {
+    cancel(rootState_timeout);
+}
+
 void AlertManager::rootState_entDef(void) {
     {
         NOTIFY_STATE_ENTERED("ROOT");
@@ -432,9 +448,7 @@ void AlertManager::rootState_entDef(void) {
         NOTIFY_STATE_ENTERED("ROOT.Idle");
         rootState_subState = Idle;
         rootState_active = Idle;
-        //#[ state Idle.(Entry) 
-        validAlert = true;
-        //#]
+        rootState_timeout = scheduleTimeout(10, "ROOT.Idle");
         NOTIFY_TRANSITION_TERMINATED("0");
     }
 }
@@ -445,20 +459,17 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
         // State Idle
         case Idle:
         {
-            if(IS_EVENT_TYPE_OF(evDisasterDetection_DESIGN_SMSWTD_SYSTEM_id) == 1)
+            if(IS_EVENT_TYPE_OF(OMTimeoutEventId) == 1)
                 {
-                    //## transition 1 
-                    if(validAlert)
+                    if(getCurrentEvent() == rootState_timeout)
                         {
-                            NOTIFY_TRANSITION_STARTED("1");
+                            NOTIFY_TRANSITION_STARTED("9");
+                            cancel(rootState_timeout);
                             NOTIFY_STATE_EXITED("ROOT.Idle");
-                            //#[ transition 1 
-                            generateAlerts();
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.AlertGenerated");
-                            rootState_subState = AlertGenerated;
-                            rootState_active = AlertGenerated;
-                            NOTIFY_TRANSITION_TERMINATED("1");
+                            NOTIFY_STATE_ENTERED("ROOT.accepttimeevent_8");
+                            rootState_subState = accepttimeevent_8;
+                            rootState_active = accepttimeevent_8;
+                            NOTIFY_TRANSITION_TERMINATED("9");
                             res = eventConsumed;
                         }
                 }
@@ -611,10 +622,27 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
                     NOTIFY_STATE_ENTERED("ROOT.Idle");
                     rootState_subState = Idle;
                     rootState_active = Idle;
-                    //#[ state Idle.(Entry) 
-                    validAlert = true;
-                    //#]
+                    rootState_timeout = scheduleTimeout(10, "ROOT.Idle");
                     NOTIFY_TRANSITION_TERMINATED("6");
+                    res = eventConsumed;
+                }
+            
+        }
+        break;
+        case accepttimeevent_8:
+        {
+            if(IS_EVENT_TYPE_OF(evDisasterDetection_DESIGN_SMSWTD_SYSTEM_id) == 1)
+                {
+                    NOTIFY_TRANSITION_STARTED("1");
+                    NOTIFY_STATE_EXITED("ROOT.accepttimeevent_8");
+                    //#[ transition 1 
+                    validAlert=true;
+                    generateAlerts();
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.AlertGenerated");
+                    rootState_subState = AlertGenerated;
+                    rootState_active = AlertGenerated;
+                    NOTIFY_TRANSITION_TERMINATED("1");
                     res = eventConsumed;
                 }
             
@@ -696,6 +724,11 @@ void OMAnimatedAlertManager::rootState_serializeStates(AOMSState* aomsState) con
             Completed_serializeStates(aomsState);
         }
         break;
+        case AlertManager::accepttimeevent_8:
+        {
+            accepttimeevent_8_serializeStates(aomsState);
+        }
+        break;
         default:
             break;
     }
@@ -719,6 +752,10 @@ void OMAnimatedAlertManager::AlertGenerated_serializeStates(AOMSState* aomsState
 
 void OMAnimatedAlertManager::AlertDissemination_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT.AlertDissemination");
+}
+
+void OMAnimatedAlertManager::accepttimeevent_8_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.accepttimeevent_8");
 }
 //#]
 

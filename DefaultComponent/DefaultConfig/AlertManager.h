@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AlertManager
-//!	Generated Date	: Sat, 4, Jan 2025  
+//!	Generated Date	: Tue, 7, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\AlertManager.h
 *********************************************************************/
 
@@ -242,6 +242,14 @@ public :
     
     //## auto_generated
     void setMessage(const OMString p_message);
+    
+    //## auto_generated
+    virtual bool cancelTimeout(const IOxfTimeout* arg);
+
+protected :
+
+    //## auto_generated
+    void cancelTimeouts(void);
 
 private :
 
@@ -278,6 +286,10 @@ public :
     // AlertDissemination:
     //## statechart_method
     inline RhpBoolean AlertDissemination_IN(void) const;
+    
+    // accepttimeevent_8:
+    //## statechart_method
+    inline RhpBoolean accepttimeevent_8_IN(void) const;
 
 protected :
 
@@ -294,7 +306,8 @@ protected :
         Error = 2,
         Completed = 3,
         AlertGenerated = 4,
-        AlertDissemination = 5
+        AlertDissemination = 5,
+        accepttimeevent_8 = 6
     };
 //#]
 
@@ -304,6 +317,8 @@ private :
     AlertManager_Enum rootState_subState;
     
     AlertManager_Enum rootState_active;
+    
+    IOxfTimeout* rootState_timeout;
 //#]
 };
 
@@ -337,6 +352,9 @@ public :
     
     //## statechart_method
     void AlertDissemination_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void accepttimeevent_8_serializeStates(AOMSState* aomsState) const;
 };
 //#]
 #endif // _OMINSTRUMENT
@@ -363,6 +381,10 @@ inline RhpBoolean AlertManager::AlertGenerated_IN(void) const {
 
 inline RhpBoolean AlertManager::AlertDissemination_IN(void) const {
     return rootState_subState == AlertDissemination;
+}
+
+inline RhpBoolean AlertManager::accepttimeevent_8_IN(void) const {
+    return rootState_subState == accepttimeevent_8;
 }
 
 #endif
