@@ -11,12 +11,50 @@
 	<ISubsystem type="e">
 			<_id type="a">GUID da0808f8-28d0-4042-be33-0a98ba954a13</_id>
 			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">ClassDiagram</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">TreeContainmentStyle</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<_name type="a">ANALYSIS</_name>
-			<_modifiedTimeWeak type="a">12.13.2024::15:43:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.13.2024::16:17:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.28.2024::12:9:12</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\REQUIREMENTS.sbsx</_hfilename>
+					<_hsubsystem type="a">SMSWTD_SYSTEM::ANALYSIS::REQUIREMENTS</_hsubsystem>
+					<_hname type="a">SMSWTD_REQUIREMENTS_TOP_PKG</_hname>
+					<_hid type="a">GUID 280379ac-b696-49fa-b085-a47ceac1a268</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">12.28.2024::19:53:53</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">12.13.2024::15:43:47</weakCGTime>
-			<strongCGTime type="a">12.12.2024::14:21:26</strongCGTime>
+			<weakCGTime type="a">12.28.2024::12:9:12</weakCGTime>
+			<strongCGTime type="a">12.28.2024::12:9:12</strongCGTime>
 			<_defaultComposite type="s">GUID 243da1fb-4b4d-40de-9615-48b5bcec288d</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">12.13.2024::15:43:47</_configurationRelatedTime>
@@ -25,6 +63,7 @@
 				<value>GUID 172f76bb-e296-45b8-bc52-05c86285bae4</value>
 				<value>GUID 25858010-2527-4120-87c7-54bae9c2158e</value>
 				<value>GUID b4f4b06a-e8ef-445d-ae21-f2f13ba750c1</value>
+				<value>GUID dbc960f5-8357-4125-8a42-94130ccfbc85</value>
 				<value>GUID 243da1fb-4b4d-40de-9615-48b5bcec288d</value>
 			</AggregatesList>
 		</ISubsystem>
@@ -43,6 +82,10 @@
 		<ISubsystem type="e">
 			<fileName type="a">SYSTEM_CONTEXT</fileName>
 			<_id type="a">GUID b4f4b06a-e8ef-445d-ae21-f2f13ba750c1</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SERVICES_UCS</fileName>
+			<_id type="a">GUID dbc960f5-8357-4125-8a42-94130ccfbc85</_id>
 		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID 243da1fb-4b4d-40de-9615-48b5bcec288d</_id>
