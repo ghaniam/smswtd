@@ -12,10 +12,10 @@
 			<_id type="a">GUID cd0a1cc2-cb39-4af2-8655-c43430065cae</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DESIGN</_name>
-			<_modifiedTimeWeak type="a">1.9.2025::10:52:46</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::11:20:16</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:4:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:51:8</_modifiedTime>
 			<_lastID type="a">40</_lastID>
-			<weakCGTime type="a">1.9.2025::10:52:46</weakCGTime>
+			<weakCGTime type="a">1.9.2025::13:4:56</weakCGTime>
 			<strongCGTime type="a">1.9.2025::9:7:45</strongCGTime>
 			<_defaultComposite type="s">GUID 06c741ef-163c-4941-8367-a57580f4d0df</_defaultComposite>
 			<_eventsBaseID type="a">23401</_eventsBaseID>
@@ -26089,16 +26089,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.9.2025::10:31:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.9.2025::13:18:27</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 80168567-e80b-4315-8eac-eb609c1b2c35</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.9.2025::10:31:19</_modifiedTime>
+			<_modifiedTime type="a">1.9.2025::13:18:27</_modifiedTime>
 			<_lastID type="a">26</_lastID>
-			<weakCGTime type="a">1.9.2025::10:31:19</weakCGTime>
+			<weakCGTime type="a">1.9.2025::13:18:27</weakCGTime>
 			<strongCGTime type="a">1.8.2025::21:58:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -26940,8 +26940,8 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.9.2025::10:30:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::10:30:34</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:18:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:18:27</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -26956,14 +26956,14 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
 			<AggregatesList type="e">
-				<value>GUID 2d418110-882c-41d9-b75f-a4467cb12b5f</value>
+				<value>GUID 02d17e96-9958-4646-a4c5-899670085fdc</value>
 			</AggregatesList>
 		</IAttribute>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 2d418110-882c-41d9-b75f-a4467cb12b5f</_id>
-			<_modifiedTimeWeak type="a">1.1.2025::21:13:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2025::21:13:44</_modifiedTime>
-			<_value type="a">true</_value>
+			<_id type="a">GUID 02d17e96-9958-4646-a4c5-899670085fdc</_id>
+			<_modifiedTimeWeak type="a">1.9.2025::13:18:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:18:27</_modifiedTime>
+			<_value type="a">false</_value>
 		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID a1a4070b-36db-4d98-ba70-7f17e66e5cd4</_id>
@@ -27134,8 +27134,8 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 			<_id type="a">GUID 57ca8480-b675-4fab-a0bc-121b83a7da9c</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">AlertManager</_name>
-			<_modifiedTimeWeak type="a">1.9.2025::9:7:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::9:7:24</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:18:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:18:27</_modifiedTime>
 			<m_type type="a">specFile</m_type>
 			<AggregatesList type="e">
 				<value>GUID 724d995c-a693-4bea-beab-4f5374320f9f</value>
@@ -27436,8 +27436,8 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 		<IFileFragment type="e">
 			<_id type="a">GUID aaa29aa8-49a1-4a71-92a6-2d5881c2ffd9</_id>
 			<_name type="a">AlertManager</_name>
-			<_modifiedTimeWeak type="a">1.9.2025::9:7:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::9:7:24</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:18:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:18:27</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
 			<m_startRow type="a">50</m_startRow>
 			<m_startCol_Short type="a">1</m_startCol_Short>
@@ -28213,8 +28213,8 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 		<IFileFragment type="e">
 			<_id type="a">GUID 52ddabff-20c6-40c8-a446-2b8b11bdf390</_id>
 			<_name type="a">validAlert</_name>
-			<_modifiedTimeWeak type="a">1.7.2025::16:22:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.7.2025::16:22:46</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:18:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:18:27</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
 			<m_startRow type="a">173</m_startRow>
 			<m_startCol_Short type="a">10</m_startCol_Short>
@@ -28673,8 +28673,8 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 			<_id type="a">GUID 67b82197-df7d-42d0-9056-8297a22c49f7</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">AlertManager</_name>
-			<_modifiedTimeWeak type="a">1.9.2025::9:7:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::9:7:24</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:18:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:18:27</_modifiedTime>
 			<m_type type="a">implFile</m_type>
 			<AggregatesList type="e">
 				<value>GUID 7d453e7a-579c-4b63-a208-baaa3f1887ae</value>
@@ -28751,8 +28751,8 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 		<IFileFragment type="e">
 			<_id type="a">GUID eb66e5af-f78f-4dad-84af-f38346da468e</_id>
 			<_name type="a">AlertManager</_name>
-			<_modifiedTimeWeak type="a">1.9.2025::9:7:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::9:7:24</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:18:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:18:27</_modifiedTime>
 			<m_type type="a">implFragment</m_type>
 			<m_startRow type="a">48</m_startRow>
 			<m_startCol_Short type="a">15</m_startCol_Short>
@@ -32258,10 +32258,10 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 			<_id type="a">GUID 2a277fc5-9436-4183-8921-c0bd9d00688d</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_4</_name>
-			<_modifiedTimeWeak type="a">1.9.2025::10:9:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::10:9:34</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:17:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:17:33</_modifiedTime>
 			<_lastID type="a">16</_lastID>
-			<weakCGTime type="a">1.9.2025::10:9:34</weakCGTime>
+			<weakCGTime type="a">1.9.2025::13:17:33</weakCGTime>
 			<strongCGTime type="a">1.8.2025::21:58:32</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -32269,7 +32269,7 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">7</_defNumber>
-			<_version type="a">1.9.2025::11:9:34</_version>
+			<_version type="a">1.9.2025::14:17:33</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID c9521c4c-e05d-431d-9ff5-2b0fe5307e90</_diagram>
 			<AggregatesList type="e">
@@ -32325,8 +32325,8 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 			<_id type="a">GUID 5d80b602-6d13-4e30-adc8-3961265e4900</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">transition_3</_name>
-			<_modifiedTimeWeak type="a">1.9.2025::10:9:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::10:9:34</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:17:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:17:27</_modifiedTime>
 			<_itsTarget type="s">GUID 8d28ccd8-5a56-428b-b841-11a3c95dd35e</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 2da462a5-d849-492b-8f1f-c84887001955</_itsSource>
@@ -32336,12 +32336,12 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 8fc5e15b-7eb8-43e9-b5e6-b55d93a26ec7</_id>
-			<_modifiedTimeWeak type="a">1.9.2025::10:9:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::10:9:34</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:17:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:17:27</_modifiedTime>
+			<_itsGuard>NULL</_itsGuard>
 			<AggregatesList type="e">
 				<value>GUID e06126dc-dbb7-495e-987e-a11440c9d994</value>
-				<value>GUID 0fae9412-fed9-4290-aba5-57667c07c658</value>
-				<value>GUID abdbc18d-d93b-4202-bd0d-05fb74ee5695</value>
+				<value>GUID b86fd827-1dd4-42ba-b405-61287c8a41b0</value>
 			</AggregatesList>
 		</ILabel>
 		<IInterfaceItemTrigger type="e">
@@ -32356,16 +32356,10 @@ std::cout &lt;&lt; message &lt;&lt; std::endl;%0D
 				</IHandle>
 			</_itsInterfaceItem>
 		</IInterfaceItemTrigger>
-		<IGuard type="e">
-			<_id type="a">GUID 0fae9412-fed9-4290-aba5-57667c07c658</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_body type="a">validAlert</_body>
-		</IGuard>
 		<IAction type="e">
-			<_id type="a">GUID abdbc18d-d93b-4202-bd0d-05fb74ee5695</_id>
-			<_modifiedTimeWeak type="a">1.9.2025::10:9:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.9.2025::10:9:34</_modifiedTime>
+			<_id type="a">GUID b86fd827-1dd4-42ba-b405-61287c8a41b0</_id>
+			<_modifiedTimeWeak type="a">1.9.2025::13:17:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:17:27</_modifiedTime>
 			<_body type="a">generateAlerts();</_body>
 		</IAction>
 		<ITransition type="e">
@@ -32669,26 +32663,26 @@ alertLevel = 0;</_body>
 		<IState type="e">
 			<_id type="a">GUID 2da462a5-d849-492b-8f1f-c84887001955</_id>
 			<_name type="a">Idle</_name>
-			<_modifiedTimeWeak type="a">1.4.2025::20:37:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.4.2025::20:37:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:4:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:4:56</_modifiedTime>
 			<_parent type="s">GUID b50272d4-85a7-4488-8fcd-a0d343b0950e</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
-			<_entryAction type="p"><IAction type="e">
-				<_id type="a">GUID a2cbb5fe-b8c0-4de3-b5ed-987b6d6a649f</_id>
-				<_myState type="a">4096</_myState>
-				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-				<_body type="a">validAlert = true;</_body>
-			</IAction>
-			</_entryAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 8d28ccd8-5a56-428b-b841-11a3c95dd35e</_id>
 			<_name type="a">AlertGenerated</_name>
-			<_modifiedTimeWeak type="a">1.4.2025::13:32:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.4.2025::13:32:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::13:17:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::13:17:33</_modifiedTime>
 			<_parent type="s">GUID b50272d4-85a7-4488-8fcd-a0d343b0950e</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
+			<_entryAction type="p"><IAction type="e">
+				<_id type="a">GUID c10ee7df-ddf1-4361-990d-55c63803ed92</_id>
+				<_myState type="a">4096</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+				<_body type="a">validAlert=true;</_body>
+			</IAction>
+			</_entryAction>
 		</IState>
 		<IState type="e">
 			<_id type="a">GUID 1ee10d56-4d8e-47f0-81ff-4d65d477ee46</_id>
@@ -32942,9 +32936,9 @@ validAlert = false;</_body>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">1.9.2025::10:9:34</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.9.2025::13:4:56</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.4.2025::19:45:28</_modifiedTime>
-			<_lastModifiedTime type="a">1.9.2025::10:9:34</_lastModifiedTime>
+			<_lastModifiedTime type="a">1.9.2025::13:17:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -33262,6 +33256,7 @@ validAlert = false;</_body>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=100%25&gt;
 &lt;frame name=ReactionsListCompartment&gt;</frameset>
+			<m_bIsStructured type="a">1</m_bIsStructured>
 			<nAndLineCount type="a">0</nAndLineCount>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -33280,8 +33275,6 @@ validAlert = false;</_body>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGITrans type="e">
 			<_id type="a">GUID 6bdb37a2-bfef-4a59-a922-8450b6c88d02</_id>
@@ -33838,7 +33831,7 @@ validAlert = false;</_body>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">evDisasterDetection[validAlert]/generateAlerts();</m_str>
+					<m_str type="a">evDisasterDetection/generateAlerts();</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
