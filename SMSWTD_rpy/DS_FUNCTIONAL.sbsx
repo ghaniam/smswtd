@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 0f168f39-6541-43af-8f5d-7db04b288157</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DS_FUNCTIONAL</_name>
+			<_displayName type="a">DS_FUNCTIONAL</_displayName>
+			<_modifiedTimeWeak type="a">12.20.2024::13:21:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.20.2024::13:31:5</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">12.20.2024::13:21:49</weakCGTime>
+			<strongCGTime type="a">12.20.2024::13:16:7</strongCGTime>
+			<_defaultComposite type="s">GUID 9be2615c-63a9-4b5b-8e2a-afba8c7ea428</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 2e58f594-6bb4-45c1-bcf4-56cc884244a8</value>
+				<value>GUID 9be2615c-63a9-4b5b-8e2a-afba8c7ea428</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 2e58f594-6bb4-45c1-bcf4-56cc884244a8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">StoreEnvironmentalUpdates</_name>
+			<_displayName type="a">StoreEnvironmentalUpdates</_displayName>
+			<_modifiedTimeWeak type="a">12.20.2024::13:21:49</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">The SMSWTD shall store environmental updates in a data storage so it can be used by the system for other functionality.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">12.20.2024::13:21:49</_modifiedTime>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 9be2615c-63a9-4b5b-8e2a-afba8c7ea428</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
