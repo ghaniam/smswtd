@@ -247,7 +247,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "DefaultComponent\\DefaultConfig";
 	- _id = GUID c461c9a4-0fb5-409e-9610-83836fe30220;
 }
-- genTime = 1.7.2025::21:17:33;
+- genTime = 1.8.2025::18:10:52;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\SMSWTD_rpy\\DESIGN.sbsx";
