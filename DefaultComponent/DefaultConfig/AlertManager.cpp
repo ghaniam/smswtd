@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20245162
+	Login		: 20245167
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AlertManager
-//!	Generated Date	: Tue, 7, Jan 2025  
+//!	Generated Date	: Thu, 9, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\AlertManager.cpp
 *********************************************************************/
 
@@ -45,15 +45,49 @@
 //## package SMSWTD_SYSTEM::DESIGN
 
 //## class AlertManager
+//#[ ignore
+AlertManager::p_AlertManager_AlertType_C::p_AlertManager_AlertType_C(void) : OMString_alertType_ProxyFlowPropertyInterface(), _p_(0), itsOMString_alertType_ProxyFlowPropertyInterface(NULL) {
+}
+
+AlertManager::p_AlertManager_AlertType_C::~p_AlertManager_AlertType_C(void) {
+    cleanUpRelations();
+}
+
+OMString_alertType_ProxyFlowPropertyInterface* AlertManager::p_AlertManager_AlertType_C::getItsOMString_alertType_ProxyFlowPropertyInterface(void) {
+    return this;
+}
+
+void AlertManager::p_AlertManager_AlertType_C::setAlertType(OMString p_alertType) {
+    
+    if (itsOMString_alertType_ProxyFlowPropertyInterface != NULL) {
+        itsOMString_alertType_ProxyFlowPropertyInterface->setAlertType(p_alertType);
+    }
+    
+}
+
+void AlertManager::p_AlertManager_AlertType_C::setItsOMString_alertType_ProxyFlowPropertyInterface(OMString_alertType_ProxyFlowPropertyInterface* const p_OMString_alertType_ProxyFlowPropertyInterface) {
+    itsOMString_alertType_ProxyFlowPropertyInterface = p_OMString_alertType_ProxyFlowPropertyInterface;
+}
+
+void AlertManager::p_AlertManager_AlertType_C::cleanUpRelations(void) {
+    if(itsOMString_alertType_ProxyFlowPropertyInterface != NULL)
+        {
+            itsOMString_alertType_ProxyFlowPropertyInterface = NULL;
+        }
+}
+//#]
+
 AlertManager::AlertManager(IOxfActive* const theActiveContext) : OMReactive(), validAlert(false), itsSMSWTDSystemController(NULL), govChannels(false), pushNotification(false), sms(false), socialMedia(false) {
     NOTIFY_REACTIVE_CONSTRUCTOR(AlertManager, AlertManager(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_AlertManager_SERIALIZE);
     setActiveContext(theActiveContext, false);
+    initRelations();
     initStatechart();
 }
 
 AlertManager::~AlertManager(void) {
     NOTIFY_DESTRUCTOR(~AlertManager, true);
     cleanUpRelations();
+    cancelTimeouts();
 }
 
 void AlertManager::clearErrorState(void) {
@@ -299,6 +333,7 @@ bool AlertManager::startBehavior(void) {
 void AlertManager::initStatechart(void) {
     rootState_subState = OMNonState;
     rootState_active = OMNonState;
+    rootState_timeout = NULL;
 }
 
 void AlertManager::cleanUpRelations(void) {
@@ -443,6 +478,28 @@ void AlertManager::setMessage(const OMString p_message) {
     NOTIFY_SET_OPERATION;
 }
 
+bool AlertManager::cancelTimeout(const IOxfTimeout* arg) {
+    bool res = false;
+    if(rootState_timeout == arg)
+        {
+            rootState_timeout = NULL;
+            res = true;
+        }
+    return res;
+}
+
+void AlertManager::cancelTimeouts(void) {
+    cancel(rootState_timeout);
+}
+
+AlertManager::p_AlertManager_AlertType_C* AlertManager::getP_AlertManager_AlertType(void) const {
+    return (AlertManager::p_AlertManager_AlertType_C*) &p_AlertManager_AlertType;
+}
+
+AlertManager::p_AlertManager_AlertType_C* AlertManager::get_p_AlertManager_AlertType(void) const {
+    return (AlertManager::p_AlertManager_AlertType_C*) &p_AlertManager_AlertType;
+}
+
 const bool AlertManager::getGovChannels(void) const {
     return govChannels;
 }
@@ -479,6 +536,24 @@ void AlertManager::setSocialMedia(const bool p_socialMedia) {
     NOTIFY_SET_OPERATION;
 }
 
+void AlertManager::initRelations(void) {
+    {
+        
+        get_p_AlertManager_AlertType()->setItsOMString_alertType_ProxyFlowPropertyInterface(itsSMSModule.get_p_SMSModule_AlertType()->getItsOMString_alertType_ProxyFlowPropertyInterface());
+        
+    }
+    {
+        
+        get_p_AlertManager_AlertType()->setItsOMString_alertType_ProxyFlowPropertyInterface(itsPushNotificationModule.get_p_PushNotificationModule_AlertType()->getItsOMString_alertType_ProxyFlowPropertyInterface());
+        
+    }
+    {
+        
+        get_p_AlertManager_AlertType()->setItsOMString_alertType_ProxyFlowPropertyInterface(itsSocialMediaModule.get_p_SocialMediaModule_AlertType()->getItsOMString_alertType_ProxyFlowPropertyInterface());
+        
+    }
+}
+
 void AlertManager::rootState_entDef(void) {
     {
         NOTIFY_STATE_ENTERED("ROOT");
@@ -489,6 +564,7 @@ void AlertManager::rootState_entDef(void) {
         NOTIFY_STATE_ENTERED("ROOT.Idle");
         rootState_subState = Idle;
         rootState_active = Idle;
+        rootState_timeout = scheduleTimeout(1000, "ROOT.Idle");
         NOTIFY_TRANSITION_TERMINATED("0");
     }
 }
@@ -499,19 +575,19 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
         // State Idle
         case Idle:
         {
-            if(IS_EVENT_TYPE_OF(evDisasterDetection_DESIGN_SMSWTD_SYSTEM_id) == 1)
+            if(IS_EVENT_TYPE_OF(OMTimeoutEventId) == 1)
                 {
-                    NOTIFY_TRANSITION_STARTED("1");
-                    NOTIFY_STATE_EXITED("ROOT.Idle");
-                    //#[ transition 1 
-                    validAlert=true;
-                    generateAlerts();
-                    //#]
-                    NOTIFY_STATE_ENTERED("ROOT.AlertGenerated");
-                    rootState_subState = AlertGenerated;
-                    rootState_active = AlertGenerated;
-                    NOTIFY_TRANSITION_TERMINATED("1");
-                    res = eventConsumed;
+                    if(getCurrentEvent() == rootState_timeout)
+                        {
+                            NOTIFY_TRANSITION_STARTED("9");
+                            cancel(rootState_timeout);
+                            NOTIFY_STATE_EXITED("ROOT.Idle");
+                            NOTIFY_STATE_ENTERED("ROOT.accepttimeevent_12");
+                            rootState_subState = accepttimeevent_12;
+                            rootState_active = accepttimeevent_12;
+                            NOTIFY_TRANSITION_TERMINATED("9");
+                            res = eventConsumed;
+                        }
                 }
             
         }
@@ -666,7 +742,27 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
                     NOTIFY_STATE_ENTERED("ROOT.Idle");
                     rootState_subState = Idle;
                     rootState_active = Idle;
+                    rootState_timeout = scheduleTimeout(1000, "ROOT.Idle");
                     NOTIFY_TRANSITION_TERMINATED("6");
+                    res = eventConsumed;
+                }
+            
+        }
+        break;
+        case accepttimeevent_12:
+        {
+            if(IS_EVENT_TYPE_OF(evDisasterDetection_DESIGN_SMSWTD_SYSTEM_id) == 1)
+                {
+                    NOTIFY_TRANSITION_STARTED("1");
+                    NOTIFY_STATE_EXITED("ROOT.accepttimeevent_12");
+                    //#[ transition 1 
+                    validAlert=true;
+                    generateAlerts();
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.AlertGenerated");
+                    rootState_subState = AlertGenerated;
+                    rootState_active = AlertGenerated;
+                    NOTIFY_TRANSITION_TERMINATED("1");
                     res = eventConsumed;
                 }
             
@@ -752,6 +848,11 @@ void OMAnimatedAlertManager::rootState_serializeStates(AOMSState* aomsState) con
             Completed_serializeStates(aomsState);
         }
         break;
+        case AlertManager::accepttimeevent_12:
+        {
+            accepttimeevent_12_serializeStates(aomsState);
+        }
+        break;
         default:
             break;
     }
@@ -775,6 +876,10 @@ void OMAnimatedAlertManager::AlertGenerated_serializeStates(AOMSState* aomsState
 
 void OMAnimatedAlertManager::AlertDissemination_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT.AlertDissemination");
+}
+
+void OMAnimatedAlertManager::accepttimeevent_12_serializeStates(AOMSState* aomsState) const {
+    aomsState->addState("ROOT.accepttimeevent_12");
 }
 //#]
 

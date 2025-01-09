@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20245162
+	Login		: 20245167
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SMSWTDSystemController
-//!	Generated Date	: Sat, 4, Jan 2025  
+//!	Generated Date	: Thu, 9, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SMSWTDSystemController.cpp
 *********************************************************************/
 
@@ -30,6 +30,10 @@
 #define SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_processData_SERIALIZE OM_NO_OP
 
 #define SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_triggerAlert_SERIALIZE OM_NO_OP
+
+#define OMAnim_SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_setAlertType_OMString_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_alertType)
+
+#define OMAnim_SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_setAlertType_OMString_SERIALIZE_RET_VAL
 //#]
 
 //## package SMSWTD_SYSTEM::DESIGN
@@ -52,6 +56,40 @@ SMSWTDSystemController::alertPort_C::~alertPort_C(void) {
 }
 
 void SMSWTDSystemController::alertPort_C::connectSMSWTDSystemController(SMSWTDSystemController* part) {
+}
+
+SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C::p_SMSWTDSystemController_AlertType_C(void) : OMString_alertType_ProxyFlowPropertyInterface(), _p_(0), itsOMString_alertType_ProxyFlowPropertyInterface(NULL) {
+}
+
+SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C::~p_SMSWTDSystemController_AlertType_C(void) {
+    cleanUpRelations();
+}
+
+OMString_alertType_ProxyFlowPropertyInterface* SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C::getItsOMString_alertType_ProxyFlowPropertyInterface(void) {
+    return this;
+}
+
+OMString_alertType_ProxyFlowPropertyInterface* SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C::getOutBound(void) {
+    return this;
+}
+
+void SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C::setAlertType(OMString p_alertType) {
+    
+    if (itsOMString_alertType_ProxyFlowPropertyInterface != NULL) {
+        itsOMString_alertType_ProxyFlowPropertyInterface->setAlertType(p_alertType);
+    }
+    
+}
+
+void SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C::setItsOMString_alertType_ProxyFlowPropertyInterface(OMString_alertType_ProxyFlowPropertyInterface* const p_OMString_alertType_ProxyFlowPropertyInterface) {
+    itsOMString_alertType_ProxyFlowPropertyInterface = p_OMString_alertType_ProxyFlowPropertyInterface;
+}
+
+void SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C::cleanUpRelations(void) {
+    if(itsOMString_alertType_ProxyFlowPropertyInterface != NULL)
+        {
+            itsOMString_alertType_ProxyFlowPropertyInterface = NULL;
+        }
 }
 //#]
 
@@ -357,11 +395,33 @@ void SMSWTDSystemController::_clearItsUserInterface(void) {
     itsUserInterface.removeAll();
 }
 
+//#[ ignore
+void SMSWTDSystemController::setAlertType(OMString p_alertType) {
+    if (alertType != p_alertType)  {
+        alertType = p_alertType;
+        FLOW_DATA_SEND(alertType, p_SMSWTDSystemController_AlertType, setAlertType, x2String);
+    }
+}
+//#]
+
+SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C* SMSWTDSystemController::getP_SMSWTDSystemController_AlertType(void) const {
+    return (SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C*) &p_SMSWTDSystemController_AlertType;
+}
+
+SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C* SMSWTDSystemController::get_p_SMSWTDSystemController_AlertType(void) const {
+    return (SMSWTDSystemController::p_SMSWTDSystemController_AlertType_C*) &p_SMSWTDSystemController_AlertType;
+}
+
+const OMString SMSWTDSystemController::getAlertType(void) const {
+    return alertType;
+}
+
 #ifdef _OMINSTRUMENT
 //#[ ignore
 void OMAnimatedSMSWTDSystemController::serializeAttributes(AOMSAttributes* aomsAttributes) const {
     aomsAttributes->addAttribute("systemStatus", x2String(myReal->systemStatus));
     aomsAttributes->addAttribute("currentAlertLevel", x2String(myReal->currentAlertLevel));
+    aomsAttributes->addAttribute("alertType", x2String(myReal->alertType));
 }
 
 void OMAnimatedSMSWTDSystemController::serializeRelations(AOMSRelations* aomsRelations) const {
@@ -398,6 +458,10 @@ void OMAnimatedSMSWTDSystemController::serializeRelations(AOMSRelations* aomsRel
 //#]
 
 IMPLEMENT_META_P(SMSWTDSystemController, SMSWTD_SYSTEM_DESIGN, SMSWTD_SYSTEM::DESIGN, false, OMAnimatedSMSWTDSystemController)
+
+IMPLEMENT_META_OP(OMAnimatedSMSWTDSystemController, SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_setAlertType_OMString, "setAlertType", FALSE, "setAlertType(OMString)", 1)
+
+IMPLEMENT_OP_CALL(SMSWTD_SYSTEM_DESIGN_SMSWTDSystemController_setAlertType_OMString, SMSWTDSystemController, setAlertType(p_alertType), NO_OP())
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

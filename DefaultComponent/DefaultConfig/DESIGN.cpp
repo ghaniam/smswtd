@@ -1,10 +1,10 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20245162
+	Login		: 20245167
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: DESIGN
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Thu, 9, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\DESIGN.cpp
 *********************************************************************/
 
@@ -16,7 +16,7 @@
 #include "DESIGN.h"
 //## auto_generated
 #include "AircraftSensor.h"
-//## auto_generated
+//## classInstance itsAlertManager
 #include "AlertManager.h"
 //## auto_generated
 #include "DataStorage.h"
@@ -32,7 +32,7 @@
 #include "SensorManager.h"
 //## auto_generated
 #include "SMSModule.h"
-//## auto_generated
+//## classInstance itsSMSWTDSystemController
 #include "SMSWTDSystemController.h"
 //## auto_generated
 #include "SocialMediaModule.h"
@@ -87,14 +87,65 @@
 //## package SMSWTD_SYSTEM::DESIGN
 
 
+//## classInstance itsAlertManager
+AlertManager itsAlertManager;
+
+//## classInstance itsSMSWTDSystemController
+SMSWTDSystemController itsSMSWTDSystemController;
+
 #ifdef _OMINSTRUMENT
 static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */);
 
-IMPLEMENT_META_PACKAGE(SMSWTD_SYSTEM_DESIGN, SMSWTD_SYSTEM::DESIGN)
+static void RenameGlobalInstances(void);
 
+IMPLEMENT_META_PACKAGE(SMSWTD_SYSTEM_DESIGN, SMSWTD_SYSTEM::DESIGN)
+#endif // _OMINSTRUMENT
+
+void DESIGN_initRelations(void) {
+    {
+        {
+            itsAlertManager.setShouldDelete(false);
+        }
+    }
+    {
+        
+        itsSMSWTDSystemController.get_p_SMSWTDSystemController_AlertType()->setItsOMString_alertType_ProxyFlowPropertyInterface(itsAlertManager.get_p_AlertManager_AlertType()->getItsOMString_alertType_ProxyFlowPropertyInterface());
+        
+    }
+    
+    #ifdef _OMINSTRUMENT
+    RenameGlobalInstances();
+    #endif // _OMINSTRUMENT
+}
+
+bool DESIGN_startBehavior(void) {
+    bool done = true;
+    if(done == true)
+        {
+            done = itsAlertManager.startBehavior();
+        }
+    return done;
+}
+
+#ifdef _OMINSTRUMENT
 static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */) {
 }
+
+static void RenameGlobalInstances(void) {
+    OM_SET_INSTANCE_NAME(&itsSMSWTDSystemController, SMSWTDSystemController, "itsSMSWTDSystemController", AOMNoMultiplicity);
+    OM_SET_INSTANCE_NAME(&itsAlertManager, AlertManager, "itsAlertManager", AOMNoMultiplicity);
+}
 #endif // _OMINSTRUMENT
+
+//#[ ignore
+DESIGN_OMInitializer::DESIGN_OMInitializer(void) {
+    DESIGN_initRelations();
+    (void) DESIGN_startBehavior();
+}
+
+DESIGN_OMInitializer::~DESIGN_OMInitializer(void) {
+}
+//#]
 
 //## event evDisasterDetection()
 evDisasterDetection::evDisasterDetection(void) : OMEvent() {

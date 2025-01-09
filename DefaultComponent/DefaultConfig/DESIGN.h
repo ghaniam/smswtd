@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20245162
+	Login		: 20245167
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: DESIGN
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Thu, 9, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\DESIGN.h
 *********************************************************************/
 
@@ -20,7 +20,7 @@
 //## auto_generated
 class AircraftSensor;
 
-//## auto_generated
+//## classInstance itsAlertManager
 class AlertManager;
 
 //## auto_generated
@@ -35,7 +35,7 @@ class PushNotificationModule;
 //## auto_generated
 class SMSModule;
 
-//## auto_generated
+//## classInstance itsSMSWTDSystemController
 class SMSWTDSystemController;
 
 //## auto_generated
@@ -59,6 +59,31 @@ class UserInterface;
 //## package SMSWTD_SYSTEM::DESIGN
 
 
+//## classInstance itsAlertManager
+extern AlertManager itsAlertManager;
+
+//## classInstance itsSMSWTDSystemController
+extern SMSWTDSystemController itsSMSWTDSystemController;
+
+//## auto_generated
+void DESIGN_initRelations(void);
+
+//## auto_generated
+bool DESIGN_startBehavior(void);
+
+//#[ ignore
+class DESIGN_OMInitializer {
+    ////    Constructors and destructors    ////
+    
+public :
+
+    //## auto_generated
+    DESIGN_OMInitializer(void);
+    
+    //## auto_generated
+    ~DESIGN_OMInitializer(void);
+};
+//#]
 
 //## event evDisasterDetection()
 class evDisasterDetection : public OMEvent {

@@ -3,27 +3,26 @@
 	Login		: 20245167
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: DefaultConfig
+	Model Element	: ProxyPortInterfaces
 //!	Generated Date	: Thu, 9, Jan 2025  
-	File Path	: DefaultComponent\DefaultConfig\MainDefaultComponent.h
+	File Path	: DefaultComponent\DefaultConfig\ProxyPortInterfaces.h
 *********************************************************************/
 
-#ifndef MainDefaultComponent_H
-#define MainDefaultComponent_H
+#ifndef ProxyPortInterfaces_H
+#define ProxyPortInterfaces_H
 
 //## auto_generated
 #include <oxf.h>
 //## auto_generated
 #include <aom.h>
-class DefaultComponent {
-    ////    Constructors and destructors    ////
-    
-public :
+//## auto_generated
+class OMString_alertType_ProxyFlowPropertyInterface;
 
-    DefaultComponent(void);
-};
+//## package ProxyPortInterfaces
+
+
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\MainDefaultComponent.h
+	File Path	: DefaultComponent\DefaultConfig\ProxyPortInterfaces.h
 *********************************************************************/
