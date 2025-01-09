@@ -107,7 +107,8 @@ OBJS= \
   DataStorage.obj \
   SYSTEM_CONTEXT.obj \
   SERVICES_UCS.obj \
-  DESIGN.obj
+  DESIGN.obj \
+  ProxyPortInterfaces.obj
 
 
 
@@ -232,7 +233,7 @@ Maintainer.obj : Maintainer.cpp Maintainer.h    SYSTEM_CONTEXT.h
 
 
 
-SMSWTDSystemController.obj : SMSWTDSystemController.cpp SMSWTDSystemController.h    DESIGN.h SensorManager.h UserInterface.h AlertManager.h DataStorage.h 
+SMSWTDSystemController.obj : SMSWTDSystemController.cpp SMSWTDSystemController.h    DESIGN.h SensorManager.h UserInterface.h AlertManager.h DataStorage.h OMString_alertPriority_ProxyFlowPropertyInterface.h OMString_alertType_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SMSWTDSystemController.obj" "SMSWTDSystemController.cpp" 
 
@@ -250,7 +251,7 @@ SensorManager.obj : SensorManager.cpp SensorManager.h    DESIGN.h SMSWTDSystemCo
 
 
 
-AlertManager.obj : AlertManager.cpp AlertManager.h    DESIGN.h SMSWTDSystemController.h GovernmentChannels.h SMSModule.h PushNotificationModule.h SocialMediaModule.h UserInterface.h 
+AlertManager.obj : AlertManager.cpp AlertManager.h    DESIGN.h SMSWTDSystemController.h GovernmentChannels.h UserInterface.h SMSModule.h PushNotificationModule.h SocialMediaModule.h OMString_alertPriority_ProxyFlowPropertyInterface.h OMString_alertType_ProxyFlowPropertyInterface.h bool_validAlert_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AlertManager.obj" "AlertManager.cpp" 
 
@@ -268,19 +269,19 @@ GovernmentChannels.obj : GovernmentChannels.cpp GovernmentChannels.h    DESIGN.h
 
 
 
-SMSModule.obj : SMSModule.cpp SMSModule.h    DESIGN.h 
+SMSModule.obj : SMSModule.cpp SMSModule.h    DESIGN.h OMString_alertType_ProxyFlowPropertyInterface.h OMString_alertPriority_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SMSModule.obj" "SMSModule.cpp" 
 
 
 
-PushNotificationModule.obj : PushNotificationModule.cpp PushNotificationModule.h    DESIGN.h 
+PushNotificationModule.obj : PushNotificationModule.cpp PushNotificationModule.h    DESIGN.h OMString_alertType_ProxyFlowPropertyInterface.h OMString_alertPriority_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"PushNotificationModule.obj" "PushNotificationModule.cpp" 
 
 
 
-SocialMediaModule.obj : SocialMediaModule.cpp SocialMediaModule.h    DESIGN.h 
+SocialMediaModule.obj : SocialMediaModule.cpp SocialMediaModule.h    DESIGN.h OMString_alertType_ProxyFlowPropertyInterface.h OMString_alertPriority_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SocialMediaModule.obj" "SocialMediaModule.cpp" 
 
@@ -325,6 +326,12 @@ SERVICES_UCS.obj : SERVICES_UCS.cpp SERVICES_UCS.h
 DESIGN.obj : DESIGN.cpp DESIGN.h    SMSWTDSystemController.h Sensor.h SensorManager.h AlertManager.h UserInterface.h GovernmentChannels.h SMSModule.h PushNotificationModule.h SocialMediaModule.h UnderWaterSensor.h SatelliteSensor.h AircraftSensor.h DataStorage.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DESIGN.obj" "DESIGN.cpp" 
+
+
+
+ProxyPortInterfaces.obj : ProxyPortInterfaces.cpp ProxyPortInterfaces.h    OMString_alertPriority_ProxyFlowPropertyInterface.h OMString_alertType_ProxyFlowPropertyInterface.h bool_validAlert_ProxyFlowPropertyInterface.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ProxyPortInterfaces.obj" "ProxyPortInterfaces.cpp" 
 
 
 
@@ -378,6 +385,7 @@ clean:
 	if exist SYSTEM_CONTEXT.obj erase SYSTEM_CONTEXT.obj
 	if exist SERVICES_UCS.obj erase SERVICES_UCS.obj
 	if exist DESIGN.obj erase DESIGN.obj
+	if exist ProxyPortInterfaces.obj erase ProxyPortInterfaces.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb
