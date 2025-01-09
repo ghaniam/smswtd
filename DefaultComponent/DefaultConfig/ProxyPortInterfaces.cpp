@@ -3,9 +3,9 @@
 	Login		: 20245167
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: SERVICES_UCS
+	Model Element	: ProxyPortInterfaces
 //!	Generated Date	: Thu, 9, Jan 2025  
-	File Path	: DefaultComponent\DefaultConfig\SERVICES_UCS.cpp
+	File Path	: DefaultComponent\DefaultConfig\ProxyPortInterfaces.cpp
 *********************************************************************/
 
 //#[ ignore
@@ -13,19 +13,21 @@
 //#]
 
 //## auto_generated
-#include "SERVICES_UCS.h"
-//## package SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS
+#include "ProxyPortInterfaces.h"
+//## auto_generated
+#include "OMString_alertType_ProxyFlowPropertyInterface.h"
+//## package ProxyPortInterfaces
 
 
 #ifdef _OMINSTRUMENT
 static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */);
 
-IMPLEMENT_META_PACKAGE(SMSWTD_SYSTEM_ANALYSIS_SERVICES_UCS, SMSWTD_SYSTEM::ANALYSIS::SERVICES_UCS)
+IMPLEMENT_META_PACKAGE(ProxyPortInterfaces, ProxyPortInterfaces)
 
 static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */) {
 }
 #endif // _OMINSTRUMENT
 
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\SERVICES_UCS.cpp
+	File Path	: DefaultComponent\DefaultConfig\ProxyPortInterfaces.cpp
 *********************************************************************/

@@ -107,7 +107,8 @@ OBJS= \
   DataStorage.obj \
   SYSTEM_CONTEXT.obj \
   SERVICES_UCS.obj \
-  DESIGN.obj
+  DESIGN.obj \
+  ProxyPortInterfaces.obj
 
 
 
@@ -328,6 +329,12 @@ DESIGN.obj : DESIGN.cpp DESIGN.h    SMSWTDSystemController.h Sensor.h SensorMana
 
 
 
+ProxyPortInterfaces.obj : ProxyPortInterfaces.cpp ProxyPortInterfaces.h    
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ProxyPortInterfaces.obj" "ProxyPortInterfaces.cpp" 
+
+
+
 
 
 
@@ -378,6 +385,7 @@ clean:
 	if exist SYSTEM_CONTEXT.obj erase SYSTEM_CONTEXT.obj
 	if exist SERVICES_UCS.obj erase SERVICES_UCS.obj
 	if exist DESIGN.obj erase DESIGN.obj
+	if exist ProxyPortInterfaces.obj erase ProxyPortInterfaces.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb

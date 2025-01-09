@@ -1,10 +1,10 @@
 /*********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20245162
+	Login		: 20245167
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AlertManager
-//!	Generated Date	: Tue, 7, Jan 2025  
+//!	Generated Date	: Thu, 9, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\AlertManager.h
 *********************************************************************/
 
@@ -35,6 +35,8 @@
 #include "SMSModule.h"
 //## classInstance itsSocialMediaModule
 #include "SocialMediaModule.h"
+//## class p_AlertManager_AlertType_C
+#include "OMString_alertType_ProxyFlowPropertyInterface.h"
 //## link itsGovernmentChannels
 class GovernmentChannels;
 
@@ -48,10 +50,53 @@ class UserInterface;
 
 //## class AlertManager
 class AlertManager : public OMReactive {
-    ////    Friends    ////
-    
 public :
 
+//#[ ignore
+    //## package SMSWTD_SYSTEM::DESIGN
+    class p_AlertManager_AlertType_C : public OMString_alertType_ProxyFlowPropertyInterface {
+        ////    Constructors and destructors    ////
+        
+    public :
+    
+        //## auto_generated
+        p_AlertManager_AlertType_C(void);
+        
+        //## auto_generated
+        virtual ~p_AlertManager_AlertType_C(void);
+        
+        ////    Operations    ////
+        
+        //## auto_generated
+        OMString_alertType_ProxyFlowPropertyInterface* getItsOMString_alertType_ProxyFlowPropertyInterface(void);
+        
+        //## auto_generated
+        virtual void setAlertType(OMString p_alertType);
+        
+        ////    Additional operations    ////
+        
+        //## auto_generated
+        void setItsOMString_alertType_ProxyFlowPropertyInterface(OMString_alertType_ProxyFlowPropertyInterface* const p_OMString_alertType_ProxyFlowPropertyInterface);
+    
+    protected :
+    
+        //## auto_generated
+        void cleanUpRelations(void);
+        
+        ////    Attributes    ////
+    
+    private :
+    
+        RhpInteger _p_;		//## attribute _p_
+        
+        ////    Relations and components    ////
+        
+        OMString_alertType_ProxyFlowPropertyInterface* itsOMString_alertType_ProxyFlowPropertyInterface;		//## link itsOMString_alertType_ProxyFlowPropertyInterface
+    };
+//#]
+
+    ////    Friends    ////
+    
 #ifdef _OMINSTRUMENT
     friend class OMAnimatedAlertManager;
 #endif // _OMINSTRUMENT
@@ -242,6 +287,14 @@ public :
     
     //## auto_generated
     void setMessage(const OMString p_message);
+    
+    //## auto_generated
+    virtual bool cancelTimeout(const IOxfTimeout* arg);
+
+protected :
+
+    //## auto_generated
+    void cancelTimeouts(void);
 
 private :
 
@@ -255,6 +308,12 @@ private :
 
 public :
 
+    //## auto_generated
+    p_AlertManager_AlertType_C* getP_AlertManager_AlertType(void) const;
+    
+    //## auto_generated
+    p_AlertManager_AlertType_C* get_p_AlertManager_AlertType(void) const;
+    
     //## auto_generated
     const bool getGovChannels(void) const;
     
@@ -279,6 +338,11 @@ public :
     //## auto_generated
     void setSocialMedia(const bool p_socialMedia);
 
+protected :
+
+    //## auto_generated
+    void initRelations(void);
+
 private :
 
     bool govChannels;		//## attribute govChannels
@@ -288,6 +352,10 @@ private :
     bool sms;		//## attribute sms
     
     bool socialMedia;		//## attribute socialMedia
+    
+//#[ ignore
+    p_AlertManager_AlertType_C p_AlertManager_AlertType;
+//#]
 
 public :
 
@@ -314,6 +382,10 @@ public :
     // AlertDissemination:
     //## statechart_method
     inline RhpBoolean AlertDissemination_IN(void) const;
+    
+    // accepttimeevent_12:
+    //## statechart_method
+    inline RhpBoolean accepttimeevent_12_IN(void) const;
 
 protected :
 
@@ -330,7 +402,8 @@ protected :
         Error = 2,
         Completed = 3,
         AlertGenerated = 4,
-        AlertDissemination = 5
+        AlertDissemination = 5,
+        accepttimeevent_12 = 6
     };
 //#]
 
@@ -340,6 +413,8 @@ private :
     AlertManager_Enum rootState_subState;
     
     AlertManager_Enum rootState_active;
+    
+    IOxfTimeout* rootState_timeout;
 //#]
 };
 
@@ -373,6 +448,9 @@ public :
     
     //## statechart_method
     void AlertDissemination_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void accepttimeevent_12_serializeStates(AOMSState* aomsState) const;
 };
 //#]
 #endif // _OMINSTRUMENT
@@ -399,6 +477,10 @@ inline RhpBoolean AlertManager::AlertGenerated_IN(void) const {
 
 inline RhpBoolean AlertManager::AlertDissemination_IN(void) const {
     return rootState_subState == AlertDissemination;
+}
+
+inline RhpBoolean AlertManager::accepttimeevent_12_IN(void) const {
+    return rootState_subState == accepttimeevent_12;
 }
 
 #endif

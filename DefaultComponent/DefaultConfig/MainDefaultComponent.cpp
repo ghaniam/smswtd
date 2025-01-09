@@ -1,25 +1,32 @@
 /********************************************************************
 	Rhapsody	: 9.0 
-	Login		: 20245162
+	Login		: 20245167
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: DefaultConfig
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Thu, 9, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\MainDefaultComponent.cpp
 *********************************************************************/
 
 //## auto_generated
 #include "MainDefaultComponent.h"
 //## auto_generated
-#include "AlertManager.h"
+#include "DESIGN.h"
+//## auto_generated
+#include "SERVICES_UCS.h"
+//## auto_generated
+#include "SYSTEM_CONTEXT.h"
+DefaultComponent::DefaultComponent(void) {
+    DESIGN_initRelations();
+    (void) DESIGN_startBehavior();
+}
+
 RhpInteger main( void) {
     RhpInteger status = 0;
     try {
         if(OXF::initialize(0,NULL))
             {
-                AlertManager p_AlertManager;
-                p_AlertManager.setShouldDelete(false);
-                (void) p_AlertManager.startBehavior();
+                DefaultComponent initializer_DefaultComponent;
                 //#[ configuration DefaultComponent::DefaultConfig 
                 //#]
                 OXF::start();
