@@ -12,16 +12,16 @@
 			<_id type="a">GUID b8e99216-bce3-4a7c-a226-a20e83b96080</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MD_FUNCTIONAL</_name>
-			<_modifiedTimeWeak type="a">12.30.2024::21:7:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.9.2025::9:4:22</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID f550e2bc-3ba4-4ec5-98f6-940c15efec19</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.30.2024::21:7:19</_modifiedTime>
+			<_modifiedTime type="a">1.9.2025::10:0:54</_modifiedTime>
 			<_lastID type="a">22</_lastID>
-			<weakCGTime type="a">12.30.2024::21:7:19</weakCGTime>
+			<weakCGTime type="a">1.9.2025::9:4:22</weakCGTime>
 			<strongCGTime type="a">12.28.2024::19:7:16</strongCGTime>
 			<_defaultComposite type="s">GUID b5e79722-686a-4d9c-b597-aa77a7abd48e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -37,9 +37,9 @@
 		<IRequirement type="e">
 			<_id type="a">GUID a0aec793-7249-4fa5-9833-49da04e21bd9</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">FR_MD_SMSWTD</_name>
-			<_modifiedTimeWeak type="a">12.29.2024::11:13:16</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.29.2024::11:13:16</_modifiedTime>
+			<_name type="a">FR_MD_COMMUNICATION_SMSWTD</_name>
+			<_modifiedTimeWeak type="a">1.9.2025::9:4:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::9:4:22</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSWTD shall be capable to deliver the communication through multiple channels.\par%0D
@@ -54,11 +54,11 @@
 			<_id type="a">GUID b895b122-4a2e-4c4d-b6b6-97afef4a922b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MultichannelDissemination</_name>
-			<_modifiedTimeWeak type="a">12.29.2024::11:13:16</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.29.2024::11:13:16</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::6:39:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::6:39:22</_modifiedTime>
 			<_lastID type="a">8</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The SMSWTD shall be capable to deliver the communication through multiple channels.\par%0D
+\viewkind4\uc1\pard\fs20 The SMSWTD shall be able to transmit the alerts via various channels.\par%0D
 }%0D
 </_body>
 			<reqID type="a">1.2</reqID>
@@ -144,13 +144,10 @@
 			<_id type="a">GUID 50d0f044-8703-491b-8420-7dca7729839d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">CustomizeActions</_name>
-			<_modifiedTimeWeak type="a">12.28.2024::19:40:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.28.2024::19:40:45</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::6:21:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::6:21:1</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\ltrpar\lang3072\kerning2\f0\fs22 The SMSWTD shall customize the recommended actions based on user roles (e.g., civilians, responders, government).\lang1033\kerning0\f1\fs20\par%0D
-\lang3072\kerning2\f0\fs22\par%0D
-}%0D
+			<_body type="a">The SMSWTD shall customize the recommended actions based on user roles (eg., civilians, responders, government).%0D
 </_body>
 			<reqID type="a">F1.1</reqID>
 			<AggregatesList type="e">
@@ -289,11 +286,11 @@
 			<_id type="a">GUID 4d5f4a96-3db6-4181-9fd4-35dcd78a2318</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SendSMS</_name>
-			<_modifiedTimeWeak type="a">12.28.2024::21:25:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.28.2024::21:25:48</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.9.2025::6:39:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.9.2025::6:39:22</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\ltrpar\lang3072\kerning2\f0\fs22 The SMSWTD shall disseminate alerts through SMS to registered users.\lang1033\kerning0\f1\fs20\par%0D
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang3072\kerning2\f0\fs22 The SMSWTD shall disseminate alerts through SMS.\lang1033\kerning0\f1\fs20\par%0D
 }%0D
 </_body>
 			<reqID type="a">F2.3</reqID>
@@ -1371,8 +1368,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.30.2024::21:7:20</_modifiedTime>
-			<_lastModifiedTime type="a">12.30.2024::21:7:20</_lastModifiedTime>
+			<_modifiedTime type="a">1.9.2025::9:4:29</_modifiedTime>
+			<_lastModifiedTime type="a">1.9.2025::9:4:29</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1549,7 +1546,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">5.37037 0 0 5.43939 20 20 </m_transform>
+			<m_transform type="a">5.41667 0 0 5.5 10 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1884,7 +1881,7 @@
 			<m_pParent type="s">GUID 146b2bbc-c717-4672-90da-38246388d4de</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">FR_MD_SMSWTD</m_str>
+					<m_str type="a">FR_MD_COMMUNICATION_SMSWTD</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1900,7 +1897,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.182657 0 0 0.123639 34 59.6146 </m_transform>
+			<m_transform type="a">0.203875 0 0 0.123639 20 59.6146 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3175,7 +3172,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.107011 0 0 0.159087 371 548.8 </m_transform>
+			<m_transform type="a">0.107011 0 0 0.170905 371 548.859 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">

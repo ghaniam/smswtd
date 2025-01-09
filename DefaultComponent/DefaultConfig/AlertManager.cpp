@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AlertManager
-//!	Generated Date	: Sat, 4, Jan 2025  
+//!	Generated Date	: Tue, 7, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\AlertManager.cpp
 *********************************************************************/
 
@@ -45,7 +45,7 @@
 //## package SMSWTD_SYSTEM::DESIGN
 
 //## class AlertManager
-AlertManager::AlertManager(IOxfActive* const theActiveContext) : OMReactive(), validAlert(true), itsSMSWTDSystemController(NULL) {
+AlertManager::AlertManager(IOxfActive* const theActiveContext) : OMReactive(), validAlert(false), itsSMSWTDSystemController(NULL), govChannels(false), pushNotification(false), sms(false), socialMedia(false) {
     NOTIFY_REACTIVE_CONSTRUCTOR(AlertManager, AlertManager(), 0, SMSWTD_SYSTEM_DESIGN_AlertManager_AlertManager_SERIALIZE);
     setActiveContext(theActiveContext, false);
     initStatechart();
@@ -81,8 +81,8 @@ void AlertManager::generateAlerts(void) {
     // Initialize the seed globally
     static unsigned int seed = static_cast<unsigned int>(std::time(nullptr));
     
-    // Custom random number generator using Linear Congruential Generator (LCG)
-    seed = (1664525 * seed + 1013904223) % 0xFFFFFFFF; // LCG algorithm
+    // Custom random number generator 
+    seed = (1664525 * seed + 1013904223) % 0xFFFFFFFF; 
     
     // Define the priority levels as a static array
     const char* priorities[] = {"HIGH", "MEDIUM", "LOW"};
@@ -152,6 +152,27 @@ void AlertManager::selectChannels(void) {
     //#[ operation selectChannels()
     message = "Selecting dissemination channels";
     std::cout << message << std::endl;
+    
+    // Set LED states based on alertPriority
+    if (alertPriority == "HIGH") {
+        sms = true;            
+        pushNotification = true; 
+        govChannels = true;    
+        socialMedia = true;    
+    }
+    else if (alertPriority == "MEDIUM") {
+        sms = false;          
+        pushNotification = true; 
+        govChannels = true;    
+        socialMedia = true;   
+    }
+    else if (alertPriority == "LOW") {
+        sms = false;           
+        pushNotification = false; 
+        govChannels = true;    
+        socialMedia = true;    
+    }
+    
     
     //#]
 }
@@ -422,6 +443,42 @@ void AlertManager::setMessage(const OMString p_message) {
     NOTIFY_SET_OPERATION;
 }
 
+const bool AlertManager::getGovChannels(void) const {
+    return govChannels;
+}
+
+void AlertManager::setGovChannels(const bool p_govChannels) {
+    govChannels = p_govChannels;
+    NOTIFY_SET_OPERATION;
+}
+
+const bool AlertManager::getPushNotification(void) const {
+    return pushNotification;
+}
+
+void AlertManager::setPushNotification(const bool p_pushNotification) {
+    pushNotification = p_pushNotification;
+    NOTIFY_SET_OPERATION;
+}
+
+const bool AlertManager::getSms(void) const {
+    return sms;
+}
+
+void AlertManager::setSms(const bool p_sms) {
+    sms = p_sms;
+    NOTIFY_SET_OPERATION;
+}
+
+const bool AlertManager::getSocialMedia(void) const {
+    return socialMedia;
+}
+
+void AlertManager::setSocialMedia(const bool p_socialMedia) {
+    socialMedia = p_socialMedia;
+    NOTIFY_SET_OPERATION;
+}
+
 void AlertManager::rootState_entDef(void) {
     {
         NOTIFY_STATE_ENTERED("ROOT");
@@ -432,9 +489,6 @@ void AlertManager::rootState_entDef(void) {
         NOTIFY_STATE_ENTERED("ROOT.Idle");
         rootState_subState = Idle;
         rootState_active = Idle;
-        //#[ state Idle.(Entry) 
-        validAlert = true;
-        //#]
         NOTIFY_TRANSITION_TERMINATED("0");
     }
 }
@@ -447,20 +501,17 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
         {
             if(IS_EVENT_TYPE_OF(evDisasterDetection_DESIGN_SMSWTD_SYSTEM_id) == 1)
                 {
-                    //## transition 1 
-                    if(validAlert)
-                        {
-                            NOTIFY_TRANSITION_STARTED("1");
-                            NOTIFY_STATE_EXITED("ROOT.Idle");
-                            //#[ transition 1 
-                            generateAlerts();
-                            //#]
-                            NOTIFY_STATE_ENTERED("ROOT.AlertGenerated");
-                            rootState_subState = AlertGenerated;
-                            rootState_active = AlertGenerated;
-                            NOTIFY_TRANSITION_TERMINATED("1");
-                            res = eventConsumed;
-                        }
+                    NOTIFY_TRANSITION_STARTED("1");
+                    NOTIFY_STATE_EXITED("ROOT.Idle");
+                    //#[ transition 1 
+                    validAlert=true;
+                    generateAlerts();
+                    //#]
+                    NOTIFY_STATE_ENTERED("ROOT.AlertGenerated");
+                    rootState_subState = AlertGenerated;
+                    rootState_active = AlertGenerated;
+                    NOTIFY_TRANSITION_TERMINATED("1");
+                    res = eventConsumed;
                 }
             
         }
@@ -607,13 +658,14 @@ IOxfReactive::TakeEventStatus AlertManager::rootState_processEvent(void) {
                     alertPriority = "";
                     message = "";
                     alertLevel = 0;
+                    sms = 0;
+                    pushNotification = 0;
+                    socialMedia = 0;
+                    govChannels = 0;
                     //#]
                     NOTIFY_STATE_ENTERED("ROOT.Idle");
                     rootState_subState = Idle;
                     rootState_active = Idle;
-                    //#[ state Idle.(Entry) 
-                    validAlert = true;
-                    //#]
                     NOTIFY_TRANSITION_TERMINATED("6");
                     res = eventConsumed;
                 }
@@ -636,6 +688,10 @@ void OMAnimatedAlertManager::serializeAttributes(AOMSAttributes* aomsAttributes)
     aomsAttributes->addAttribute("alertType", x2String(myReal->alertType));
     aomsAttributes->addAttribute("message", x2String(myReal->message));
     aomsAttributes->addAttribute("alertLevel", x2String(myReal->alertLevel));
+    aomsAttributes->addAttribute("sms", x2String(myReal->sms));
+    aomsAttributes->addAttribute("pushNotification", x2String(myReal->pushNotification));
+    aomsAttributes->addAttribute("govChannels", x2String(myReal->govChannels));
+    aomsAttributes->addAttribute("socialMedia", x2String(myReal->socialMedia));
 }
 
 void OMAnimatedAlertManager::serializeRelations(AOMSRelations* aomsRelations) const {

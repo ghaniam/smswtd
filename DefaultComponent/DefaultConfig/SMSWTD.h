@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SMSWTD
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Tue, 7, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\SMSWTD.h
 *********************************************************************/
 
@@ -75,11 +75,7 @@ protected :
 
 private :
 
-    Civilian* itsCivilian;		//## link itsCivilian
-    
     Environment* itsEnvironment;		//## link itsEnvironment
-    
-    Government* itsGovernment;		//## link itsGovernment
     
     ////    Framework operations    ////
 
@@ -111,6 +107,12 @@ public :
     
     //## auto_generated
     void _clearItsGovernment(void);
+
+private :
+
+    Civilian* itsCivilian;		//## link itsCivilian
+    
+    Government* itsGovernment;		//## link itsGovernment
 };
 
 #ifdef _OMINSTRUMENT

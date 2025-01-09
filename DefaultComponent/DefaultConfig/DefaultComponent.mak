@@ -250,7 +250,7 @@ SensorManager.obj : SensorManager.cpp SensorManager.h    DESIGN.h SMSWTDSystemCo
 
 
 
-AlertManager.obj : AlertManager.cpp AlertManager.h    DESIGN.h SMSWTDSystemController.h GovernmentChannels.h SMSModule.h PushNotificationModule.h SocialMediaModule.h UserInterface.h 
+AlertManager.obj : AlertManager.cpp AlertManager.h    DESIGN.h SMSModule.h PushNotificationModule.h SocialMediaModule.h SMSWTDSystemController.h GovernmentChannels.h UserInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AlertManager.obj" "AlertManager.cpp" 
 

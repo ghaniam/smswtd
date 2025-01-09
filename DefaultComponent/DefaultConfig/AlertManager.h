@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AlertManager
-//!	Generated Date	: Sat, 4, Jan 2025  
+//!	Generated Date	: Tue, 7, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\AlertManager.h
 *********************************************************************/
 
@@ -252,6 +252,42 @@ private :
     OMString alertType;		//## attribute alertType
     
     OMString message;		//## attribute message
+
+public :
+
+    //## auto_generated
+    const bool getGovChannels(void) const;
+    
+    //## auto_generated
+    void setGovChannels(const bool p_govChannels);
+    
+    //## auto_generated
+    const bool getPushNotification(void) const;
+    
+    //## auto_generated
+    void setPushNotification(const bool p_pushNotification);
+    
+    //## auto_generated
+    const bool getSms(void) const;
+    
+    //## auto_generated
+    void setSms(const bool p_sms);
+    
+    //## auto_generated
+    const bool getSocialMedia(void) const;
+    
+    //## auto_generated
+    void setSocialMedia(const bool p_socialMedia);
+
+private :
+
+    bool govChannels;		//## attribute govChannels
+    
+    bool pushNotification;		//## attribute pushNotification
+    
+    bool sms;		//## attribute sms
+    
+    bool socialMedia;		//## attribute socialMedia
 
 public :
 

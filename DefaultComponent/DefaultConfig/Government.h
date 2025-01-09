@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: Government
-//!	Generated Date	: Wed, 1, Jan 2025  
+//!	Generated Date	: Tue, 7, Jan 2025  
 	File Path	: DefaultComponent\DefaultConfig\Government.h
 *********************************************************************/
 
@@ -34,13 +34,17 @@ public :
 
     ////    Constructors and destructors    ////
     
+    ////    Additional operations    ////
+    
+    ////    Relations and components    ////
+    
+    ////    Framework operations    ////
+    
     //## auto_generated
     Government(void);
     
     //## auto_generated
     ~Government(void);
-    
-    ////    Additional operations    ////
     
     //## auto_generated
     const SMSWTD* getItsSMSWTD(void) const;
@@ -52,14 +56,10 @@ protected :
 
     //## auto_generated
     void cleanUpRelations(void);
-    
-    ////    Relations and components    ////
 
 private :
 
     SMSWTD* itsSMSWTD;		//## link itsSMSWTD
-    
-    ////    Framework operations    ////
 
 public :
 
