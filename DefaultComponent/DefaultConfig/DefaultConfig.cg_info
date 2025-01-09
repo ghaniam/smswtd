@@ -241,7 +241,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "DESIGN";
 	- _id = GUID cd0a1cc2-cb39-4af2-8655-c43430065cae;
 }
-- genTime = 1.9.2025::10:31:22;
+- genTime = 1.9.2025::12:58:20;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\SMSWTD_rpy\\DESIGN.sbsx";
@@ -280,7 +280,7 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "DefaultComponent\\DefaultConfig";
 	- _id = GUID c461c9a4-0fb5-409e-9610-83836fe30220;
 }
-- genTime = 1.9.2025::10:49:57;
+- genTime = 1.9.2025::12:58:20;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 32942640-1e02-44fd-8455-f4caf501ad78;
