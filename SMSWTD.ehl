@@ -1,5 +1,6 @@
 [Op Calls]
 [Events]
+itsAlertManager->GEN(evDisasterDetection())`AlertManager
 AlertManager[0]->GEN(evAlertGenerationComplete())`AlertManager
 AlertManager[0]->GEN(evDisasterDetection())`AlertManager
 AlertManager[0]->GEN(evReset())`AlertManager
